@@ -1,5 +1,9 @@
 from django.shortcuts import render
 
+from django.contrib.auth.decorators import login_required
+from django.views.generic import TemplateView
+from django.utils.decorators import method_decorator
+
 from rest_framework import viewsets, permissions, filters
 from django_filters.rest_framework import DjangoFilterBackend
 from .models import SignificantEvent
@@ -37,3 +41,7 @@ class SignificantEventViewSet(viewsets.ReadOnlyModelViewSet): # ReadOnly, events
     #         queryset = queryset.filter(symbol__ticker__iexact=symbol_param)
     #     # Add more filters
     #     return queryset
+
+@method_decorator(login_required, name='dispatch')
+class QueryTestPageView(TemplateView):
+   template_name = "stocks_api/query_test_page.html"
