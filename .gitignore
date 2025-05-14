@@ -1,0 +1,75 @@
+# --- Byte-compiled / optimized / DLL files ---
+__pycache__/
+*.pyc
+*$py.class
+.cache/
+
+# --- Distribution / packaging ---
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.search.json
+
+# --- Development environments ---
+.idea/                  # JetBrains IDEs (PyCharm, IntelliJ, etc.)
+.vscode/                # VS Code
+*.swp                   # Swap files
+*.swo
+*~                      # Backup files
+
+# --- Virtual environments ---
+venv/                   # Standard virtual environment directory
+.venv/                  # Another common virtual environment directory name
+env/                    # Another common virtual environment directory name
+ENV/
+env.bak/
+venv.bak/
+.env                    # File containing environment variables (like SECRET_KEY, API keys)
+
+# --- Databases ---
+*.sqlite3               # Default SQLite database file
+*.db-journal            # SQLite journal file
+
+# --- Django-specific ---
+# Files and directories created by 'collectstatic'
+staticfiles/
+static_cdn/             # Often used for collected static files
+media/                  # User-uploaded media files
+
+# Django-Q logs (if using the ORM or Redis broker)
+q_cluster.log
+
+# Celery logs and temporary files (if using Celery)
+celerybeat.pid
+celeryd.pid
+celeryworker.log
+celerybeat.log
+*.celery-taskmeta
+*.celery-taskset
+
+# Migrations - keep them unless you have a specific reason not to (rare)
+# migrations/             # Uncomment this only if you know what you're doing
+
+# --- Logs and other generated files ---
+*.log                   # General log files (like the django.log from your settings)
+*.pot
+*.po
+
+# --- OS generated files ---
+.DS_Store               # macOS
+.localized              # macOS
+Thumbs.db               # Windows
+desktop.ini             # Windows
