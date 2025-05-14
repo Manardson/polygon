@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Query Significant Stock Events</title>
+    <style>
+        body { font-family: sans-serif; margin: 20px; }
+        .container { max-width: 800px; margin: auto; }
+        .form-group { margin-bottom: 15px; }
+        label { display: block; margin-bottom: 5px; }
+        input[type="text"], input[type="datetime-local"], select {
+            width: calc(100% - 12px); padding: 5px; margin-bottom: 5px;
+        }
+        button { padding: 10px 15px; background-color: #007bff; color: white; border: none; cursor: pointer; }
+        button:hover { background-color: #0056b3; }
+        #results { margin-top: 20px; border: 1px solid #ccc; padding: 10px; white-space: pre-wrap; background: #f9f9f9; }
+        #error { color: red; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Query Significant Stock Events</h1>
+
+        <div class="form-group">
+            <label for="authToken">JWT Access Token:</label>
+            <input type="text" id="authToken" placeholder="Paste your JWT access token here">
+            <small>Get this by logging in via API (e.g., using Postman with /api/token/). For a real app, this would be handled by a login flow.</small>
+        </div>
+
+        <div class="form-group">
+            <label for="symbol">Symbol (e.g., GOOGL, AMZN, MSFT):</label>
+            <input type="text" id="symbol" placeholder="Leave blank for all">
+        </div>
+        <div class="form-group">
+            <label for="eventType">Event Type:</label>
+            <select id="eventType">
+                <option value="">All</option>
+                <option value="PRICE_INCREASE">Price Increase</option>
+                <option value="PRICE_DECREASE">Price Decrease</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="timestampGte">Timestamp Greater Than or Equal To:</label>
+            <input type="datetime-local" id="timestampGte">
+        </div>
+        <div class="form-group">
+            <label for="timestampLte">Timestamp Less Than or Equal To:</label>
+            <input type="datetime-local" id="timestampLte">
+        </div>
+
+        <button onclick="queryApi()">Query API</button>
+
+        <h2>Results:</h2>
+        <p id="error"></p>
+        <pre id="results">No data queried yet.</pre>
+    </div>
+
+    <script>
+        async function queryApi() {
+            const authToken = document.getElementById('authToken').value;
+            if (!authToken) {
+                document.getElementById('error').textContent = 'Error: JWT Access Token is required.';
+                document.getElementById('results').textContent = '';
+                return;
+            }
+
+            const symbol = document.getElementById('symbol').value;
+            const eventType = document.getElementById('eventType').value;
+            const timestampGte = document.getElementById('timestampGte').value;
+            const timestampLte = document.getElementById('timestampLte').value;
+
+            let queryParams = new URLSearchParams();
+            if (symbol) queryParams.append('symbol__ticker', symbol.toUpperCase());
+            if (eventType) queryParams.append('event_type', eventType);
+            // Format datetime-local to ISO string with Z for UTC
+            if (timestampGte) queryParams.append('timestamp__gte', new Date(timestampGte).toISOString());
+            if (timestampLte) queryParams.append('timestamp__lte', new Date(timestampLte).toISOString());
+
+            const apiUrl = `/api/stocks/significant-events/?${queryParams.toString()}`;
+            document.getElementById('results').textContent = `Querying: ${apiUrl} ...`;
+            document.getElementById('error').textContent = '';
+
+            try {
+                const response = await fetch(apiUrl, {
+                    method: 'GET',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': `Bearer ${authToken}`
+                    }
+                });
+
+                const data = await response.json();
+
+                if (!response.ok) {
+                    let errorMsg = `Error: ${response.status} ${response.statusText}`;
+                    if (data && data.detail) {
+                         errorMsg += ` - ${data.detail}`;
+                    } else if (data) {
+                        errorMsg += ` - ${JSON.stringify(data)}`;
+                    }
+                    document.getElementById('error').textContent = errorMsg;
+                    document.getElementById('results').textContent = '';
+                    return;
+                }
+                document.getElementById('results').textContent = JSON.stringify(data, null, 2);
+
+            } catch (error) {
+                console.error('Fetch error:', error);
+                document.getElementById('error').textContent = 'Error fetching data: ' + error.message;
+                document.getElementById('results').textContent = '';
+            }
+        }
+    </script>
+</body>
+</html>
