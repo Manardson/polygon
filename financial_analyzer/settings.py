@@ -45,7 +45,9 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework_simplejwt',
     'stocks_api.apps.StocksApiConfig',
-    'users'
+    'users',
+    'django_celery_beat',
+    'django_filters'
 ]
 
 MIDDLEWARE = [
@@ -241,6 +243,8 @@ LOGGING = {
 
 # celery -A financial_analyzer worker -l info
 # Periodic tasks: celery -A financial_analyzer beat -l info
+
+CELERY_BEAT_SCHEDULER = 'django_celery_beat.schedulers:DatabaseScheduler'
 
 
 # --- API Keys and Sensitive Information ---
