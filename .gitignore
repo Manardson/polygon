@@ -1,5 +1,5 @@
 # --- Byte-compiled / optimized / DLL files ---
-__pycache__/
+__pycache__
 *.pyc
 *$py.class
 .cache/
@@ -24,19 +24,20 @@ share/python-wheels/
 *.search.json
 
 # --- Development environments ---
-.idea/                  # JetBrains IDEs (PyCharm, IntelliJ, etc.)
-.vscode/                # VS Code
+/.idea/                  # JetBrains IDEs (PyCharm, IntelliJ, etc.)
+/.vscode/                # VS Code
 *.swp                   # Swap files
 *.swo
 *~                      # Backup files
 
 # --- Virtual environments ---
-venv/                   # Standard virtual environment directory
-.venv/                  # Another common virtual environment directory name
-env/                    # Another common virtual environment directory name
-ENV/
-env.bak/
-venv.bak/
+/venv
+/venv/                   # Standard virtual environment directory
+/.venv/                  # Another common virtual environment directory name
+/env/                    # Another common virtual environment directory name
+/ENV/
+/env.bak/
+/venv.bak/
 .env                    # File containing environment variables (like SECRET_KEY, API keys)
 
 # --- Databases ---
@@ -64,7 +65,7 @@ celerybeat.log
 # migrations/             # Uncomment this only if you know what you're doing
 
 # --- Logs and other generated files ---
-*.log                   # General log files (like the django.log from your settings)
+*.log                   # General log files (like django.log)
 *.pot
 *.po
 

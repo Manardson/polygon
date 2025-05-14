@@ -33,7 +33,6 @@ DEBUG = env('DEBUG')
 ALLOWED_HOSTS = env.list('ALLOWED_HOSTS', default=[])
 
 
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -45,7 +44,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'rest_framework_simplejwt',
-    'stocks_api',
     'stocks_api.apps.StocksApiConfig',
     'users'
 ]
@@ -136,9 +134,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # --- Django REST Framework Settings ---
 
 REST_FRAMEWORK = {
-    # Use Django's standard `django.contrib.auth` permissions,
-    # or allow read-only access for unauthenticated users.
-    # You can customize default permission classes here
     'DEFAULT_PERMISSION_CLASSES': [
         'rest_framework.permissions.IsAuthenticated', # Require authentication by default
         # 'rest_framework.permissions.AllowAny', # Allow access to anyone
@@ -146,12 +141,10 @@ REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [
         'rest_framework_simplejwt.authentication.JWTAuthentication', # Use JWT authentication
         'rest_framework.authentication.SessionAuthentication', # Optional: For browsable API or session-based auth
-        'rest_framework.authentication.BasicAuthentication', # Optional: For basic authentication
     ],
-    # Pagination settings
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
     'PAGE_SIZE': 10, # Number of items per page
-    # You can add other settings like 'DEFAULT_FILTER_BACKENDS', 'DEFAULT_RENDERER_CLASSES', etc.
+    # 'DEFAULT_FILTER_BACKENDS', 'DEFAULT_RENDERER_CLASSES', etc.
 }
 
 # --- Simple JWT Settings ---
@@ -159,9 +152,9 @@ REST_FRAMEWORK = {
 SIMPLE_JWT = {
     'ACCESS_TOKEN_LIFETIME': timedelta(minutes=60), # Access token valid for 60 minutes
     'REFRESH_TOKEN_LIFETIME': timedelta(days=1),    # Refresh token valid for 1 day
-    'ROTATE_REFRESH_TOKENS': False, # Set to True to issue new refresh tokens upon refresh
-    'BLACKLIST_AFTER_ROTATION': False, # Set to True to blacklist old refresh tokens
-    'UPDATE_LAST_LOGIN': False,
+    'ROTATE_REFRESH_TOKENS': True, # Set to True to issue new refresh tokens upon refresh
+    'BLACKLIST_AFTER_ROTATION': True, # Set to True to blacklist old refresh tokens
+    'UPDATE_LAST_LOGIN': True, # user_logged_in signal
 
     'ALGORITHM': 'HS256',
     'SIGNING_KEY': SECRET_KEY, # Use your Django SECRET_KEY for signing
@@ -220,7 +213,7 @@ LOGGING = {
             'level': 'INFO', # Log level for Django (DEBUG, INFO, WARNING, ERROR, CRITICAL)
             'propagate': False,
         },
-        'stocks_api': { # Logger for your specific app
+        'stocks_api': { # Logger for stocks_api
              'handlers': ['console', 'file'],
              'level': 'DEBUG', # Set a more detailed level for your app logs if needed
              'propagate': False,
@@ -238,16 +231,12 @@ LOGGING = {
     },
 }
 
-# --- Celery Configuration (Using Redis as Broker) ---
-# If you are using Django-Q instead, comment out this section and
-# configure Django-Q using the Q_CLUSTER setting below.
-
 # CELERY_BROKER_URL = env('REDIS_URL', default='redis://localhost:6379/0')
 # CELERY_RESULT_BACKEND = env('REDIS_URL', default='redis://localhost:6379/0')
 # CELERY_ACCEPT_CONTENT = ['json']
 # CELERY_TASK_SERIALIZER = 'json'
 # CELERY_RESULT_SERIALIZER = 'json'
-# CELERY_TIMEZONE = 'UTC' # Or your desired timezone
+# CELERY_TIMEZONE = 'UTC'
 # https://docs.celeryq.dev/en/stable/django/first-steps-with-django.html
 
 # celery -A financial_analyzer worker -l info
