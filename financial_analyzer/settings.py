@@ -199,41 +199,78 @@ LOGGING = {
             'format': '{levelname} {asctime} {message}',
             'style': '{',
         },
+        'celery_task': {
+            'format': '{levelname} {asctime} {task_name} {task_id} {module} {message}',
+            'style': '{',
+        }
     },
     'handlers': {
         'console': {
             'class': 'logging.StreamHandler',
             'formatter': 'simple',
+            'level': 'DEBUG', # Change to INFO in production if too verbose
         },
-        'file': {
-            'class': 'logging.FileHandler',
+        'file_app': { # Handler for application-specific logs
+            'level': 'INFO',
+            'class': 'logging.handlers.RotatingFileHandler',
+            'filename': os.path.join(BASE_DIR, 'logs/app.log'), # Create 'logs' directory
+            'maxBytes': 1024 * 1024 * 5,  # 5 MB
+            'backupCount': 5,
             'formatter': 'verbose',
-            'filename': os.path.join(BASE_DIR, 'django.log'), # Log to a file named django.log in the root
+        },
+        'file_celery': { # Handler for Celery task logs
+            'level': 'INFO',
+            'class': 'logging.handlers.RotatingFileHandler',
+            'filename': os.path.join(BASE_DIR, 'logs/celery.log'), # Create 'logs' directory
+            'maxBytes': 1024 * 1024 * 5,  # 5 MB
+            'backupCount': 5,
+            'formatter': 'celery_task',
+        },
+        'django_request_file': { # Handler specifically for Django request errors
+            'level': 'ERROR', # Log only errors and criticals
+            'class': 'logging.handlers.RotatingFileHandler',
+            'filename': os.path.join(BASE_DIR, 'logs/django_request_errors.log'),
+            'maxBytes': 1024*1024*5, # 5 MB
+            'backupCount': 5,
+            'formatter': 'verbose',
         },
     },
     'loggers': {
-        'django': {
-            'handlers': ['console', 'file'], # Log Django messages to console and file
-            'level': 'INFO', # Log level for Django (DEBUG, INFO, WARNING, ERROR, CRITICAL)
+        'django': { # Default Django logger
+            'handlers': ['console', 'file_app'], # Also send Django logs to app file
+            'level': 'INFO', # Adjust as needed
+            'propagate': False, # Don't pass to root logger if handled here
+        },
+        'django.request': { # For HTTP 5XX errors
+            'handlers': ['console', 'django_request_file'],
+            'level': 'ERROR',
             'propagate': False,
         },
-        'stocks_api': { # Logger for stocks_api
-             'handlers': ['console', 'file'],
-             'level': 'DEBUG', # Set a more detailed level for your app logs if needed
-             'propagate': False,
+        'stocks_api': { # Your app's logger
+            'handlers': ['console', 'file_app'],
+            'level': 'DEBUG', # Be more verbose for your app during development
+            'propagate': False,
         },
-        'celery': { # Logger for Celery
-            'handlers': ['console', 'file'],
+        'celery': { # Celery root logger
+            'handlers': ['console', 'file_celery'],
             'level': 'INFO',
             'propagate': False,
         },
-        # Add loggers for other apps as needed
+        'celery.task': { # Celery task-specific logger
+            'handlers': ['console', 'file_celery'],
+            'level': 'INFO',
+            'propagate': False,
+        }
     },
     'root': { # Root logger - catches messages not handled by specific loggers
         'handlers': ['console'],
         'level': 'WARNING', # Default level for other messages
     },
 }
+
+LOGS_DIR = os.path.join(BASE_DIR, 'logs')
+if not os.path.exists(LOGS_DIR):
+    os.makedirs(LOGS_DIR)
 
 # CELERY_BROKER_URL = env('REDIS_URL', default='redis://localhost:6379/0')
 # CELERY_RESULT_BACKEND = env('REDIS_URL', default='redis://localhost:6379/0')
