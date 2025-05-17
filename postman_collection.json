@@ -1,0 +1,308 @@
+{
+	"info": {
+		"_postman_id": "YOUR_COLLECTION_ID",
+		"name": "Financial Data Analyzer API - SEB",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_newlyImported": true,
+		"_collection_link": ""
+	},
+	"item": [
+		{
+			"name": "Authentication",
+			"item": [
+				{
+					"name": "Obtain JWT Token",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"if (pm.response.code === 200) {",
+									"    let json = pm.response.json();",
+									"    pm.environment.set(\"access_token\", json.access);",
+									"    pm.environment.set(\"refresh_token\", json.refresh);",
+									"    console.log(\"Access Token: \" + json.access);",
+									"    console.log(\"Refresh Token: \" + json.refresh);",
+									"}",
+									"else {",
+									"    console.error(\"Token obtain failed: \" + pm.response.text());",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"username\": \"your_test_user\",\n    \"password\": \"your_password\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/api/token/",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"token",
+								""
+							]
+						},
+						"description": "Login with username and password to get access and refresh tokens."
+					},
+					"response": []
+				},
+				{
+					"name": "Refresh JWT Token",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"if (pm.response.code === 200) {",
+									"    let json = pm.response.json();",
+									"    pm.environment.set(\"access_token\", json.access);",
+									"     console.log(\"New Access Token: \" + json.access);",
+									"}",
+									"else {",
+									"    console.error(\"Token refresh failed: \" + pm.response.text());",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"refresh\": \"{{refresh_token}}\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/api/token/refresh/",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"token",
+								"refresh",
+								""
+							]
+						},
+						"description": "Use a refresh token to get a new access token."
+					},
+					"response": []
+				},
+				{
+					"name": "Verify JWT Token",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"token\": \"{{access_token}}\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/api/token/verify/",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"token",
+								"verify",
+								""
+							]
+						},
+						"description": "Verify if an access token is valid."
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Stocks API",
+			"item": [
+				{
+					"name": "List Significant Events",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{access_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/stocks/significant-events/?symbol__ticker=GOOGL&event_type=PRICE_INCREASE",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"stocks",
+								"significant-events",
+								""
+							],
+							"query": [
+								{
+									"key": "symbol__ticker",
+									"value": "GOOGL",
+									"disabled": false,
+									"description": "Filter by stock ticker symbol"
+								},
+								{
+									"key": "event_type",
+									"value": "PRICE_INCREASE",
+									"disabled": false,
+									"description": "Filter by event type (e.g., PRICE_INCREASE, PRICE_DECREASE)"
+								},
+								{
+									"key": "timestamp__gte",
+									"value": "2024-01-01T00:00:00Z",
+									"disabled": true,
+									"description": "Filter by timestamp greater than or equal to (ISO 8601 format)"
+								},
+								{
+									"key": "page",
+									"value": "2",
+									"disabled": true,
+									"description": "For pagination, request the specified page number"
+								}
+							]
+						},
+						"description": "Get a list of significant stock events. Requires Bearer token. Test with pagination (?page=<number>) and filtering (?symbol__ticker=...&event_type=...&timestamp__gte=...)."
+					},
+					"response": []
+				},
+				{
+					"name": "Test Query Page",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/stocks/test-query-page/",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"stocks",
+								"test-query-page",
+								""
+							]
+						},
+						"description": "Access the test query page endpoint (assuming this is a GET endpoint)."
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					"// This script runs after each request and updates tokens if successful login/refresh occurs",
+					"",
+					"// Check if the request was to the token obtain endpoint",
+					"if (pm.request.url.getPath().endsWith('/api/token/')) {",
+					"    if (pm.response.code === 200) {",
+					"        let jsonData = pm.response.json();",
+					"        // Set environment variables for access and refresh tokens",
+					"        pm.environment.set(\"access_token\", jsonData.access);",
+					"        pm.environment.set(\"refresh_token\", jsonData.refresh);",
+					"        console.log(\"Successfully obtained tokens.\");",
+					"    }",
+					"    else {",
+					"        console.log(\"Failed to obtain tokens.\");",
+					"    }",
+					"}",
+					"",
+					"// Check if the request was to the token refresh endpoint",
+					"if (pm.request.url.getPath().endsWith('/api/token/refresh/')) {",
+					"     if (pm.response.code === 200) {",
+					"        let jsonData = pm.response.json();",
+					"        // Update the access token environment variable",
+					"        pm.environment.set(\"access_token\", jsonData.access);",
+					"        console.log(\"Successfully refreshed token.\");",
+					"    }",
+					"    else {",
+					"        console.log(\"Failed to refresh token.\");",
+					"    }",
+					"}"
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "base_url",
+			"value": "http://localhost:8000",
+			"type": "string",
+			"description": "The base URL of your Django API (e.g., http://127.0.0.1:8000)"
+		},
+        {
+            "key": "access_token",
+            "value": "",
+            "type": "string",
+            "description": "Stores the JWT access token obtained from /api/token/"
+        },
+        {
+            "key": "refresh_token",
+            "value": "",
+            "type": "string",
+            "description": "Stores the JWT refresh token obtained from /api/token/"
+        }
+	]
+}
