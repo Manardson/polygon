@@ -56,6 +56,7 @@ This project is a Python/Django-based web application that processes real-time f
 3. Install dependencies
    ```
    pip install django djangorestframework djangorestframework-simplejwt requests python-dotenv celery redis django-environ django-filter django-celery-beat factory-boy
+   pip install -r requirements.txt
    ```
 
 4. Configure environment variables
