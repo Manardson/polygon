@@ -8,15 +8,18 @@ mysuper
 
 # Running the project
 
+1.
 python -m venv venv
 source venv/bin/activate                                                                                                                    venv\Scripts\activate
 
+2.
 pip install django djangorestframework djangorestframework-simplejwt requests python-dotenv celery redis django-environ django-filter django-celery-beat factory-boy
 
 Usually would use Celery + Redis to parse latest data that needs to be served quickly to consumers. I will skip it due to public auto-deploy hosting.
 Public auto-deploy hosting also means we will use a simple sqlite database with no credentials.
 Also for interview evaluation simplicity purposes I will put the database in the root of the git project.
 
+3.
 python manage.py migrate
 
 >>>
@@ -31,7 +34,9 @@ celery -A financial_analyzer beat -l INFO --scheduler django_celery_beat.schedul
 
 For ease of access in the interview test I put the .env and Postman Collection in git. Definitely not something to do in other scenarios.
 
+4.
 python manage.py runserver
+Will start development server at http://127.0.0.1:8000/
 
 celery -A financial_analyzer worker -l INFO
 celery -A financial_analyzer beat -l INFO --scheduler django_celery_beat.schedulers:DatabaseScheduler
