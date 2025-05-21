@@ -3,6 +3,16 @@ nixPkgs = ["python311", "python311Packages.pip", "python311Packages.setuptools",
 
 [phases.install]
 cmds = [
-    "python -m venv --copies --upgrade-deps /opt/venv", # Create/ensure venv, upgrade pip/setuptools within it
-    ". /opt/venv/bin/activate && pip install --no-cache-dir -r requirements.txt"
+    "echo 'Starting install phase...'",
+    "echo 'Attempting to create/update venv and upgrade its pip/setuptools...'",
+    "python -m venv --copies --upgrade-deps /opt/venv",
+    "echo 'Venv setup command completed.'",
+    "echo 'Activating venv and installing requirements...'",
+    "echo 'PYTHONPATH before pip install:' && printenv PYTHONPATH || echo 'PYTHONPATH not set'",
+    "echo 'PATH before pip install:' && printenv PATH",
+    ". /opt/venv/bin/activate && pip install --verbose --no-cache-dir -r requirements.txt",
+    "echo 'Pip install requirements command completed.'",
+    "echo 'Listing contents of venv site-packages to check for rest_framework...'",
+    ". /opt/venv/bin/activate && ls -la /opt/venv/lib/python3.11/site-packages/ | grep rest_framework || echo 'rest_framework not found in site-packages listing'",
+    "echo 'Install phase finished.'"
 ]
