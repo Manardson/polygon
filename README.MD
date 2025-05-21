@@ -1,100 +1,133 @@
-Django 5.2.1 Stocks Party
+# Django Polygon Stock Analysis API - Project Documentation
 
-# Superuser
+## Overview
+This project is a Python/Django-based web application that processes real-time financial data from Polygon.io. The application connects to Polygon's API to retrieve stock price data for Google, Amazon, and Microsoft, analyzes the data for significant price changes, and provides insights through a RESTful API.
 
-test
-test@test.com
-mysuper
+## Features
+- Real-time stock data retrieval from Polygon.io
+- Asynchronous data processing using Celery
+- Detection and storage of significant price change events
+- RESTful API with filtering, pagination, and ordering
+- JWT authentication for secure API access
+- Interactive HTML test page for querying the API
+- Comprehensive unit tests
+- Production-ready security configurations
 
-# Running the project
+## API Endpoints
 
-1.
-python -m venv venv
-source venv/bin/activate                                                                                                                    venv\Scripts\activate
+### Authentication
+- `POST /api/token/`: Obtain JWT access and refresh tokens
+- `POST /api/token/refresh/`: Refresh an access token
+- `POST /api/token/verify/`: Verify an access token
 
-2.
-pip install django djangorestframework djangorestframework-simplejwt requests python-dotenv celery redis django-environ django-filter django-celery-beat factory-boy
+### Stock Data
+- `GET /api/stocks/significant-events/`: List significant price change events
+- `GET /api/stocks/symbols/`: List available stock symbols
+- `GET /api/stocks/price-history/`: Get price history for a specific symbol
+- `GET /api/stocks/event-summary/`: Get summary statistics of significant events
 
-Usually would use Celery + Redis to parse latest data that needs to be served quickly to consumers. I will skip it due to public auto-deploy hosting.
-Public auto-deploy hosting also means we will use a simple sqlite database with no credentials.
-Also for interview evaluation simplicity purposes I will put the database in the root of the git project.
+### Filtering Options
+- `symbol__ticker`: Filter by stock symbol (e.g., `?symbol__ticker=GOOGL`)
+- `event_type`: Filter by event type (e.g., `?event_type=PRICE_INCREASE`)
+- `timestamp__gte`, `timestamp__lte`: Filter by date range
+- `ordering`: Sort results (e.g., `?ordering=-timestamp`)
+- `page`: Paginate results (e.g., `?page=2`)
 
-3.
-python manage.py migrate
+## Setup and Installation
 
->>>
-python manage.py migrate django_celery_beat
+### Prerequisites
+- Python 3.8+
+- Django 5.2.1+
+- Polygon.io API key
 
-Run Celery worker and beat (in separate terminals):
-celery -A financial_analyzer worker -l INFO
-celery -A financial_analyzer beat -l INFO --scheduler django_celery_beat.schedulers:DatabaseScheduler
-<<<
+### Installation Steps
+1. Clone the repository
+   ```
+   git clone https://github.com/Manardson/polygon.git
+   cd polygon
+   ```
 
-# Local server
+2. Create and activate a virtual environment
+   ```
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
 
-For ease of access in the interview test I put the .env and Postman Collection in git. Definitely not something to do in other scenarios.
+3. Install dependencies
+   ```
+   pip install django djangorestframework djangorestframework-simplejwt requests python-dotenv celery redis django-environ django-filter django-celery-beat factory-boy
+   ```
 
-4.
-python manage.py runserver
-Will start development server at http://127.0.0.1:8000/
+4. Configure environment variables
+   Create a `.env` file in the project root with the following:
+   ```
+   DEBUG=True
+   SECRET_KEY=your_secret_key
+   POLYGON_API_KEY=your_polygon_api_key
+   ALLOWED_HOSTS=localhost,127.0.0.1
+   ```
 
-celery -A financial_analyzer worker -l INFO
-celery -A financial_analyzer beat -l INFO --scheduler django_celery_beat.schedulers:DatabaseScheduler
+5. Run migrations
+   ```
+   python manage.py migrate
+   ```
 
-# API Endpoints
+6. Create a superuser
+   ```
+   python manage.py createsuperuser
+   ```
 
-A Postman collection (postman_collection.json) is provided for easy testing of the API.
-The base URL for API endpoints is typically http://localhost:8000/api/.
+7. Start the development server
+   ```
+   python manage.py runserver
+   ```
 
-Authentication
+8. (Optional) Start Celery worker and beat for background tasks
+   ```
+   celery -A financial_analyzer worker -l INFO
+   celery -A financial_analyzer beat -l INFO --scheduler django_celery_beat.schedulers:DatabaseScheduler
+   ```
 
-    POST /api/token/: Obtain JWT access and refresh tokens.
+## Testing
+Run the test suite with:
+```
+python manage.py test
+```
 
-    POST /api/token/refresh/: Refresh an access token using a refresh token.
+## Deployment
+For production deployment:
+```
+gunicorn financial_analyzer.wsgi:application --bind 0.0.0.0:$PORT
+```
 
-    POST /api/token/verify/: Verify an access token.
+## API Usage
+A Postman collection is included in the repository for easy testing of the API endpoints. Import `postman_collection.json` into Postman to get started.
 
-All other API endpoints require a Bearer <access_token> in the Authorization header.
-Stocks API
+## HTML Test Page
+A simple HTML page is available for interactively querying the API:
+```
+http://localhost:8000/api/stocks/test-query-page/
+```
 
-    GET /api/stocks/significant-events/: Retrieve a list of significant stock price change events.
+## Architecture
+The project follows a clean architecture with separation of concerns:
+- Models: Define data structure
+- Views: Handle HTTP requests/responses
+- Serializers: Handle data validation and representation
+- Services: Encapsulate business logic
+- Tasks: Handle background operations
 
-        Authentication: Required (JWT Bearer Token).
+## Security
+The application implements several security best practices:
+- JWT authentication for API access
+- HTTPS enforcement in production
+- Secure cookie settings
+- HSTS headers
+- XSS protection
+- Content type sniffing protection
 
-        Pagination: Supported (e.g., ?page=2). Page size is configured in settings.
-
-        Filtering:
-
-            symbol__ticker=<TICKER> (e.g., ?symbol__ticker=GOOGL)
-
-            event_type=<EVENT_TYPE> (e.g., ?event_type=PRICE_INCREASE or PRICE_DECREASE)
-
-            timestamp__gte=<ISO_DATETIME> (e.g., ?timestamp__gte=2023-10-26T10:00:00Z)
-
-            timestamp__lte=<ISO_DATETIME>
-
-            timestamp__date__gte=<YYYY-MM-DD> (e.g., ?timestamp__date__gte=2023-10-26)
-
-        Ordering:
-
-            ordering=<field_name> (e.g., ?ordering=timestamp or ?ordering=-timestamp for descending). Supported fields: timestamp, symbol__ticker, event_type. Default is -timestamp.
-
-# HTML Test Page
-
-A simple HTML page is available for interactively querying the /api/stocks/significant-events/ endpoint.
-
-    URL: http://localhost:8000/test-query-page/
-
-
-# Unit Tests
-
-python manage.py test stocks_api
-
-    *All Tests*
-
-    python manage.py test
-
-
-# Production deploy
-
-gunicorn financial_analyzer.wsgi:application --bind 0.0.0.0:PORT
+## Future Enhancements
+- WebSocket support for real-time updates
+- Additional technical analysis indicators
+- User-configurable alert thresholds
+- Mobile app integration

@@ -3,7 +3,6 @@
 		"_postman_id": "YOUR_COLLECTION_ID",
 		"name": "Financial Data Analyzer API - SEB",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_newlyImported": true,
 		"_collection_link": ""
 	},
 	"item": [
@@ -42,7 +41,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"username\": \"your_test_user\",\n    \"password\": \"your_password\"\n}",
+							"raw": "{\n    \"username\": \"testuser\",\n    \"password\": \"testpassword\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -62,7 +61,46 @@
 						},
 						"description": "Login with username and password to get access and refresh tokens."
 					},
-					"response": []
+					"response": [
+						{
+							"name": "Successful Response",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"username\": \"testuser\",\n    \"password\": \"testpassword\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{base_url}}/api/token/",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"api",
+										"token",
+										""
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [],
+							"cookie": [],
+							"body": "{\n    \"refresh\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0Nzg5MzY5NCwiaWF0IjoxNzQ3ODA3Mjk0LCJqdGkiOiJmYzMwMGRmZmYyZjc0ZDVjYjIwZmJjNmNjOTAxM2Y5NiIsInVzZXJfaWQiOjJ9.4eyJtDxspZcve9BzgVzgOjT1lEyetJC0fyC7fwUr_00\",\n    \"access\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQ3ODEwODk0LCJpYXQiOjE3NDc4MDcyOTQsImp0aSI6IjllMjk5MDI4ZTNmNjQxMjA5YjU1NTY1ZTZlMDhlMjk3IiwidXNlcl9pZCI6Mn0.IoZI0OjNDirfQrhsyYFUFzHuacbEtM7BYWTbqwP-K4c\"\n}"
+						}
+					]
 				},
 				{
 					"name": "Refresh JWT Token",
@@ -187,14 +225,12 @@
 								{
 									"key": "symbol__ticker",
 									"value": "GOOGL",
-									"disabled": false,
 									"description": "Filter by stock ticker symbol"
 								},
 								{
 									"key": "event_type",
 									"value": "PRICE_INCREASE",
-									"disabled": false,
-									"description": "Filter by event type (e.g., PRICE_INCREASE, PRICE_DECREASE)"
+									"description": "Filter by event type (e.g., PRICE_INCREASE, PRICE_DECREASE, VOLUME_SPIKE, EARNINGS_REPORT)"
 								},
 								{
 									"key": "timestamp__gte",
@@ -203,14 +239,314 @@
 									"description": "Filter by timestamp greater than or equal to (ISO 8601 format)"
 								},
 								{
+									"key": "timestamp__lte",
+									"value": "2024-12-31T23:59:59Z",
+									"disabled": true,
+									"description": "Filter by timestamp less than or equal to (ISO 8601 format)"
+								},
+								{
 									"key": "page",
-									"value": "2",
+									"value": "1",
 									"disabled": true,
 									"description": "For pagination, request the specified page number"
+								},
+								{
+									"key": "page_size",
+									"value": "10",
+									"disabled": true,
+									"description": "Number of results per page"
+								},
+								{
+									"key": "ordering",
+									"value": "-timestamp",
+									"disabled": true,
+									"description": "Order results by field (prefix with - for descending)"
 								}
 							]
 						},
 						"description": "Get a list of significant stock events. Requires Bearer token. Test with pagination (?page=<number>) and filtering (?symbol__ticker=...&event_type=...&timestamp__gte=...)."
+					},
+					"response": [
+						{
+							"name": "Successful Response",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/api/stocks/significant-events/",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"api",
+										"stocks",
+										"significant-events",
+										""
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [],
+							"cookie": [],
+							"body": "{\n    \"count\": 8,\n    \"next\": null,\n    \"previous\": null,\n    \"results\": [\n        {\n            \"id\": 8,\n            \"symbol\": {\n                \"ticker\": \"AMZN\",\n                \"name\": \"Amazon.com, Inc.\"\n            },\n            \"event_type\": \"EARNINGS_REPORT\",\n            \"timestamp\": \"2025-05-21T06:06:08.828582Z\",\n            \"details\": {\n                \"description\": \"EARNINGS_REPORT detected for AMZN\",\n                \"magnitude\": 5.86,\n                \"previous_value\": 3564.46,\n                \"current_value\": 3486.88\n            }\n        },\n        {\n            \"id\": 7,\n            \"symbol\": {\n                \"ticker\": \"AMZN\",\n                \"name\": \"Amazon.com, Inc.\"\n            },\n            \"event_type\": \"PRICE_DECREASE\",\n            \"timestamp\": \"2025-05-21T06:06:08.827832Z\",\n            \"details\": {\n                \"description\": \"PRICE_DECREASE detected for AMZN\",\n                \"magnitude\": 4.89,\n                \"previous_value\": 3464.84,\n                \"current_value\": 3486.8\n            }\n        }\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "Get Stock Symbols",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{access_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/stocks/symbols/",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"stocks",
+								"symbols",
+								""
+							],
+							"query": [
+								{
+									"key": "search",
+									"value": "GOO",
+									"disabled": true,
+									"description": "Search by ticker or name"
+								},
+								{
+									"key": "page",
+									"value": "1",
+									"disabled": true,
+									"description": "For pagination, request the specified page number"
+								},
+								{
+									"key": "page_size",
+									"value": "10",
+									"disabled": true,
+									"description": "Number of results per page"
+								}
+							]
+						},
+						"description": "Get a list of available stock symbols. Requires Bearer token. Supports search and pagination."
+					},
+					"response": [
+						{
+							"name": "Successful Response",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/api/stocks/symbols/",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"api",
+										"stocks",
+										"symbols",
+										""
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [],
+							"cookie": [],
+							"body": "{\n    \"count\": 3,\n    \"next\": null,\n    \"previous\": null,\n    \"results\": [\n        {\n            \"ticker\": \"AMZN\",\n            \"name\": \"Amazon.com, Inc.\"\n        },\n        {\n            \"ticker\": \"GOOGL\",\n            \"name\": \"Alphabet Inc.\"\n        },\n        {\n            \"ticker\": \"MSFT\",\n            \"name\": \"Microsoft Corporation\"\n        }\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "Get Price History",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{access_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/stocks/price-history/?symbol__ticker=GOOGL",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"stocks",
+								"price-history",
+								""
+							],
+							"query": [
+								{
+									"key": "symbol__ticker",
+									"value": "GOOGL",
+									"description": "Stock ticker symbol (required)"
+								},
+								{
+									"key": "timestamp__gte",
+									"value": "2024-01-01T00:00:00Z",
+									"disabled": true,
+									"description": "Filter by timestamp greater than or equal to (ISO 8601 format)"
+								},
+								{
+									"key": "timestamp__lte",
+									"value": "2024-12-31T23:59:59Z",
+									"disabled": true,
+									"description": "Filter by timestamp less than or equal to (ISO 8601 format)"
+								},
+								{
+									"key": "page",
+									"value": "1",
+									"disabled": true,
+									"description": "For pagination, request the specified page number"
+								},
+								{
+									"key": "page_size",
+									"value": "10",
+									"disabled": true,
+									"description": "Number of results per page"
+								},
+								{
+									"key": "ordering",
+									"value": "timestamp",
+									"disabled": true,
+									"description": "Order results by timestamp (prefix with - for descending)"
+								}
+							]
+						},
+						"description": "Get price history for a specific stock symbol. Requires Bearer token. Symbol ticker is required."
+					},
+					"response": [
+						{
+							"name": "Successful Response",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/api/stocks/price-history/?symbol__ticker=GOOGL",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"api",
+										"stocks",
+										"price-history",
+										""
+									],
+									"query": [
+										{
+											"key": "symbol__ticker",
+											"value": "GOOGL"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [],
+							"cookie": [],
+							"body": "{\n    \"count\": 10,\n    \"next\": null,\n    \"previous\": null,\n    \"results\": [\n        {\n            \"id\": 1,\n            \"symbol\": {\n                \"ticker\": \"GOOGL\",\n                \"name\": \"Alphabet Inc.\"\n            },\n            \"timestamp\": \"2025-05-11T06:05:39.115334Z\",\n            \"price\": \"2798.92\",\n            \"volume\": null\n        },\n        {\n            \"id\": 2,\n            \"symbol\": {\n                \"ticker\": \"GOOGL\",\n                \"name\": \"Alphabet Inc.\"\n            },\n            \"timestamp\": \"2025-05-12T06:05:39.118203Z\",\n            \"price\": \"2834.07\",\n            \"volume\": null\n        }\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "Get Event Summary",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{access_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/stocks/event-summary/",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"stocks",
+								"event-summary",
+								""
+							],
+							"query": [
+								{
+									"key": "days",
+									"value": "7",
+									"disabled": true,
+									"description": "Number of days to include in summary (default: 7)"
+								}
+							]
+						},
+						"description": "Get a summary of significant events across all symbols. Requires Bearer token."
+					},
+					"response": []
+				},
+				{
+					"name": "Fetch Latest Stock Data",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{access_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"symbol\": \"GOOGL\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/api/stocks/fetch-latest/",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"stocks",
+								"fetch-latest",
+								""
+							]
+						},
+						"description": "Trigger a fetch of the latest stock data from Polygon.io for a specific symbol. Requires Bearer token."
 					},
 					"response": []
 				},
@@ -231,7 +567,92 @@
 								""
 							]
 						},
-						"description": "Access the test query page endpoint (assuming this is a GET endpoint)."
+						"description": "Access the interactive test query page for exploring the API."
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Admin Operations",
+			"item": [
+				{
+					"name": "Run Background Task",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{access_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"task_type\": \"update_all_symbols\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/api/admin/run-task/",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"admin",
+								"run-task",
+								""
+							]
+						},
+						"description": "Trigger a background task to update data for all symbols. Requires Bearer token and admin privileges."
+					},
+					"response": []
+				},
+				{
+					"name": "Add Stock Symbol",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{access_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"ticker\": \"AAPL\",\n    \"name\": \"Apple Inc.\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/api/admin/add-symbol/",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"admin",
+								"add-symbol",
+								""
+							]
+						},
+						"description": "Add a new stock symbol to track. Requires Bearer token and admin privileges."
 					},
 					"response": []
 				}
@@ -290,7 +711,7 @@
 			"key": "base_url",
 			"value": "http://localhost:8000",
 			"type": "string",
-			"description": "The base URL of your Django API (e.g., http://127.0.0.1:8000)"
+			"description": "The base URL of your Django API"
 		},
         {
             "key": "access_token",

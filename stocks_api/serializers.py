@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import SignificantEvent, StockSymbol
+from .models import SignificantEvent, StockSymbol, PriceUpdate
 
 class StockSymbolSerializer(serializers.ModelSerializer):
     class Meta:
@@ -8,9 +8,16 @@ class StockSymbolSerializer(serializers.ModelSerializer):
 
 class SignificantEventSerializer(serializers.ModelSerializer):
     symbol = StockSymbolSerializer(read_only=True) # Nested representation
-    # Or use symbol = serializers.StringRelatedField() for just the ticker string
 
     class Meta:
         model = SignificantEvent
         fields = ['id', 'symbol', 'event_type', 'timestamp', 'details']
-        # read_only_fields for fields like 'timestamp' if auto_now_add=True
+        read_only_fields = ['timestamp']
+
+class PriceUpdateSerializer(serializers.ModelSerializer):
+    symbol = StockSymbolSerializer(read_only=True)
+    
+    class Meta:
+        model = PriceUpdate
+        fields = ['id', 'symbol', 'timestamp', 'price', 'volume']
+        read_only_fields = ['timestamp']

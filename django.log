@@ -1,0 +1,10 @@
+INFO 2025-05-21 06:00:19,013 autoreload Watching for file changes with StatReloader
+INFO 2025-05-21 06:01:34,214 basehttp "POST /api/token/ HTTP/1.1" 200 483
+INFO 2025-05-21 06:01:44,426 basehttp "GET /api/stocks/significant-events/ HTTP/1.1" 200 52
+INFO 2025-05-21 06:01:56,089 basehttp "GET /api/stocks/symbols/ HTTP/1.1" 200 52
+INFO 2025-05-21 06:02:23,224 basehttp "GET /api/stocks/symbols/ HTTP/1.1" 200 186
+INFO 2025-05-21 06:02:41,734 basehttp "GET /api/stocks/price-history/?symbol__ticker=GOOGL HTTP/1.1" 200 52
+INFO 2025-05-21 06:06:42,699 basehttp "GET /api/stocks/significant-events/ HTTP/1.1" 200 2131
+INFO 2025-05-21 06:06:58,632 basehttp "GET /api/stocks/price-history/?symbol__ticker=GOOGL HTTP/1.1" 200 1393
+INFO 2025-05-21 06:09:20,741 autoreload /home/ubuntu/workspace/polygon/financial_analyzer/urls.py changed, reloading.
+INFO 2025-05-21 06:09:21,211 autoreload Watching for file changes with StatReloader
