@@ -2,8 +2,7 @@
 nixPkgs = ["python311", "python311Packages.pip", "python311Packages.setuptools", "gcc"]
 
 [phases.install]
-# --no-cache-dir.
 cmds = [
-    "pip install --no-cache-dir --upgrade pip setuptools",
-    "python -m venv --copies /opt/venv && . /opt/venv/bin/activate && pip install --no-cache-dir -r requirements.txt"
+    "python -m venv --copies --upgrade-deps /opt/venv", # Create/ensure venv, upgrade pip/setuptools within it
+    ". /opt/venv/bin/activate && pip install --no-cache-dir -r requirements.txt"
 ]
