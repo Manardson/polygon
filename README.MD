@@ -132,3 +132,20 @@ The application implements several security best practices:
 - Additional technical analysis indicators
 - User-configurable alert thresholds
 - Mobile app integration
+
+## Super Raw Tests
+-Authentication Test:
+curl -X POST https://8000-iothv381fbrmhawexglym-b6ad1019.manusvm.computer/api/token/ -H "Content-Type: application/json" -d '{"username":"testuser","password":"testpassword"}'
+Desired Result: ✅ Successfully obtained JWT token
+
+-Symbols Endpoint Test:
+curl -X GET https://8000-iothv381fbrmhawexglym-b6ad1019.manusvm.computer/api/stocks/symbols/ -H "Authorization: Bearer [token]"
+Desired Result: ✅ Successfully returned 3 symbols (AMZN, GOOGL, MSFT )
+
+-Price History Endpoint Test:
+curl -X GET https://8000-iothv381fbrmhawexglym-b6ad1019.manusvm.computer/api/stocks/price-history/?symbol__ticker=GOOGL -H "Authorization: Bearer [token]"
+Desired Result: ✅ Successfully returned price history records with timestamps
+
+-Events Endpoint:
+curl -X GET https://8000-iothv381fbrmhawexglym-b6ad1019.manusvm.computer/api/stocks/significant-events/ -H "Authorization: Bearer [token]"
+Desired Result: ✅ Successfully returned event records with details

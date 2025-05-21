@@ -1,0 +1,1 @@
+web: gunicorn financial_analyzer.wsgi --log-file -
