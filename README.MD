@@ -1,4 +1,7 @@
 # Django Polygon Stock Analysis API - Project Documentation
+Live Deployment
+polygon-production-49cd.up.railway.app
+
 
 ## Overview
 This project is a Python/Django-based web application that processes real-time financial data from Polygon.io. The application connects to Polygon's API to retrieve stock price data for Google, Amazon, and Microsoft, analyzes the data for significant price changes, and provides insights through a RESTful API.
