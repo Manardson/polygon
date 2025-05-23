@@ -2,9 +2,17 @@ from django.shortcuts import render
 
 from django.contrib.auth.decorators import login_required
 from django.views.generic import TemplateView
+from rest_framework.permissions import AllowAny
+
 from django.utils.decorators import method_decorator
 from rest_framework.views import APIView
 from rest_framework.response import Response
+
+from rest_framework import status
+from rest_framework.permissions import IsAdminUser
+
+from .tasks import fetch_and_process_stock_data_task
+import uuid
 
 from rest_framework import viewsets, permissions, filters
 from django_filters.rest_framework import DjangoFilterBackend
@@ -43,7 +51,7 @@ class StockSymbolViewSet(viewsets.ReadOnlyModelViewSet):
     queryset = StockSymbol.objects.all().order_by('ticker')
     serializer_class = StockSymbolSerializer
     permission_classes = [permissions.IsAuthenticated]
-    
+
     filter_backends = [filters.SearchFilter]
     search_fields = ['ticker', 'name']
 
@@ -58,7 +66,7 @@ class PriceHistoryViewSet(viewsets.ReadOnlyModelViewSet):
     """
     serializer_class = PriceUpdateSerializer
     permission_classes = [permissions.IsAuthenticated]
-    
+
     # Filtering
     filter_backends = [DjangoFilterBackend, filters.OrderingFilter]
     filterset_fields = {
@@ -67,19 +75,19 @@ class PriceHistoryViewSet(viewsets.ReadOnlyModelViewSet):
     }
     ordering_fields = ['timestamp']
     ordering = ['timestamp']  # Default ordering - oldest to newest
-    
+
     def get_queryset(self):
         """
         This view should return price history for a specific symbol.
         Symbol ticker is required.
         """
         queryset = PriceUpdate.objects.all().select_related('symbol')
-        
+
         # Require symbol__ticker parameter
         symbol_ticker = self.request.query_params.get('symbol__ticker', None)
         if symbol_ticker is None:
             return PriceUpdate.objects.none()  # Return empty queryset if no symbol specified
-            
+
         return queryset
 
 class EventSummaryView(APIView):
@@ -88,7 +96,7 @@ class EventSummaryView(APIView):
     Supports days parameter to specify the time period (default: 7 days).
     """
     permission_classes = [permissions.IsAuthenticated]
-    
+
     def get(self, request, format=None):
         days = int(request.query_params.get('days', 7))
         analysis_service = StockAnalysisService()
@@ -98,3 +106,28 @@ class EventSummaryView(APIView):
 @method_decorator(login_required, name='dispatch')
 class QueryTestPageView(TemplateView):
    template_name = "stocks_api/query_test_page.html"
+
+
+class FetchLatestStockDataView(APIView):
+    """
+    Manually triggers the Celery task to fetch and process latest stock data.
+    Requires admin privileges.
+    """
+    permission_classes = [IsAdminUser] # Only admins can trigger this
+
+    def post(self, request, *args, **kwargs):
+        try:
+            # specific tickers or use default
+            # task_id = str(uuid.uuid4()) # Generate a unique ID for this call
+            # For Celery, the task_id is part of the AsyncResult object.
+            async_result = fetch_and_process_stock_data_task.delay() # Extra arguments
+            return Response(
+                {"message": "Stock data fetch task initiated.", "task_id": async_result.id},
+                status=status.HTTP_202_ACCEPTED
+            )
+        except Exception as e:
+            # Log the exception e
+            return Response(
+                {"error": "Failed to initiate stock data fetch task.", "details": str(e)},
+                status=status.HTTP_500_INTERNAL_SERVER_ERROR
+            )

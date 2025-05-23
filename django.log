@@ -33,3 +33,25 @@ INFO 2025-05-23 09:04:06,005 basehttp "GET /api/stocks/symbols/ HTTP/1.1" 200 18
 INFO 2025-05-23 09:04:11,927 basehttp "GET /api/stocks/significant-events/?symbol__ticker=GOOGL&event_type=PRICE_INCREASE HTTP/1.1" 200 52
 WARNING 2025-05-23 09:09:52,659 log Unauthorized: /api/stocks/
 WARNING 2025-05-23 09:09:52,660 basehttp "POST /api/stocks/ HTTP/1.1" 401 58
+INFO 2025-05-23 09:14:15,922 autoreload C:\code\splint\stocks_api\views.py changed, reloading.
+INFO 2025-05-23 09:14:18,022 autoreload Watching for file changes with StatReloader
+INFO 2025-05-23 09:14:21,574 autoreload C:\code\splint\stocks_api\views.py changed, reloading.
+INFO 2025-05-23 09:14:23,385 autoreload Watching for file changes with StatReloader
+INFO 2025-05-23 09:20:51,918 autoreload C:\code\splint\stocks_api\views.py changed, reloading.
+INFO 2025-05-23 09:20:54,043 autoreload Watching for file changes with StatReloader
+INFO 2025-05-23 09:20:58,437 autoreload C:\code\splint\stocks_api\views.py changed, reloading.
+INFO 2025-05-23 09:21:00,335 autoreload Watching for file changes with StatReloader
+INFO 2025-05-23 09:21:08,102 autoreload C:\code\splint\stocks_api\views.py changed, reloading.
+INFO 2025-05-23 09:21:09,865 autoreload Watching for file changes with StatReloader
+INFO 2025-05-23 09:21:15,301 autoreload C:\code\splint\stocks_api\views.py changed, reloading.
+INFO 2025-05-23 09:21:17,233 autoreload Watching for file changes with StatReloader
+INFO 2025-05-23 09:21:32,539 autoreload C:\code\splint\stocks_api\views.py changed, reloading.
+INFO 2025-05-23 09:21:34,354 autoreload Watching for file changes with StatReloader
+INFO 2025-05-23 09:21:40,763 autoreload C:\code\splint\stocks_api\views.py changed, reloading.
+INFO 2025-05-23 09:21:42,591 autoreload Watching for file changes with StatReloader
+INFO 2025-05-23 09:21:44,659 autoreload C:\code\splint\stocks_api\views.py changed, reloading.
+INFO 2025-05-23 09:21:46,473 autoreload Watching for file changes with StatReloader
+INFO 2025-05-23 09:22:03,024 autoreload C:\code\splint\stocks_api\views.py changed, reloading.
+INFO 2025-05-23 09:22:04,814 autoreload Watching for file changes with StatReloader
+INFO 2025-05-23 09:22:31,231 autoreload C:\code\splint\stocks_api\urls.py changed, reloading.
+INFO 2025-05-23 09:22:33,116 autoreload Watching for file changes with StatReloader

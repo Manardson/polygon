@@ -12,4 +12,5 @@ urlpatterns = [
     path('', include(router.urls)),
     path('test-query-page/', QueryTestPageView.as_view(), name='test_query_page'),
     path('event-summary/', EventSummaryView.as_view(), name='event-summary'),
+    path('fetch-latest/', FetchLatestStockDataView.as_view(), name='fetch-latest-stock-data'),
 ]
