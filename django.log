@@ -55,3 +55,1057 @@ INFO 2025-05-23 09:22:03,024 autoreload C:\code\splint\stocks_api\views.py chang
 INFO 2025-05-23 09:22:04,814 autoreload Watching for file changes with StatReloader
 INFO 2025-05-23 09:22:31,231 autoreload C:\code\splint\stocks_api\urls.py changed, reloading.
 INFO 2025-05-23 09:22:33,116 autoreload Watching for file changes with StatReloader
+INFO 2025-05-23 09:24:13,797 autoreload C:\code\splint\stocks_api\services\polygon_service.py changed, reloading.
+INFO 2025-05-23 09:24:15,781 autoreload Watching for file changes with StatReloader
+INFO 2025-05-23 09:24:18,842 autoreload C:\code\splint\stocks_api\services\polygon_service.py changed, reloading.
+INFO 2025-05-23 09:24:20,821 autoreload Watching for file changes with StatReloader
+INFO 2025-05-23 09:24:22,849 autoreload C:\code\splint\stocks_api\services\polygon_service.py changed, reloading.
+INFO 2025-05-23 09:24:24,715 autoreload Watching for file changes with StatReloader
+INFO 2025-05-23 09:24:34,407 autoreload C:\code\splint\stocks_api\services\polygon_service.py changed, reloading.
+INFO 2025-05-23 09:24:36,133 autoreload Watching for file changes with StatReloader
+INFO 2025-05-23 09:25:16,808 autoreload C:\code\splint\stocks_api\views.py changed, reloading.
+INFO 2025-05-23 09:25:18,920 autoreload Watching for file changes with StatReloader
+INFO 2025-05-23 09:25:24,186 autoreload C:\code\splint\stocks_api\views.py changed, reloading.
+INFO 2025-05-23 09:25:26,010 autoreload Watching for file changes with StatReloader
+INFO 2025-05-23 09:25:55,531 autoreload C:\code\splint\stocks_api\views.py changed, reloading.
+INFO 2025-05-23 09:25:57,440 autoreload Watching for file changes with StatReloader
+INFO 2025-05-23 09:26:15,843 autoreload C:\code\splint\stocks_api\views.py changed, reloading.
+INFO 2025-05-23 09:26:17,683 autoreload Watching for file changes with StatReloader
+INFO 2025-05-23 09:26:26,141 autoreload C:\code\splint\stocks_api\views.py changed, reloading.
+INFO 2025-05-23 09:26:28,131 autoreload Watching for file changes with StatReloader
+INFO 2025-05-23 09:26:36,667 autoreload C:\code\splint\stocks_api\views.py changed, reloading.
+INFO 2025-05-23 09:26:38,763 autoreload Watching for file changes with StatReloader
+INFO 2025-05-23 09:26:44,777 autoreload C:\code\splint\stocks_api\views.py changed, reloading.
+INFO 2025-05-23 09:26:46,634 autoreload Watching for file changes with StatReloader
+INFO 2025-05-23 09:26:51,954 autoreload C:\code\splint\stocks_api\views.py changed, reloading.
+INFO 2025-05-23 09:26:53,766 autoreload Watching for file changes with StatReloader
+INFO 2025-05-23 09:27:03,369 autoreload C:\code\splint\stocks_api\views.py changed, reloading.
+INFO 2025-05-23 09:27:05,206 autoreload Watching for file changes with StatReloader
+INFO 2025-05-23 09:27:19,210 autoreload C:\code\splint\stocks_api\views.py changed, reloading.
+INFO 2025-05-23 09:27:21,309 autoreload Watching for file changes with StatReloader
+INFO 2025-05-23 09:27:24,090 autoreload C:\code\splint\stocks_api\views.py changed, reloading.
+INFO 2025-05-23 09:27:25,892 autoreload Watching for file changes with StatReloader
+INFO 2025-05-23 09:27:27,837 autoreload C:\code\splint\stocks_api\views.py changed, reloading.
+INFO 2025-05-23 09:27:29,509 autoreload Watching for file changes with StatReloader
+INFO 2025-05-23 09:27:33,760 autoreload C:\code\splint\stocks_api\views.py changed, reloading.
+INFO 2025-05-23 09:27:35,873 autoreload Watching for file changes with StatReloader
+INFO 2025-05-23 09:27:44,492 autoreload C:\code\splint\stocks_api\views.py changed, reloading.
+INFO 2025-05-23 09:27:46,172 autoreload Watching for file changes with StatReloader
+INFO 2025-05-23 09:27:49,374 autoreload C:\code\splint\stocks_api\views.py changed, reloading.
+INFO 2025-05-23 09:27:51,092 autoreload Watching for file changes with StatReloader
+INFO 2025-05-23 09:27:58,670 autoreload C:\code\splint\stocks_api\views.py changed, reloading.
+INFO 2025-05-23 09:28:01,595 autoreload Watching for file changes with StatReloader
+INFO 2025-05-23 09:28:08,260 autoreload C:\code\splint\stocks_api\views.py changed, reloading.
+INFO 2025-05-23 09:28:10,497 autoreload Watching for file changes with StatReloader
+INFO 2025-05-23 09:28:16,798 autoreload C:\code\splint\stocks_api\views.py changed, reloading.
+INFO 2025-05-23 09:28:18,688 autoreload Watching for file changes with StatReloader
+INFO 2025-05-23 09:28:22,789 autoreload C:\code\splint\stocks_api\views.py changed, reloading.
+INFO 2025-05-23 09:28:24,490 autoreload Watching for file changes with StatReloader
+INFO 2025-05-23 09:28:26,422 autoreload C:\code\splint\stocks_api\views.py changed, reloading.
+INFO 2025-05-23 09:28:28,230 autoreload Watching for file changes with StatReloader
+INFO 2025-05-23 09:28:30,282 autoreload C:\code\splint\stocks_api\views.py changed, reloading.
+INFO 2025-05-23 09:28:32,111 autoreload Watching for file changes with StatReloader
+INFO 2025-05-23 09:28:46,252 autoreload C:\code\splint\stocks_api\views.py changed, reloading.
+INFO 2025-05-23 09:28:48,336 autoreload Watching for file changes with StatReloader
+INFO 2025-05-23 09:28:53,588 autoreload C:\code\splint\stocks_api\views.py changed, reloading.
+INFO 2025-05-23 09:28:55,678 autoreload Watching for file changes with StatReloader
+INFO 2025-05-23 09:28:57,646 autoreload C:\code\splint\stocks_api\views.py changed, reloading.
+INFO 2025-05-23 09:28:59,514 autoreload Watching for file changes with StatReloader
+INFO 2025-05-23 09:29:30,171 autoreload C:\code\splint\stocks_api\views.py changed, reloading.
+INFO 2025-05-23 09:29:32,006 autoreload Watching for file changes with StatReloader
+INFO 2025-05-23 09:34:43,858 autoreload C:\code\splint\stocks_api\views.py changed, reloading.
+INFO 2025-05-23 09:34:46,000 autoreload Watching for file changes with StatReloader
+ERROR 2025-05-23 09:34:53,844 log Internal Server Error: /api/stocks/daily-aggregates/
+Traceback (most recent call last):
+  File "C:\code\splint\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\code\splint\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\code\splint\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\code\splint\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\code\splint\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\code\splint\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\code\splint\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\code\splint\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\code\splint\stocks_api\views.py", line 173, in get
+    aggregates = polygon_service.get_daily_aggregates(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\code\splint\stocks_api\services\polygon_service.py", line 219, in get_daily_aggregates
+    'apiKey': self.api_key,
+              ^^^^^^^^^^^^
+AttributeError: 'PolygonService' object has no attribute 'api_key'
+ERROR 2025-05-23 09:34:53,849 basehttp "GET /api/stocks/daily-aggregates/?symbol=GOOGL&date_from=2025-05-20&date_to=2025-06-25 HTTP/1.1" 500 105713
+INFO 2025-05-23 09:37:24,264 autoreload C:\code\splint\stocks_api\services\polygon_service.py changed, reloading.
+INFO 2025-05-23 09:37:26,181 autoreload Watching for file changes with StatReloader
+INFO 2025-05-23 09:37:56,887 autoreload C:\code\splint\stocks_api\services\polygon_service.py changed, reloading.
+INFO 2025-05-23 09:37:58,771 autoreload Watching for file changes with StatReloader
+INFO 2025-05-23 09:38:01,923 autoreload C:\code\splint\stocks_api\services\polygon_service.py changed, reloading.
+INFO 2025-05-23 09:38:03,868 autoreload Watching for file changes with StatReloader
+INFO 2025-05-23 09:40:42,326 autoreload C:\code\splint\stocks_api\services\polygon_service.py changed, reloading.
+INFO 2025-05-23 09:40:44,195 autoreload Watching for file changes with StatReloader
+WARNING 2025-05-23 09:40:45,703 polygon_service No results or error status for daily aggregates GOOGL: {'ticker': 'GOOGL', 'queryCount': 3, 'resultsCount': 3, 'adjusted': True, 'results': [{'v': 46607656.0, 'vw': 165.434, 'o': 166.43, 'c': 163.98, 'h': 168.5, 'l': 162.9, 't': 1747713600000, 'n': 696225}, {'v': 73415956.0, 'vw': 169.7933, 'o': 163.69, 'c': 168.56, 'h': 173.14, 'l': 163.56, 't': 1747800000000, 'n': 964766}, {'v': 74864418.0, 'vw': 173.3477, 'o': 171.85, 'c': 170.87, 'h': 176.77, 'l': 170.71, 't': 1747886400000, 'n': 999932}], 'status': 'DELAYED', 'request_id': 'f173637d9a3fd1ffb477229262734cb3', 'count': 3}
+ERROR 2025-05-23 09:40:45,704 log Service Unavailable: /api/stocks/daily-aggregates/
+ERROR 2025-05-23 09:40:45,705 basehttp "GET /api/stocks/daily-aggregates/?symbol=GOOGL&date_from=2025-05-20&date_to=2025-06-25 HTTP/1.1" 503 78
+ERROR 2025-05-23 09:41:34,332 log Internal Server Error: /api/stocks/fetch-latest/
+ERROR 2025-05-23 09:41:34,332 basehttp "POST /api/stocks/fetch-latest/ HTTP/1.1" 500 188
+INFO 2025-05-23 09:44:44,299 autoreload C:\code\splint\financial_analyzer\settings.py changed, reloading.
+INFO 2025-05-23 09:44:46,348 autoreload Watching for file changes with StatReloader
+INFO 2025-05-23 09:44:51,831 autoreload C:\code\splint\financial_analyzer\settings.py changed, reloading.
+INFO 2025-05-23 09:44:53,650 autoreload Watching for file changes with StatReloader
+ERROR 2025-05-23 09:45:10,862 log Internal Server Error: /api/stocks/fetch-latest/
+ERROR 2025-05-23 09:45:10,863 basehttp "POST /api/stocks/fetch-latest/ HTTP/1.1" 500 188
+WARNING 2025-05-23 09:45:41,035 polygon_service No results or error status for daily aggregates GOOGL: {'ticker': 'GOOGL', 'queryCount': 3, 'resultsCount': 3, 'adjusted': True, 'results': [{'v': 46607656.0, 'vw': 165.434, 'o': 166.43, 'c': 163.98, 'h': 168.5, 'l': 162.9, 't': 1747713600000, 'n': 696225}, {'v': 73415956.0, 'vw': 169.7933, 'o': 163.69, 'c': 168.56, 'h': 173.14, 'l': 163.56, 't': 1747800000000, 'n': 964766}, {'v': 74864418.0, 'vw': 173.3477, 'o': 171.85, 'c': 170.87, 'h': 176.77, 'l': 170.71, 't': 1747886400000, 'n': 999932}], 'status': 'DELAYED', 'request_id': 'a64c1ac7b5a2d14f15179b4659301214', 'count': 3}
+ERROR 2025-05-23 09:45:41,036 log Service Unavailable: /api/stocks/daily-aggregates/
+ERROR 2025-05-23 09:45:41,038 basehttp "GET /api/stocks/daily-aggregates/?symbol=GOOGL&date_from=2025-05-20&date_to=2025-06-25 HTTP/1.1" 503 78
+INFO 2025-05-23 09:50:02,897 autoreload C:\code\splint\stocks_api\services\polygon_service.py changed, reloading.
+INFO 2025-05-23 09:50:04,978 autoreload Watching for file changes with StatReloader
+INFO 2025-05-23 09:50:07,030 autoreload C:\code\splint\stocks_api\services\polygon_service.py changed, reloading.
+INFO 2025-05-23 09:50:08,775 autoreload Watching for file changes with StatReloader
+INFO 2025-05-23 09:51:05,853 autoreload C:\code\splint\stocks_api\services\polygon_service.py changed, reloading.
+INFO 2025-05-23 09:51:07,726 autoreload Watching for file changes with StatReloader
+INFO 2025-05-23 09:51:11,475 polygon_service PolygonService: Requesting URL: https://api.polygon.io/v2/aggs/ticker/GOOGL/range/1/day/2025-05-20/2025-06-25 with params (excluding apiKey for log)
+INFO 2025-05-23 09:51:12,182 polygon_service PolygonService: Response status code: 200 for https://api.polygon.io/v2/aggs/ticker/GOOGL/range/1/day/2025-05-20/2025-06-25
+WARNING 2025-05-23 09:51:12,182 polygon_service PolygonService: Unexpected response structure or status for GOOGL. Response: {'ticker': 'GOOGL', 'queryCount': 3, 'resultsCount': 3, 'adjusted': True, 'results': [{'v': 46607656.0, 'vw': 165.434, 'o': 166.43, 'c': 163.98, 'h': 168.5, 'l': 162.9, 't': 1747713600000, 'n': 696225}, {'v': 73415956.0, 'vw': 169.7933, 'o': 163.69, 'c': 168.56, 'h': 173.14, 'l': 163.56, 't': 1747800000000, 'n': 964766}, {'v': 74864418.0, 'vw': 173.3477, 'o': 171.85, 'c': 170.87, 'h': 176.77, 'l': 170.71, 't': 1747886400000, 'n': 999932}], 'status': 'DELAYED', 'request_id': 'd776db824f412f627fd8967de8039816', 'count': 3}
+ERROR 2025-05-23 09:51:12,185 log Service Unavailable: /api/stocks/daily-aggregates/
+ERROR 2025-05-23 09:51:12,185 basehttp "GET /api/stocks/daily-aggregates/?symbol=GOOGL&date_from=2025-05-20&date_to=2025-06-25 HTTP/1.1" 503 78
+ERROR 2025-05-23 09:51:27,397 log Internal Server Error: /api/stocks/fetch-latest/
+ERROR 2025-05-23 09:51:27,398 basehttp "POST /api/stocks/fetch-latest/ HTTP/1.1" 500 188
+INFO 2025-05-23 09:51:34,298 polygon_service PolygonService: Requesting URL: https://api.polygon.io/v2/aggs/ticker/GOOGL/range/1/day/2025-05-20/2025-06-25 with params (excluding apiKey for log)
+INFO 2025-05-23 09:51:34,917 polygon_service PolygonService: Response status code: 200 for https://api.polygon.io/v2/aggs/ticker/GOOGL/range/1/day/2025-05-20/2025-06-25
+WARNING 2025-05-23 09:51:34,917 polygon_service PolygonService: Unexpected response structure or status for GOOGL. Response: {'ticker': 'GOOGL', 'queryCount': 3, 'resultsCount': 3, 'adjusted': True, 'results': [{'v': 46607656.0, 'vw': 165.434, 'o': 166.43, 'c': 163.98, 'h': 168.5, 'l': 162.9, 't': 1747713600000, 'n': 696225}, {'v': 73415956.0, 'vw': 169.7933, 'o': 163.69, 'c': 168.56, 'h': 173.14, 'l': 163.56, 't': 1747800000000, 'n': 964766}, {'v': 74864418.0, 'vw': 173.3477, 'o': 171.85, 'c': 170.87, 'h': 176.77, 'l': 170.71, 't': 1747886400000, 'n': 999932}], 'status': 'DELAYED', 'request_id': 'a6a456ab8dea03006a47a1ab486904b3', 'count': 3}
+ERROR 2025-05-23 09:51:34,919 log Service Unavailable: /api/stocks/daily-aggregates/
+ERROR 2025-05-23 09:51:34,920 basehttp "GET /api/stocks/daily-aggregates/?symbol=GOOGL&date_from=2025-05-20&date_to=2025-06-25 HTTP/1.1" 503 78
+INFO 2025-05-23 09:55:25,761 autoreload C:\code\splint\financial_analyzer\settings.py changed, reloading.
+INFO 2025-05-23 09:55:27,183 autoreload Watching for file changes with StatReloader
+INFO 2025-05-23 09:56:21,486 autoreload C:\code\splint\financial_analyzer\settings.py changed, reloading.
+INFO 2025-05-23 09:56:22,510 autoreload Watching for file changes with StatReloader
+INFO 2025-05-23 09:57:13,666 autoreload C:\code\splint\financial_analyzer\settings.py changed, reloading.
+INFO 2025-05-23 09:57:19,629 autoreload Watching for file changes with StatReloader
+INFO 2025-05-23 09:57:22,716 autoreload C:\code\splint\financial_analyzer\settings.py changed, reloading.
+INFO 2025-05-23 09:57:23,670 autoreload Watching for file changes with StatReloader
+INFO 2025-05-23 09:57:25,718 autoreload C:\code\splint\financial_analyzer\settings.py changed, reloading.
+INFO 2025-05-23 09:58:09,976 autoreload Watching for file changes with StatReloader
+DEBUG 2025-05-23 09:58:09,978 autoreload Waiting for apps ready_event.
+DEBUG 2025-05-23 09:58:10,080 autoreload Main Django thread has terminated before apps are ready.
+DEBUG 2025-05-23 09:58:10,587 autoreload Apps ready_event triggered. Sending autoreload_started signal.
+DEBUG 2025-05-23 09:58:10,593 autoreload Watching dir C:\code\splint\templates with glob **/*.
+DEBUG 2025-05-23 09:58:10,896 autoreload File C:\code\splint\venv\Lib\site-packages\django\core\serializers\python.py first seen with mtime 1747201971.4139276
+DEBUG 2025-05-23 09:58:10,897 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\models\sql\subqueries.py first seen with mtime 1747201971.5366008
+DEBUG 2025-05-23 09:58:10,898 autoreload File C:\code\splint\venv\Lib\site-packages\kombu\connection.py first seen with mtime 1747201986.5446763
+DEBUG 2025-05-23 09:58:10,898 autoreload File C:\Python312\Lib\zipfile\__init__.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:10,899 autoreload File C:\code\splint\venv\Lib\site-packages\celery\utils\annotations.py first seen with mtime 1747201990.2795758
+DEBUG 2025-05-23 09:58:10,899 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\models\sql\__init__.py first seen with mtime 1747201971.5306158
+DEBUG 2025-05-23 09:58:10,899 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\backends\base\base.py first seen with mtime 1747201971.4248986
+DEBUG 2025-05-23 09:58:10,900 autoreload File C:\code\splint\venv\Lib\site-packages\django\urls\utils.py first seen with mtime 1747201971.6852026
+DEBUG 2025-05-23 09:58:10,900 autoreload File C:\Python312\Lib\encodings\cp1252.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:10,900 autoreload File C:\code\splint\venv\Lib\site-packages\rest_framework\reverse.py first seen with mtime 1747987090.831402
+DEBUG 2025-05-23 09:58:10,900 autoreload File C:\Python312\Lib\heapq.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:10,900 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\models\fields\related_lookups.py first seen with mtime 1747201971.5196457
+DEBUG 2025-05-23 09:58:10,900 autoreload File C:\code\splint\venv\Lib\site-packages\django\utils\translation\trans_real.py first seen with mtime 1747201971.7350688
+DEBUG 2025-05-23 09:58:10,901 autoreload File C:\code\splint\venv\Lib\site-packages\urllib3\util\ssl_.py first seen with mtime 1747201958.363811
+DEBUG 2025-05-23 09:58:10,902 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\migrations\operations\base.py first seen with mtime 1747201971.4897249
+DEBUG 2025-05-23 09:58:10,902 autoreload File C:\code\splint\venv\Lib\site-packages\django\contrib\auth\__init__.py first seen with mtime 1747201968.591576
+DEBUG 2025-05-23 09:58:10,903 autoreload File C:\code\splint\venv\Lib\site-packages\django\utils\timesince.py first seen with mtime 1747201971.7240999
+DEBUG 2025-05-23 09:58:10,903 autoreload File C:\Python312\Lib\enum.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:10,903 autoreload File C:\code\splint\venv\Lib\site-packages\markdown\inlinepatterns.py first seen with mtime 1747811470.822989
+DEBUG 2025-05-23 09:58:10,904 autoreload File C:\Python312\Lib\email\mime\multipart.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:10,904 autoreload File C:\Python312\DLLs\_hashlib.pyd first seen with mtime 1696249628.0
+DEBUG 2025-05-23 09:58:10,904 autoreload File C:\code\splint\venv\Lib\site-packages\sqlparse\engine\filter_stack.py first seen with mtime 1747201959.7333214
+DEBUG 2025-05-23 09:58:10,905 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\models\__init__.py first seen with mtime 1747201971.4937143
+DEBUG 2025-05-23 09:58:10,905 autoreload File C:\Python312\Lib\zoneinfo\_common.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:10,905 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\backends\base\__init__.py first seen with mtime 1747201971.4239032
+DEBUG 2025-05-23 09:58:10,906 autoreload File C:\code\splint\venv\Lib\site-packages\markdown\htmlparser.py first seen with mtime 1747811470.8219924
+DEBUG 2025-05-23 09:58:10,906 autoreload File C:\code\splint\venv\Lib\site-packages\markdown\serializers.py first seen with mtime 1747811470.8249846
+DEBUG 2025-05-23 09:58:10,906 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\utils.py first seen with mtime 1747201971.4199114
+DEBUG 2025-05-23 09:58:10,907 autoreload File C:\code\splint\venv\Lib\site-packages\django\contrib\auth\password_validation.py first seen with mtime 1747201968.6025455
+DEBUG 2025-05-23 09:58:10,907 autoreload File C:\code\splint\venv\Lib\site-packages\urllib3\_version.py first seen with mtime 1747201958.3378818
+DEBUG 2025-05-23 09:58:10,907 autoreload File C:\code\splint\venv\Lib\site-packages\urllib3\http2\__init__.py first seen with mtime 1747201958.3548346
+DEBUG 2025-05-23 09:58:10,907 autoreload File C:\code\splint\venv\Lib\site-packages\rest_framework\serializers.py first seen with mtime 1747987090.8333964
+DEBUG 2025-05-23 09:58:10,908 autoreload File C:\code\splint\venv\Lib\site-packages\requests\_internal_utils.py first seen with mtime 1747201966.5437963
+DEBUG 2025-05-23 09:58:10,908 autoreload File C:\code\splint\venv\Lib\site-packages\yaml\representer.py first seen with mtime 1747811456.6422293
+DEBUG 2025-05-23 09:58:10,908 autoreload File C:\code\splint\venv\Lib\site-packages\django\core\serializers\__init__.py first seen with mtime 1747201971.4109356
+DEBUG 2025-05-23 09:58:10,910 autoreload File C:\code\splint\venv\Lib\site-packages\django\template\loader.py first seen with mtime 1747201971.6532896
+DEBUG 2025-05-23 09:58:10,910 autoreload File C:\Python312\Lib\warnings.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:10,910 autoreload File C:\Python312\Lib\string.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:10,911 autoreload File C:\code\splint\venv\Lib\site-packages\django\forms\boundfield.py first seen with mtime 1747201971.5425837
+DEBUG 2025-05-23 09:58:10,911 autoreload File C:\code\splint\venv\Lib\site-packages\kombu\utils\encoding.py first seen with mtime 1747201986.5996177
+DEBUG 2025-05-23 09:58:10,911 autoreload File C:\code\splint\venv\Lib\site-packages\urllib3\util\connection.py first seen with mtime 1747201958.3588254
+DEBUG 2025-05-23 09:58:10,911 autoreload File C:\code\splint\venv\Lib\site-packages\dateutil\tz\__init__.py first seen with mtime 1747201966.8629498
+DEBUG 2025-05-23 09:58:10,912 autoreload File C:\code\splint\venv\Lib\site-packages\sqlparse\utils.py first seen with mtime 1747201959.731326
+DEBUG 2025-05-23 09:58:10,912 autoreload File C:\Python312\Lib\fractions.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:10,912 autoreload File C:\code\splint\venv\Lib\site-packages\django\core\mail\utils.py first seen with mtime 1747201971.3680508
+DEBUG 2025-05-23 09:58:10,913 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\migrations\__init__.py first seen with mtime 1747201971.4747655
+DEBUG 2025-05-23 09:58:10,913 autoreload File C:\Python312\Lib\socketserver.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:10,913 autoreload File C:\code\splint\venv\Lib\site-packages\charset_normalizer\utils.py first seen with mtime 1747201965.379656
+DEBUG 2025-05-23 09:58:10,913 autoreload File C:\code\splint\venv\Lib\site-packages\django\template\defaulttags.py first seen with mtime 1747201971.649299
+DEBUG 2025-05-23 09:58:10,914 autoreload File C:\code\splint\venv\Lib\site-packages\django\templatetags\tz.py first seen with mtime 1747201971.6712415
+DEBUG 2025-05-23 09:58:10,914 autoreload File C:\code\splint\financial_analyzer\celery.py first seen with mtime 1747804378.0
+DEBUG 2025-05-23 09:58:10,914 autoreload File C:\code\splint\venv\Lib\site-packages\kombu\entity.py first seen with mtime 1747201986.5456717
+DEBUG 2025-05-23 09:58:10,915 autoreload File C:\code\splint\venv\Lib\site-packages\django\views\generic\dates.py first seen with mtime 1747201971.7530217
+DEBUG 2025-05-23 09:58:10,915 autoreload File C:\Python312\Lib\multiprocessing\util.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:10,915 autoreload File C:\code\splint\venv\Lib\site-packages\rest_framework\response.py first seen with mtime 1747987090.8304057
+DEBUG 2025-05-23 09:58:10,916 autoreload File C:\Python312\Lib\weakref.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:10,916 autoreload File C:\Python312\Lib\importlib\readers.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:10,916 autoreload File C:\code\splint\venv\Lib\site-packages\chardet\langthaimodel.py first seen with mtime 1747811478.4040449
+DEBUG 2025-05-23 09:58:10,916 autoreload File C:\code\splint\venv\Lib\site-packages\django\http\multipartparser.py first seen with mtime 1747201971.633341
+DEBUG 2025-05-23 09:58:10,917 autoreload File C:\code\splint\venv\Lib\site-packages\django\contrib\admin\views\__init__.py first seen with mtime 1747201968.360194
+DEBUG 2025-05-23 09:58:10,917 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\migrations\state.py first seen with mtime 1747201971.4857361
+DEBUG 2025-05-23 09:58:10,917 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\backends\utils.py first seen with mtime 1747201971.4239032
+DEBUG 2025-05-23 09:58:10,917 autoreload File C:\code\splint\venv\Lib\site-packages\charset_normalizer\cd.py first seen with mtime 1747201965.3726747
+DEBUG 2025-05-23 09:58:10,918 autoreload File C:\Python312\Lib\hashlib.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:10,920 autoreload File C:\code\splint\venv\Lib\site-packages\sqlparse\formatter.py first seen with mtime 1747201959.7263396
+DEBUG 2025-05-23 09:58:10,920 autoreload File C:\code\splint\venv\Lib\site-packages\celery\fixups\django.py first seen with mtime 1747201990.2686067
+DEBUG 2025-05-23 09:58:10,921 autoreload File C:\Python312\Lib\wsgiref\headers.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:10,921 autoreload File C:\code\splint\venv\Lib\site-packages\django\utils\asyncio.py first seen with mtime 1747201971.6891916
+DEBUG 2025-05-23 09:58:10,921 autoreload File C:\code\splint\venv\Lib\site-packages\rest_framework\__init__.py first seen with mtime 1747987090.8100464
+DEBUG 2025-05-23 09:58:10,922 autoreload File C:\Python312\Lib\email\feedparser.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:10,922 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\backends\base\creation.py first seen with mtime 1747201971.4268935
+DEBUG 2025-05-23 09:58:10,922 autoreload File C:\code\splint\venv\Lib\site-packages\charset_normalizer\md__mypyc.cp312-win_amd64.pyd first seen with mtime 1747201965.3766663
+DEBUG 2025-05-23 09:58:10,922 autoreload File C:\code\splint\venv\Lib\site-packages\django\__init__.py first seen with mtime 1747201967.2860649
+DEBUG 2025-05-23 09:58:10,923 autoreload File C:\code\splint\venv\Lib\site-packages\django\utils\dates.py first seen with mtime 1747201971.6981697
+DEBUG 2025-05-23 09:58:10,923 autoreload File C:\code\splint\venv\Lib\site-packages\kombu\compression.py first seen with mtime 1747201986.5436788
+DEBUG 2025-05-23 09:58:10,923 autoreload File C:\code\splint\manage.py first seen with mtime 1747804378.0
+DEBUG 2025-05-23 09:58:10,923 autoreload File C:\code\splint\venv\Lib\site-packages\requests\__init__.py first seen with mtime 1747201966.5418332
+DEBUG 2025-05-23 09:58:10,924 autoreload File C:\code\splint\venv\Lib\site-packages\chardet\utf8prober.py first seen with mtime 1747811478.4190054
+DEBUG 2025-05-23 09:58:10,924 autoreload File C:\code\splint\venv\Lib\site-packages\django\template\defaultfilters.py first seen with mtime 1747201971.6483016
+DEBUG 2025-05-23 09:58:10,924 autoreload File C:\Python312\Lib\urllib\__init__.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:10,924 autoreload File C:\code\splint\venv\Lib\site-packages\rest_framework\exceptions.py first seen with mtime 1747987090.8170273
+DEBUG 2025-05-23 09:58:10,925 autoreload File C:\Python312\Lib\stringprep.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:10,925 autoreload File C:\code\splint\venv\Lib\site-packages\requests\packages.py first seen with mtime 1747201966.55377
+DEBUG 2025-05-23 09:58:10,925 autoreload File C:\code\splint\venv\Lib\site-packages\django\contrib\admin\views\autocomplete.py first seen with mtime 1747201968.361191
+DEBUG 2025-05-23 09:58:10,926 autoreload File C:\code\splint\venv\Lib\site-packages\django_filters\filters.py first seen with mtime 1747987092.2763486
+DEBUG 2025-05-23 09:58:10,926 autoreload File C:\Python312\Lib\html\parser.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:10,926 autoreload File C:\code\splint\venv\Lib\site-packages\rest_framework\utils\model_meta.py first seen with mtime 1747987091.0575192
+DEBUG 2025-05-23 09:58:10,926 autoreload File C:\code\splint\venv\Lib\site-packages\urllib3\_base_connection.py first seen with mtime 1747201958.3348882
+DEBUG 2025-05-23 09:58:10,927 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\backends\sqlite3\_functions.py first seen with mtime 1747201971.4667869
+DEBUG 2025-05-23 09:58:10,927 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\backends\ddl_references.py first seen with mtime 1747201971.421906
+DEBUG 2025-05-23 09:58:10,927 autoreload File C:\code\splint\venv\Lib\site-packages\sqlparse\lexer.py first seen with mtime 1747201959.7283347
+DEBUG 2025-05-23 09:58:10,928 autoreload File C:\code\splint\venv\Lib\site-packages\celery\app\annotations.py first seen with mtime 1747201990.1868236
+DEBUG 2025-05-23 09:58:10,928 autoreload File C:\code\splint\venv\Lib\site-packages\sqlparse\filters\tokens.py first seen with mtime 1747201959.742296
+DEBUG 2025-05-23 09:58:10,928 autoreload File C:\code\splint\venv\Lib\site-packages\django\contrib\admin\filters.py first seen with mtime 1747201967.684
+DEBUG 2025-05-23 09:58:10,929 autoreload File C:\code\splint\venv\Lib\site-packages\django\contrib\staticfiles\checks.py first seen with mtime 1747201971.2982378
+DEBUG 2025-05-23 09:58:10,929 autoreload File C:\Python312\Lib\email\policy.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:10,929 autoreload File C:\code\splint\venv\Lib\site-packages\urllib3\fields.py first seen with mtime 1747201958.342867
+DEBUG 2025-05-23 09:58:10,929 autoreload File C:\Python312\Lib\wsgiref\util.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:10,930 autoreload File C:\code\splint\venv\Lib\site-packages\rest_framework\request.py first seen with mtime 1747987090.8294091
+DEBUG 2025-05-23 09:58:10,930 autoreload File C:\code\splint\venv\Lib\site-packages\django\utils\autoreload.py first seen with mtime 1747201971.6901891
+DEBUG 2025-05-23 09:58:10,930 autoreload File C:\Python312\Lib\importlib\metadata\_meta.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:10,931 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\__init__.py first seen with mtime 1747201971.4179168
+DEBUG 2025-05-23 09:58:10,931 autoreload File C:\code\splint\venv\Lib\site-packages\requests\compat.py first seen with mtime 1747201966.5487814
+DEBUG 2025-05-23 09:58:10,932 autoreload File C:\Python312\Lib\xml\etree\ElementTree.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:10,932 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\models\functions\window.py first seen with mtime 1747201971.5286212
+DEBUG 2025-05-23 09:58:10,932 autoreload File C:\Python312\Lib\asyncio\constants.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:10,932 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\models\utils.py first seen with mtime 1747201971.5086863
+DEBUG 2025-05-23 09:58:10,932 autoreload File C:\Python312\Lib\importlib\abc.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:10,932 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\migrations\migration.py first seen with mtime 1747201971.4817467
+DEBUG 2025-05-23 09:58:10,932 autoreload File C:\Python312\Lib\collections\__init__.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:10,932 autoreload File C:\code\splint\venv\Lib\site-packages\idna\package_data.py first seen with mtime 1747201964.969682
+DEBUG 2025-05-23 09:58:10,933 autoreload File C:\code\splint\venv\Lib\site-packages\rest_framework\utils\timezone.py first seen with mtime 1747987091.0595138
+DEBUG 2025-05-23 09:58:10,942 autoreload File C:\code\splint\venv\Lib\site-packages\django\contrib\admin\actions.py first seen with mtime 1747201967.6790133
+DEBUG 2025-05-23 09:58:10,943 autoreload File C:\Python312\Lib\hmac.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:10,943 autoreload File C:\code\splint\venv\Lib\site-packages\markdown\util.py first seen with mtime 1747811470.8289714
+DEBUG 2025-05-23 09:58:10,943 autoreload File C:\code\splint\venv\Lib\site-packages\kombu\serialization.py first seen with mtime 1747201986.5536513
+DEBUG 2025-05-23 09:58:10,944 autoreload File C:\Python312\Lib\fnmatch.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:10,944 autoreload File C:\Python312\DLLs\_decimal.pyd first seen with mtime 1696249628.0
+DEBUG 2025-05-23 09:58:10,944 autoreload File C:\code\splint\venv\Lib\site-packages\sqlparse\__init__.py first seen with mtime 1747201959.7233486
+DEBUG 2025-05-23 09:58:10,945 autoreload File C:\Python312\DLLs\pyexpat.pyd first seen with mtime 1696249628.0
+DEBUG 2025-05-23 09:58:10,945 autoreload File C:\code\splint\venv\Lib\site-packages\certifi\__init__.py first seen with mtime 1747201965.7125027
+DEBUG 2025-05-23 09:58:10,945 autoreload File C:\code\splint\venv\Lib\site-packages\django\contrib\staticfiles\__init__.py first seen with mtime 1747201971.29724
+DEBUG 2025-05-23 09:58:10,946 autoreload File C:\code\splint\venv\Lib\site-packages\pytz\exceptions.py first seen with mtime 1747811453.4548721
+DEBUG 2025-05-23 09:58:10,946 autoreload File C:\code\splint\venv\Lib\site-packages\charset_normalizer\version.py first seen with mtime 1747201965.379656
+DEBUG 2025-05-23 09:58:10,946 autoreload File C:\Python312\Lib\textwrap.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:10,947 autoreload File C:\code\splint\venv\Lib\site-packages\amqp\protocol.py first seen with mtime 1747201986.2667816
+DEBUG 2025-05-23 09:58:10,947 autoreload File C:\code\splint\venv\Lib\site-packages\kombu\messaging.py first seen with mtime 1747201986.5496626
+DEBUG 2025-05-23 09:58:10,947 autoreload File C:\code\splint\venv\Lib\site-packages\django\shortcuts.py first seen with mtime 1747201967.2870607
+DEBUG 2025-05-23 09:58:10,948 autoreload File C:\code\splint\venv\Lib\site-packages\sqlparse\filters\aligned_indent.py first seen with mtime 1747201959.7383077
+DEBUG 2025-05-23 09:58:10,949 autoreload File C:\code\splint\venv\Lib\site-packages\celery\utils\__init__.py first seen with mtime 1747201990.2785802
+DEBUG 2025-05-23 09:58:10,949 autoreload File C:\code\splint\venv\Lib\site-packages\markdown\extensions\__init__.py first seen with mtime 1747811470.8299701
+DEBUG 2025-05-23 09:58:10,950 autoreload File C:\code\splint\venv\Lib\site-packages\celery\utils\dispatch\__init__.py first seen with mtime 1747201990.298525
+DEBUG 2025-05-23 09:58:10,950 autoreload File C:\Python312\Lib\concurrent\__init__.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:10,950 autoreload File C:\code\splint\venv\Lib\site-packages\django\core\checks\__init__.py first seen with mtime 1747201971.331149
+DEBUG 2025-05-23 09:58:10,950 autoreload File C:\code\splint\venv\Lib\site-packages\chardet\__init__.py first seen with mtime 1747811478.3781126
+DEBUG 2025-05-23 09:58:10,951 autoreload File C:\code\splint\venv\Lib\site-packages\django\utils\http.py first seen with mtime 1747201971.7111347
+DEBUG 2025-05-23 09:58:10,951 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\models\query_utils.py first seen with mtime 1747201971.5076768
+DEBUG 2025-05-23 09:58:10,951 autoreload File C:\code\splint\venv\Lib\site-packages\chardet\langturkishmodel.py first seen with mtime 1747811478.4060378
+DEBUG 2025-05-23 09:58:10,951 autoreload File C:\code\splint\venv\Lib\site-packages\celery\local.py first seen with mtime 1747201990.1798432
+DEBUG 2025-05-23 09:58:10,952 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\migrations\exceptions.py first seen with mtime 1747201971.4777572
+DEBUG 2025-05-23 09:58:10,952 autoreload File C:\code\splint\venv\Lib\site-packages\django\core\files\uploadhandler.py first seen with mtime 1747201971.3530915
+DEBUG 2025-05-23 09:58:10,952 autoreload File C:\code\splint\venv\Lib\site-packages\django\core\checks\urls.py first seen with mtime 1747201971.3411243
+DEBUG 2025-05-23 09:58:10,953 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\models\enums.py first seen with mtime 1747201971.498701
+DEBUG 2025-05-23 09:58:10,953 autoreload File C:\code\splint\venv\Lib\site-packages\django\contrib\sessions\apps.py first seen with mtime 1747201970.725932
+DEBUG 2025-05-23 09:58:10,953 autoreload File C:\Python312\Lib\re\_parser.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:10,953 autoreload File C:\code\splint\venv\Lib\site-packages\chardet\cp949prober.py first seen with mtime 1747811478.3870895
+DEBUG 2025-05-23 09:58:10,954 autoreload File C:\code\splint\venv\Lib\site-packages\urllib3\util\url.py first seen with mtime 1747201958.3668027
+DEBUG 2025-05-23 09:58:10,954 autoreload File C:\code\splint\venv\Lib\site-packages\django\urls\resolvers.py first seen with mtime 1747201971.6842055
+DEBUG 2025-05-23 09:58:10,954 autoreload File C:\Python312\Lib\importlib\__init__.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:10,954 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\models\functions\math.py first seen with mtime 1747201971.5266266
+DEBUG 2025-05-23 09:58:10,955 autoreload File C:\Python312\Lib\asyncio\runners.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:10,955 autoreload File C:\Python312\Lib\email\mime\message.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:10,955 autoreload File C:\code\splint\venv\Lib\site-packages\sqlparse\engine\__init__.py first seen with mtime 1747201959.7323227
+DEBUG 2025-05-23 09:58:10,956 autoreload File C:\code\splint\venv\Lib\site-packages\django\contrib\postgres\forms\array.py first seen with mtime 1747201970.226269
+DEBUG 2025-05-23 09:58:10,956 autoreload File C:\code\splint\venv\Lib\site-packages\rest_framework\utils\breadcrumbs.py first seen with mtime 1747987091.0525324
+DEBUG 2025-05-23 09:58:10,956 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\models\fields\related_descriptors.py first seen with mtime 1747201971.5186484
+DEBUG 2025-05-23 09:58:10,956 autoreload File C:\code\splint\venv\Lib\site-packages\django\template\engine.py first seen with mtime 1747201971.6502955
+DEBUG 2025-05-23 09:58:10,957 autoreload File C:\Python312\Lib\multiprocessing\__init__.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:10,957 autoreload File C:\code\splint\venv\Lib\site-packages\django\apps\__init__.py first seen with mtime 1747201967.288059
+DEBUG 2025-05-23 09:58:10,957 autoreload File C:\code\splint\venv\Lib\site-packages\django\contrib\admin\templatetags\__init__.py first seen with mtime 1747201968.3542101
+DEBUG 2025-05-23 09:58:10,957 autoreload File C:\code\splint\venv\Lib\site-packages\charset_normalizer\legacy.py first seen with mtime 1747201965.3736937
+DEBUG 2025-05-23 09:58:10,958 autoreload File C:\code\splint\venv\Lib\site-packages\django\utils\html.py first seen with mtime 1747201971.710139
+DEBUG 2025-05-23 09:58:10,958 autoreload File C:\code\splint\venv\Lib\site-packages\rest_framework\schemas\openapi.py first seen with mtime 1747987090.9401114
+DEBUG 2025-05-23 09:58:10,958 autoreload File C:\code\splint\venv\Lib\site-packages\django\utils\safestring.py first seen with mtime 1747201971.7211099
+DEBUG 2025-05-23 09:58:10,958 autoreload File C:\code\splint\venv\Lib\site-packages\django\utils\numberformat.py first seen with mtime 1747201971.7181146
+DEBUG 2025-05-23 09:58:10,959 autoreload File C:\code\splint\venv\Lib\site-packages\click\decorators.py first seen with mtime 1747811478.1258123
+DEBUG 2025-05-23 09:58:10,959 autoreload File C:\code\splint\venv\Lib\site-packages\cffi\__init__.py first seen with mtime 1747811664.8942955
+DEBUG 2025-05-23 09:58:10,959 autoreload File C:\code\splint\venv\Lib\site-packages\dateutil\parser\__init__.py first seen with mtime 1747201966.8599563
+DEBUG 2025-05-23 09:58:10,960 autoreload File C:\code\splint\venv\Lib\site-packages\django\urls\exceptions.py first seen with mtime 1747201971.6832073
+DEBUG 2025-05-23 09:58:10,960 autoreload File C:\code\splint\venv\Lib\site-packages\django\core\files\storage\mixins.py first seen with mtime 1747201971.3600726
+DEBUG 2025-05-23 09:58:10,960 autoreload File C:\code\splint\venv\Lib\site-packages\yaml\loader.py first seen with mtime 1747811456.6372447
+DEBUG 2025-05-23 09:58:10,960 autoreload File C:\Python312\Lib\importlib\resources\_itertools.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:10,961 autoreload File C:\Python312\Lib\email\headerregistry.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:10,961 autoreload File C:\code\splint\venv\Lib\site-packages\django\core\files\storage\memory.py first seen with mtime 1747201971.3580773
+DEBUG 2025-05-23 09:58:10,961 autoreload File C:\Python312\Lib\pkgutil.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:10,961 autoreload File C:\code\splint\venv\Lib\site-packages\dateutil\tz\_common.py first seen with mtime 1747201966.8639452
+DEBUG 2025-05-23 09:58:10,961 autoreload File C:\Python312\Lib\asyncio\protocols.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:10,962 autoreload File C:\code\splint\venv\Lib\site-packages\django\utils\text.py first seen with mtime 1747201971.723102
+DEBUG 2025-05-23 09:58:10,962 autoreload File C:\code\splint\venv\Lib\site-packages\chardet\version.py first seen with mtime 1747811478.4190054
+DEBUG 2025-05-23 09:58:10,962 autoreload File C:\Python312\Lib\re\_compiler.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:10,962 autoreload File C:\code\splint\venv\Lib\site-packages\amqp\serialization.py first seen with mtime 1747201986.2677794
+DEBUG 2025-05-23 09:58:10,963 autoreload File C:\code\splint\venv\Lib\site-packages\django\core\cache\backends\filebased.py first seen with mtime 1747201971.3271601
+DEBUG 2025-05-23 09:58:10,963 autoreload File C:\code\splint\venv\Lib\site-packages\django\contrib\contenttypes\checks.py first seen with mtime 1747201968.8444493
+DEBUG 2025-05-23 09:58:10,963 autoreload File C:\code\splint\venv\Lib\site-packages\django\utils\decorators.py first seen with mtime 1747201971.701161
+DEBUG 2025-05-23 09:58:10,963 autoreload File C:\code\splint\venv\Lib\site-packages\django\contrib\__init__.py first seen with mtime 1747201967.6770177
+DEBUG 2025-05-23 09:58:10,964 autoreload File C:\code\splint\venv\Lib\site-packages\django\templatetags\static.py first seen with mtime 1747201971.6702433
+DEBUG 2025-05-23 09:58:10,967 autoreload File C:\code\splint\venv\Lib\site-packages\django\utils\timezone.py first seen with mtime 1747201971.725097
+DEBUG 2025-05-23 09:58:10,968 autoreload File C:\code\splint\venv\Lib\site-packages\django\http\request.py first seen with mtime 1747201971.6343389
+DEBUG 2025-05-23 09:58:10,968 autoreload File C:\code\splint\venv\Lib\site-packages\django\contrib\admin\views\decorators.py first seen with mtime 1747201968.3621888
+DEBUG 2025-05-23 09:58:10,969 autoreload File C:\code\splint\venv\Lib\site-packages\django\forms\fields.py first seen with mtime 1747201971.5435812
+DEBUG 2025-05-23 09:58:10,969 autoreload File C:\code\splint\venv\Lib\site-packages\requests\auth.py first seen with mtime 1747201966.5467868
+DEBUG 2025-05-23 09:58:10,970 autoreload File C:\code\splint\venv\Lib\site-packages\rest_framework\utils\encoders.py first seen with mtime 1747987091.0525324
+DEBUG 2025-05-23 09:58:10,970 autoreload File C:\Python312\Lib\multiprocessing\process.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:10,972 autoreload File C:\code\splint\venv\Lib\site-packages\billiard\process.py first seen with mtime 1747201965.8022635
+DEBUG 2025-05-23 09:58:10,973 autoreload File C:\Python312\Lib\dataclasses.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:10,973 autoreload File C:\code\splint\venv\Lib\site-packages\dateutil\_common.py first seen with mtime 1747201966.852977
+DEBUG 2025-05-23 09:58:10,974 autoreload File C:\code\splint\venv\Lib\site-packages\chardet\big5prober.py first seen with mtime 1747811478.382102
+DEBUG 2025-05-23 09:58:10,974 autoreload File C:\code\splint\venv\Lib\site-packages\rest_framework\utils\json.py first seen with mtime 1747987091.056522
+DEBUG 2025-05-23 09:58:10,975 autoreload File C:\code\splint\venv\Lib\site-packages\django\core\cache\__init__.py first seen with mtime 1747201971.321176
+DEBUG 2025-05-23 09:58:10,976 autoreload File C:\code\splint\venv\Lib\site-packages\django_filters\exceptions.py first seen with mtime 1747987092.2743537
+DEBUG 2025-05-23 09:58:10,976 autoreload File C:\code\splint\venv\Lib\site-packages\django\core\servers\basehttp.py first seen with mtime 1747201971.4169195
+DEBUG 2025-05-23 09:58:10,977 autoreload File C:\code\splint\venv\Lib\site-packages\amqp\connection.py first seen with mtime 1747201986.263791
+DEBUG 2025-05-23 09:58:10,978 autoreload File C:\Python312\Lib\bisect.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:10,979 autoreload File C:\code\splint\venv\Lib\site-packages\vine\utils.py first seen with mtime 1747201958.2287114
+DEBUG 2025-05-23 09:58:10,979 autoreload File C:\Python312\Lib\asyncio\base_tasks.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:10,980 autoreload File C:\Python312\Lib\multiprocessing\context.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:10,983 autoreload File C:\Python312\Lib\random.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:10,984 autoreload File C:\code\splint\venv\Lib\site-packages\celery\loaders\app.py first seen with mtime 1747201990.2715971
+DEBUG 2025-05-23 09:58:10,984 autoreload File C:\code\splint\venv\Lib\site-packages\yaml\cyaml.py first seen with mtime 1747811456.6332538
+DEBUG 2025-05-23 09:58:10,984 autoreload File C:\code\splint\venv\Lib\site-packages\django_filters\fields.py first seen with mtime 1747987092.275352
+DEBUG 2025-05-23 09:58:10,984 autoreload File C:\Python312\Lib\keyword.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:10,984 autoreload File C:\code\splint\venv\Lib\site-packages\celery\utils\serialization.py first seen with mtime 1747201990.2925408
+DEBUG 2025-05-23 09:58:10,985 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\models\sql\query.py first seen with mtime 1747201971.5356033
+DEBUG 2025-05-23 09:58:10,985 autoreload File C:\code\splint\venv\Lib\site-packages\urllib3\util\timeout.py first seen with mtime 1747201958.365808
+DEBUG 2025-05-23 09:58:10,985 autoreload File C:\code\splint\venv\Lib\site-packages\chardet\escsm.py first seen with mtime 1747811478.3900802
+DEBUG 2025-05-23 09:58:10,985 autoreload File C:\code\splint\venv\Lib\site-packages\django\views\decorators\__init__.py first seen with mtime 1747201971.7420502
+DEBUG 2025-05-23 09:58:10,986 autoreload File C:\code\splint\venv\Lib\site-packages\django\utils\formats.py first seen with mtime 1747201971.707147
+DEBUG 2025-05-23 09:58:10,986 autoreload File C:\code\splint\venv\Lib\site-packages\urllib3\connectionpool.py first seen with mtime 1747201958.339876
+DEBUG 2025-05-23 09:58:10,986 autoreload File C:\code\splint\venv\Lib\site-packages\chardet\charsetgroupprober.py first seen with mtime 1747811478.3840976
+DEBUG 2025-05-23 09:58:10,986 autoreload File C:\code\splint\venv\Lib\site-packages\idna\idnadata.py first seen with mtime 1747201964.967686
+DEBUG 2025-05-23 09:58:10,987 autoreload File C:\Python312\Lib\email\iterators.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:10,987 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\backends\sqlite3\operations.py first seen with mtime 1747201971.472772
+DEBUG 2025-05-23 09:58:10,987 autoreload File C:\Python312\Lib\json\decoder.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:10,987 autoreload File C:\code\splint\venv\Lib\site-packages\billiard\__init__.py first seen with mtime 1747201965.7823167
+DEBUG 2025-05-23 09:58:10,988 autoreload File C:\code\splint\venv\Lib\site-packages\rest_framework\utils\__init__.py first seen with mtime 1747987091.0515354
+DEBUG 2025-05-23 09:58:10,988 autoreload File C:\code\splint\venv\Lib\site-packages\django\conf\locale\__init__.py first seen with mtime 1747201967.3000262
+DEBUG 2025-05-23 09:58:10,988 autoreload File C:\code\splint\venv\Lib\site-packages\markdown\__meta__.py first seen with mtime 1747811470.8170054
+DEBUG 2025-05-23 09:58:10,988 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\models\fields\composite.py first seen with mtime 1747201971.511666
+DEBUG 2025-05-23 09:58:10,989 autoreload File C:\code\splint\venv\Lib\site-packages\requests\status_codes.py first seen with mtime 1747201966.5557623
+DEBUG 2025-05-23 09:58:10,989 autoreload File C:\code\splint\venv\Lib\site-packages\chardet\hebrewprober.py first seen with mtime 1747811478.3960657
+DEBUG 2025-05-23 09:58:10,989 autoreload File C:\code\splint\venv\Lib\site-packages\chardet\mbcsgroupprober.py first seen with mtime 1747811478.4100282
+DEBUG 2025-05-23 09:58:10,990 autoreload File C:\code\splint\venv\Lib\site-packages\kombu\utils\uuid.py first seen with mtime 1747201986.6085932
+DEBUG 2025-05-23 09:58:10,990 autoreload File C:\Python312\Lib\email\message.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:10,990 autoreload File C:\code\splint\venv\Lib\site-packages\billiard\compat.py first seen with mtime 1747201965.7873042
+DEBUG 2025-05-23 09:58:10,990 autoreload File C:\code\splint\venv\Lib\site-packages\django\template\exceptions.py first seen with mtime 1747201971.6512935
+DEBUG 2025-05-23 09:58:10,991 autoreload File C:\code\splint\venv\Lib\site-packages\chardet\langbulgarianmodel.py first seen with mtime 1747811478.4000747
+DEBUG 2025-05-23 09:58:10,991 autoreload File C:\code\splint\venv\Lib\site-packages\requests\structures.py first seen with mtime 1747201966.5567613
+DEBUG 2025-05-23 09:58:10,991 autoreload File C:\code\splint\venv\Lib\site-packages\celery\utils\term.py first seen with mtime 1747201990.2935402
+DEBUG 2025-05-23 09:58:10,991 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\models\aggregates.py first seen with mtime 1747201971.494713
+DEBUG 2025-05-23 09:58:10,992 autoreload File C:\code\splint\venv\Lib\site-packages\django\core\files\temp.py first seen with mtime 1747201971.3510964
+DEBUG 2025-05-23 09:58:10,992 autoreload File C:\code\splint\venv\Lib\site-packages\celery\utils\collections.py first seen with mtime 1747201990.2805731
+DEBUG 2025-05-23 09:58:10,992 autoreload File C:\code\splint\venv\Lib\site-packages\kombu\log.py first seen with mtime 1747201986.5476668
+DEBUG 2025-05-23 09:58:10,992 autoreload File C:\Python312\Lib\asyncio\events.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:10,992 autoreload File C:\code\splint\venv\Lib\site-packages\django\contrib\admin\helpers.py first seen with mtime 1747201967.685996
+DEBUG 2025-05-23 09:58:10,993 autoreload File C:\code\splint\venv\Lib\site-packages\django\utils\log.py first seen with mtime 1747201971.7151227
+DEBUG 2025-05-23 09:58:10,993 autoreload File C:\code\splint\venv\Lib\site-packages\colorama\ansitowin32.py first seen with mtime 1747201965.2490058
+DEBUG 2025-05-23 09:58:10,993 autoreload File C:\code\splint\venv\Lib\site-packages\django\contrib\contenttypes\__init__.py first seen with mtime 1747201968.8414578
+DEBUG 2025-05-23 09:58:10,993 autoreload File C:\Python312\Lib\nturl2path.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:10,994 autoreload File C:\Python312\Lib\logging\__init__.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:10,994 autoreload File C:\code\splint\venv\Lib\site-packages\django_filters\utils.py first seen with mtime 1747987092.2783427
+DEBUG 2025-05-23 09:58:10,994 autoreload File C:\Python312\DLLs\_overlapped.pyd first seen with mtime 1696249630.0
+DEBUG 2025-05-23 09:58:10,994 autoreload File C:\Python312\Lib\dis.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:10,995 autoreload File C:\Python312\Lib\asyncio\windows_utils.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:10,995 autoreload File C:\Python312\Lib\base64.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:10,995 autoreload File C:\code\splint\venv\Lib\site-packages\django\templatetags\__init__.py first seen with mtime 1747201971.666253
+DEBUG 2025-05-23 09:58:10,995 autoreload File C:\code\splint\venv\Lib\site-packages\django\views\debug.py first seen with mtime 1747201971.738061
+DEBUG 2025-05-23 09:58:10,996 autoreload File C:\code\splint\venv\Lib\site-packages\environ\__init__.py first seen with mtime 1747987090.1386418
+DEBUG 2025-05-23 09:58:10,999 autoreload File C:\Python312\Lib\asyncio\selector_events.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:10,999 autoreload File C:\code\splint\venv\Lib\site-packages\rest_framework\apps.py first seen with mtime 1747987090.8100464
+DEBUG 2025-05-23 09:58:10,999 autoreload File C:\code\splint\venv\Lib\site-packages\django\views\i18n.py first seen with mtime 1747201971.7400572
+DEBUG 2025-05-23 09:58:10,999 autoreload File C:\Python312\Lib\shutil.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,000 autoreload File C:\Python312\Lib\asyncio\log.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,000 autoreload File C:\code\splint\venv\Lib\site-packages\billiard\util.py first seen with mtime 1747201965.8102458
+DEBUG 2025-05-23 09:58:11,000 autoreload File C:\code\splint\venv\Lib\site-packages\django\contrib\auth\signals.py first seen with mtime 1747201968.603544
+DEBUG 2025-05-23 09:58:11,000 autoreload File C:\code\splint\venv\Lib\site-packages\django\template\context.py first seen with mtime 1747201971.6463068
+DEBUG 2025-05-23 09:58:11,000 autoreload File C:\code\splint\venv\Lib\site-packages\urllib3\util\ssltransport.py first seen with mtime 1747201958.365808
+DEBUG 2025-05-23 09:58:11,001 autoreload File C:\Python312\Lib\concurrent\futures\__init__.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,001 autoreload File C:\code\splint\venv\Lib\site-packages\django_filters\compat.py first seen with mtime 1747987092.2723594
+DEBUG 2025-05-23 09:58:11,001 autoreload File C:\code\splint\venv\Lib\site-packages\django\views\generic\base.py first seen with mtime 1747201971.752025
+DEBUG 2025-05-23 09:58:11,002 autoreload File C:\Python312\Lib\email\_encoded_words.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,002 autoreload File C:\code\splint\venv\Lib\site-packages\chardet\johabprober.py first seen with mtime 1747811478.3980587
+DEBUG 2025-05-23 09:58:11,002 autoreload File C:\Python312\Lib\wsgiref\handlers.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,002 autoreload File C:\code\splint\venv\Lib\site-packages\django\core\checks\templates.py first seen with mtime 1747201971.3391287
+DEBUG 2025-05-23 09:58:11,003 autoreload File C:\code\splint\venv\Lib\site-packages\django\contrib\postgres\lookups.py first seen with mtime 1747201970.2003386
+DEBUG 2025-05-23 09:58:11,003 autoreload File C:\code\splint\venv\Lib\site-packages\celery\loaders\base.py first seen with mtime 1747201990.2715971
+DEBUG 2025-05-23 09:58:11,003 autoreload File C:\Python312\Lib\asyncio\base_events.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,004 autoreload File C:\Python312\Lib\encodings\utf_8.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,004 autoreload File C:\code\splint\venv\Lib\site-packages\rest_framework\status.py first seen with mtime 1747987090.8343942
+DEBUG 2025-05-23 09:58:11,004 autoreload File C:\code\splint\venv\Lib\site-packages\django\core\management\base.py first seen with mtime 1747201971.3800192
+DEBUG 2025-05-23 09:58:11,005 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\backends\sqlite3\client.py first seen with mtime 1747201971.4687817
+DEBUG 2025-05-23 09:58:11,005 autoreload File C:\code\splint\venv\Lib\site-packages\celery\app\autoretry.py first seen with mtime 1747201990.1878233
+DEBUG 2025-05-23 09:58:11,005 autoreload File C:\code\splint\venv\Lib\site-packages\urllib3\exceptions.py first seen with mtime 1747201958.3418708
+DEBUG 2025-05-23 09:58:11,006 autoreload File C:\code\splint\venv\Lib\site-packages\chardet\gb2312freq.py first seen with mtime 1747811478.3940704
+DEBUG 2025-05-23 09:58:11,006 autoreload File C:\code\splint\venv\Lib\site-packages\urllib3\connection.py first seen with mtime 1747201958.3388772
+DEBUG 2025-05-23 09:58:11,006 autoreload File C:\code\splint\venv\Lib\site-packages\charset_normalizer\constant.py first seen with mtime 1747201965.3736937
+DEBUG 2025-05-23 09:58:11,007 autoreload File C:\code\splint\venv\Lib\site-packages\rest_framework\utils\html.py first seen with mtime 1747987091.0545273
+DEBUG 2025-05-23 09:58:11,007 autoreload File C:\code\splint\venv\Lib\site-packages\django\utils\_os.py first seen with mtime 1747201971.6871977
+DEBUG 2025-05-23 09:58:11,007 autoreload File C:\code\splint\venv\Lib\site-packages\amqp\platform.py first seen with mtime 1747201986.265785
+DEBUG 2025-05-23 09:58:11,008 autoreload File C:\code\splint\venv\Lib\site-packages\asgiref\sync.py first seen with mtime 1747201966.3667538
+DEBUG 2025-05-23 09:58:11,008 autoreload File C:\code\splint\venv\Lib\site-packages\corsheaders\checks.py first seen with mtime 1747813592.7437944
+DEBUG 2025-05-23 09:58:11,008 autoreload File C:\code\splint\venv\Lib\site-packages\django\conf\__init__.py first seen with mtime 1747201967.291054
+DEBUG 2025-05-23 09:58:11,009 autoreload File C:\code\splint\venv\Lib\site-packages\yaml\emitter.py first seen with mtime 1747811456.6342494
+DEBUG 2025-05-23 09:58:11,009 autoreload File C:\code\splint\venv\Lib\site-packages\chardet\latin1prober.py first seen with mtime 1747811478.4070354
+DEBUG 2025-05-23 09:58:11,009 autoreload File C:\code\splint\venv\Lib\site-packages\django\core\handlers\__init__.py first seen with mtime 1747201971.3610694
+DEBUG 2025-05-23 09:58:11,009 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\models\constants.py first seen with mtime 1747201971.4967082
+DEBUG 2025-05-23 09:58:11,010 autoreload File C:\Python312\Lib\importlib\resources\_legacy.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,010 autoreload File C:\Python312\DLLs\_lzma.pyd first seen with mtime 1696249628.0
+DEBUG 2025-05-23 09:58:11,010 autoreload File C:\code\splint\venv\Lib\site-packages\chardet\mbcssm.py first seen with mtime 1747811478.4110243
+DEBUG 2025-05-23 09:58:11,011 autoreload File C:\code\splint\venv\Lib\site-packages\django\contrib\postgres\forms\hstore.py first seen with mtime 1747201970.2282636
+DEBUG 2025-05-23 09:58:11,014 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\backends\base\client.py first seen with mtime 1747201971.4258952
+DEBUG 2025-05-23 09:58:11,015 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\migrations\operations\special.py first seen with mtime 1747201971.4927175
+DEBUG 2025-05-23 09:58:11,015 autoreload File C:\code\splint\venv\Lib\site-packages\yaml\events.py first seen with mtime 1747811456.636245
+DEBUG 2025-05-23 09:58:11,015 autoreload File C:\code\splint\venv\Lib\site-packages\django\dispatch\dispatcher.py first seen with mtime 1747201971.5395918
+DEBUG 2025-05-23 09:58:11,016 autoreload File C:\code\splint\venv\Lib\site-packages\django\forms\forms.py first seen with mtime 1747201971.5445788
+DEBUG 2025-05-23 09:58:11,016 autoreload File C:\Python312\Lib\concurrent\futures\_base.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,016 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\migrations\operations\__init__.py first seen with mtime 1747201971.4887283
+DEBUG 2025-05-23 09:58:11,017 autoreload File C:\code\splint\venv\Lib\site-packages\chardet\euctwfreq.py first seen with mtime 1747811478.393072
+DEBUG 2025-05-23 09:58:11,017 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\models\base.py first seen with mtime 1747201971.4957092
+DEBUG 2025-05-23 09:58:11,017 autoreload File C:\code\splint\financial_analyzer\__init__.py first seen with mtime 1747804378.0
+DEBUG 2025-05-23 09:58:11,017 autoreload File C:\code\splint\venv\Lib\site-packages\django\template\backends\django.py first seen with mtime 1747201971.6582737
+DEBUG 2025-05-23 09:58:11,018 autoreload File C:\code\splint\venv\Lib\site-packages\sqlparse\sql.py first seen with mtime 1747201959.7293317
+DEBUG 2025-05-23 09:58:11,018 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\backends\base\features.py first seen with mtime 1747201971.4278905
+DEBUG 2025-05-23 09:58:11,018 autoreload File C:\code\splint\venv\Lib\site-packages\rest_framework\relations.py first seen with mtime 1747987090.827001
+DEBUG 2025-05-23 09:58:11,019 autoreload File C:\Python312\Lib\zipfile\__main__.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,019 autoreload File C:\code\splint\venv\Lib\site-packages\django\contrib\auth\management\__init__.py first seen with mtime 1747201968.821511
+DEBUG 2025-05-23 09:58:11,019 autoreload File C:\code\splint\venv\Lib\site-packages\urllib3\poolmanager.py first seen with mtime 1747201958.3448613
+DEBUG 2025-05-23 09:58:11,020 autoreload File C:\code\splint\venv\Lib\site-packages\django\template\loaders\base.py first seen with mtime 1747201971.6632607
+DEBUG 2025-05-23 09:58:11,020 autoreload File C:\code\splint\venv\Lib\site-packages\colorama\win32.py first seen with mtime 1747201965.2510002
+DEBUG 2025-05-23 09:58:11,020 autoreload File C:\code\splint\venv\Lib\site-packages\django\utils\termcolors.py first seen with mtime 1747201971.7221038
+DEBUG 2025-05-23 09:58:11,021 autoreload File C:\Python312\Lib\json\__init__.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,021 autoreload File C:\code\splint\venv\Lib\site-packages\urllib3\_collections.py first seen with mtime 1747201958.3358853
+DEBUG 2025-05-23 09:58:11,021 autoreload File C:\code\splint\venv\Lib\site-packages\requests\sessions.py first seen with mtime 1747201966.554765
+DEBUG 2025-05-23 09:58:11,021 autoreload File C:\code\splint\venv\Lib\site-packages\django\core\exceptions.py first seen with mtime 1747201971.3161888
+DEBUG 2025-05-23 09:58:11,021 autoreload File C:\code\splint\venv\Lib\site-packages\charset_normalizer\models.py first seen with mtime 1747201965.377662
+DEBUG 2025-05-23 09:58:11,021 autoreload File C:\code\splint\venv\Lib\site-packages\sqlparse\filters\__init__.py first seen with mtime 1747201959.7363122
+DEBUG 2025-05-23 09:58:11,022 autoreload File C:\code\splint\venv\Lib\site-packages\chardet\chardistribution.py first seen with mtime 1747811478.3830998
+DEBUG 2025-05-23 09:58:11,022 autoreload File C:\code\splint\venv\Lib\site-packages\chardet\escprober.py first seen with mtime 1747811478.389083
+DEBUG 2025-05-23 09:58:11,022 autoreload File C:\code\splint\venv\Lib\site-packages\django\core\checks\database.py first seen with mtime 1747201971.334141
+DEBUG 2025-05-23 09:58:11,023 autoreload File C:\code\splint\venv\Lib\site-packages\asgiref\current_thread_executor.py first seen with mtime 1747201966.3637626
+DEBUG 2025-05-23 09:58:11,023 autoreload File C:\code\splint\venv\Lib\site-packages\celery\utils\log.py first seen with mtime 1747201990.287555
+DEBUG 2025-05-23 09:58:11,023 autoreload File C:\code\splint\venv\Lib\site-packages\django\contrib\sessions\__init__.py first seen with mtime 1747201970.724935
+DEBUG 2025-05-23 09:58:11,024 autoreload File C:\code\splint\venv\Lib\site-packages\requests\utils.py first seen with mtime 1747201966.5577593
+DEBUG 2025-05-23 09:58:11,024 autoreload File C:\code\splint\venv\Lib\site-packages\celery\app\__init__.py first seen with mtime 1747201990.1848297
+DEBUG 2025-05-23 09:58:11,024 autoreload File C:\code\splint\venv\Lib\site-packages\kombu\clocks.py first seen with mtime 1747201986.540685
+DEBUG 2025-05-23 09:58:11,024 autoreload File C:\Python312\Lib\linecache.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,025 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\models\functions\mixins.py first seen with mtime 1747201971.5266266
+DEBUG 2025-05-23 09:58:11,025 autoreload File C:\code\splint\venv\Lib\site-packages\django\contrib\messages\constants.py first seen with mtime 1747201970.1764016
+DEBUG 2025-05-23 09:58:11,025 autoreload File C:\code\splint\venv\Lib\site-packages\django\utils\datastructures.py first seen with mtime 1747201971.6951768
+DEBUG 2025-05-23 09:58:11,025 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\backends\sqlite3\__init__.py first seen with mtime 1747201971.4657905
+DEBUG 2025-05-23 09:58:11,028 autoreload File C:\code\splint\venv\Lib\site-packages\django\core\signing.py first seen with mtime 1747201971.3181841
+DEBUG 2025-05-23 09:58:11,028 autoreload File C:\code\splint\venv\Lib\site-packages\django\contrib\auth\apps.py first seen with mtime 1747201968.5935702
+DEBUG 2025-05-23 09:58:11,029 autoreload File C:\code\splint\venv\Lib\site-packages\yaml\nodes.py first seen with mtime 1747811456.638243
+DEBUG 2025-05-23 09:58:11,029 autoreload File C:\code\splint\venv\Lib\site-packages\django\contrib\admindocs\__init__.py first seen with mtime 1747201968.364183
+DEBUG 2025-05-23 09:58:11,029 autoreload File C:\code\splint\venv\Lib\site-packages\django_filters\conf.py first seen with mtime 1747987092.2733576
+DEBUG 2025-05-23 09:58:11,030 autoreload File C:\code\splint\venv\Lib\site-packages\celery\utils\dispatch\signal.py first seen with mtime 1747201990.2995224
+DEBUG 2025-05-23 09:58:11,030 autoreload File C:\code\splint\venv\Lib\site-packages\django\views\decorators\debug.py first seen with mtime 1747201971.7460413
+DEBUG 2025-05-23 09:58:11,030 autoreload File C:\code\splint\venv\Lib\site-packages\django\core\servers\__init__.py first seen with mtime 1747201971.4169195
+DEBUG 2025-05-23 09:58:11,031 autoreload File C:\code\splint\venv\Lib\site-packages\kombu\utils\imports.py first seen with mtime 1747201986.6016123
+DEBUG 2025-05-23 09:58:11,031 autoreload File C:\code\splint\venv\Lib\site-packages\urllib3\util\util.py first seen with mtime 1747201958.3678
+DEBUG 2025-05-23 09:58:11,031 autoreload File C:\code\splint\venv\Lib\site-packages\celery\utils\text.py first seen with mtime 1747201990.2945373
+DEBUG 2025-05-23 09:58:11,031 autoreload File C:\code\splint\venv\Lib\site-packages\click\_winconsole.py first seen with mtime 1747811478.124815
+DEBUG 2025-05-23 09:58:11,032 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\models\fields\json.py first seen with mtime 1747201971.5146587
+DEBUG 2025-05-23 09:58:11,032 autoreload File C:\code\splint\venv\Lib\site-packages\yaml\parser.py first seen with mtime 1747811456.6392393
+DEBUG 2025-05-23 09:58:11,033 autoreload File C:\code\splint\venv\Lib\site-packages\dateutil\relativedelta.py first seen with mtime 1747201966.8559687
+DEBUG 2025-05-23 09:58:11,033 autoreload File C:\code\splint\venv\Lib\site-packages\django\utils\encoding.py first seen with mtime 1747201971.7051497
+DEBUG 2025-05-23 09:58:11,033 autoreload File C:\code\splint\venv\Lib\site-packages\kombu\utils\objects.py first seen with mtime 1747201986.603607
+DEBUG 2025-05-23 09:58:11,033 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\models\constraints.py first seen with mtime 1747201971.4977036
+DEBUG 2025-05-23 09:58:11,034 autoreload File C:\code\splint\venv\Lib\site-packages\rest_framework\validators.py first seen with mtime 1747987090.8393815
+DEBUG 2025-05-23 09:58:11,034 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\migrations\operations\models.py first seen with mtime 1747201971.4917204
+DEBUG 2025-05-23 09:58:11,035 autoreload File C:\Python312\Lib\subprocess.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,035 autoreload File C:\Python312\Lib\asyncio\coroutines.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,035 autoreload File C:\Python312\Lib\types.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,035 autoreload File C:\Python312\Lib\asyncio\proactor_events.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,036 autoreload File C:\code\splint\venv\Lib\site-packages\chardet\euckrfreq.py first seen with mtime 1747811478.391079
+DEBUG 2025-05-23 09:58:11,036 autoreload File C:\code\splint\venv\Lib\site-packages\django\contrib\auth\base_user.py first seen with mtime 1747201968.5945675
+DEBUG 2025-05-23 09:58:11,036 autoreload File C:\code\splint\venv\Lib\site-packages\django\template\loaders\app_directories.py first seen with mtime 1747201971.662264
+DEBUG 2025-05-23 09:58:11,037 autoreload File C:\code\splint\venv\Lib\site-packages\cffi\api.py first seen with mtime 1747811664.9002795
+DEBUG 2025-05-23 09:58:11,037 autoreload File C:\code\splint\venv\Lib\site-packages\django\views\decorators\cache.py first seen with mtime 1747201971.7420502
+DEBUG 2025-05-23 09:58:11,037 autoreload File C:\code\splint\venv\Lib\site-packages\django\views\decorators\csrf.py first seen with mtime 1747201971.745043
+DEBUG 2025-05-23 09:58:11,038 autoreload File C:\Python312\Lib\importlib\metadata\_itertools.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,038 autoreload File C:\code\splint\venv\Lib\site-packages\chardet\universaldetector.py first seen with mtime 1747811478.4170084
+DEBUG 2025-05-23 09:58:11,038 autoreload File C:\code\splint\venv\Lib\site-packages\dateutil\tz\_factories.py first seen with mtime 1747201966.8639452
+DEBUG 2025-05-23 09:58:11,038 autoreload File C:\Python312\DLLs\_zoneinfo.pyd first seen with mtime 1696249630.0
+DEBUG 2025-05-23 09:58:11,039 autoreload File C:\code\splint\venv\Lib\site-packages\django\utils\tree.py first seen with mtime 1747201971.7260928
+DEBUG 2025-05-23 09:58:11,039 autoreload File C:\Python312\Lib\zoneinfo\__init__.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,039 autoreload File C:\code\splint\venv\Lib\site-packages\django\core\cache\utils.py first seen with mtime 1747201971.322173
+DEBUG 2025-05-23 09:58:11,040 autoreload File C:\code\splint\financial_analyzer\settings.py first seen with mtime 1747990650.410094
+DEBUG 2025-05-23 09:58:11,040 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\models\lookups.py first seen with mtime 1747201971.502691
+DEBUG 2025-05-23 09:58:11,040 autoreload File C:\Python312\Lib\locale.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,040 autoreload File C:\code\splint\venv\Lib\site-packages\urllib3\util\__init__.py first seen with mtime 1747201958.3578277
+DEBUG 2025-05-23 09:58:11,041 autoreload File C:\Python312\Lib\asyncio\timeouts.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,041 autoreload File C:\code\splint\venv\Lib\site-packages\django_celery_beat\__init__.py first seen with mtime 1747245852.4629726
+DEBUG 2025-05-23 09:58:11,041 autoreload File C:\Python312\Lib\xml\etree\__init__.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,042 autoreload File C:\code\splint\venv\Lib\site-packages\django\template\autoreload.py first seen with mtime 1747201971.644312
+DEBUG 2025-05-23 09:58:11,045 autoreload File C:\code\splint\venv\Lib\site-packages\django\template\loader_tags.py first seen with mtime 1747201971.6532896
+DEBUG 2025-05-23 09:58:11,045 autoreload File C:\code\splint\venv\Lib\site-packages\pytz\__init__.py first seen with mtime 1747811453.4538755
+DEBUG 2025-05-23 09:58:11,045 autoreload File C:\Python312\Lib\encodings\__init__.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,046 autoreload File C:\code\splint\venv\Lib\site-packages\django\core\management\color.py first seen with mtime 1747201971.381017
+DEBUG 2025-05-23 09:58:11,046 autoreload File C:\code\splint\venv\Lib\site-packages\pytz\tzinfo.py first seen with mtime 1747811453.4588616
+DEBUG 2025-05-23 09:58:11,046 autoreload File C:\Python312\Lib\mimetypes.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,047 autoreload File C:\code\splint\venv\Lib\site-packages\amqp\spec.py first seen with mtime 1747201986.2688503
+DEBUG 2025-05-23 09:58:11,047 autoreload File C:\code\splint\venv\Lib\site-packages\django\contrib\messages\storage\base.py first seen with mtime 1747201970.1853776
+DEBUG 2025-05-23 09:58:11,047 autoreload File C:\code\splint\venv\Lib\site-packages\django\contrib\admin\utils.py first seen with mtime 1747201967.691978
+DEBUG 2025-05-23 09:58:11,048 autoreload File C:\code\splint\venv\Lib\site-packages\django\utils\inspect.py first seen with mtime 1747201971.712131
+DEBUG 2025-05-23 09:58:11,048 autoreload File C:\code\splint\venv\Lib\site-packages\markdown\blockprocessors.py first seen with mtime 1747811470.8190002
+DEBUG 2025-05-23 09:58:11,048 autoreload File C:\code\splint\venv\Lib\site-packages\django\template\utils.py first seen with mtime 1747201971.6562817
+DEBUG 2025-05-23 09:58:11,049 autoreload File C:\Python312\Lib\email\header.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,049 autoreload File C:\code\splint\venv\Lib\site-packages\django\template\base.py first seen with mtime 1747201971.6463068
+DEBUG 2025-05-23 09:58:11,049 autoreload File C:\Python312\Lib\email\__init__.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,050 autoreload File C:\code\splint\venv\Lib\site-packages\django\core\__init__.py first seen with mtime 1747201971.3141947
+DEBUG 2025-05-23 09:58:11,050 autoreload File C:\code\splint\venv\Lib\site-packages\django\core\files\storage\filesystem.py first seen with mtime 1747201971.3570797
+DEBUG 2025-05-23 09:58:11,050 autoreload File C:\code\splint\venv\Lib\site-packages\django\urls\base.py first seen with mtime 1747201971.681214
+DEBUG 2025-05-23 09:58:11,050 autoreload File C:\code\splint\venv\Lib\site-packages\vine\funtools.py first seen with mtime 1747201958.225718
+DEBUG 2025-05-23 09:58:11,051 autoreload File C:\code\splint\venv\Lib\site-packages\urllib3\_request_methods.py first seen with mtime 1747201958.3368835
+DEBUG 2025-05-23 09:58:11,051 autoreload File C:\code\splint\venv\Lib\site-packages\django\contrib\postgres\__init__.py first seen with mtime 1747201970.1903648
+DEBUG 2025-05-23 09:58:11,051 autoreload File C:\Python312\Lib\graphlib.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,052 autoreload File C:\Python312\Lib\email\base64mime.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,052 autoreload File C:\Python312\Lib\tempfile.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,052 autoreload File C:\code\splint\venv\Lib\site-packages\rest_framework_simplejwt\__init__.py first seen with mtime 1747987092.6463602
+DEBUG 2025-05-23 09:58:11,053 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\models\expressions.py first seen with mtime 1747201971.5006976
+DEBUG 2025-05-23 09:58:11,053 autoreload File C:\code\splint\venv\Lib\site-packages\django\core\checks\model_checks.py first seen with mtime 1747201971.3371341
+DEBUG 2025-05-23 09:58:11,053 autoreload File C:\code\splint\venv\Lib\site-packages\django\core\checks\security\__init__.py first seen with mtime 1747201971.344115
+DEBUG 2025-05-23 09:58:11,054 autoreload File C:\code\splint\venv\Lib\site-packages\celery\app\utils.py first seen with mtime 1747201990.198794
+DEBUG 2025-05-23 09:58:11,054 autoreload File C:\code\splint\venv\Lib\site-packages\amqp\sasl.py first seen with mtime 1747201986.2677794
+DEBUG 2025-05-23 09:58:11,055 autoreload File C:\code\splint\venv\Lib\site-packages\celery\utils\quorum_queues.py first seen with mtime 1747201990.290548
+DEBUG 2025-05-23 09:58:11,055 autoreload File C:\code\splint\venv\Lib\site-packages\chardet\jisfreq.py first seen with mtime 1747811478.3970613
+DEBUG 2025-05-23 09:58:11,055 autoreload File C:\code\splint\venv\Lib\site-packages\brotli.py first seen with mtime 1747811454.3916395
+DEBUG 2025-05-23 09:58:11,056 autoreload File C:\code\splint\venv\Lib\site-packages\chardet\codingstatemachine.py first seen with mtime 1747811478.3850942
+DEBUG 2025-05-23 09:58:11,056 autoreload File C:\Python312\Lib\asyncio\trsock.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,057 autoreload File C:\Python312\Lib\copyreg.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,059 autoreload File C:\code\splint\venv\Lib\site-packages\django\forms\widgets.py first seen with mtime 1747201971.5505633
+DEBUG 2025-05-23 09:58:11,060 autoreload File C:\Python312\Lib\email\encoders.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,060 autoreload File C:\code\splint\venv\Lib\site-packages\django\contrib\auth\checks.py first seen with mtime 1747201968.595565
+DEBUG 2025-05-23 09:58:11,060 autoreload File C:\code\splint\venv\Lib\site-packages\django\forms\__init__.py first seen with mtime 1747201971.5415869
+DEBUG 2025-05-23 09:58:11,060 autoreload File C:\code\splint\venv\Lib\site-packages\django\utils\choices.py first seen with mtime 1747201971.692185
+DEBUG 2025-05-23 09:58:11,060 autoreload File C:\code\splint\venv\Lib\site-packages\django\views\generic\detail.py first seen with mtime 1747201971.755016
+DEBUG 2025-05-23 09:58:11,061 autoreload File C:\Python312\Lib\asyncio\taskgroups.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,061 autoreload File C:\code\splint\venv\Lib\site-packages\django\urls\converters.py first seen with mtime 1747201971.6822107
+DEBUG 2025-05-23 09:58:11,061 autoreload File C:\Python312\Lib\concurrent\futures\thread.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,062 autoreload File C:\Python312\Lib\uuid.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,062 autoreload File C:\code\splint\venv\Lib\site-packages\django_filters\rest_framework\__init__.py first seen with mtime 1747987092.317239
+DEBUG 2025-05-23 09:58:11,062 autoreload File C:\Python312\Lib\importlib\metadata\_adapters.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,063 autoreload File C:\code\splint\venv\Lib\site-packages\django\core\handlers\wsgi.py first seen with mtime 1747201971.3650584
+DEBUG 2025-05-23 09:58:11,063 autoreload File C:\code\splint\venv\Lib\site-packages\chardet\langgreekmodel.py first seen with mtime 1747811478.4010513
+DEBUG 2025-05-23 09:58:11,063 autoreload File C:\code\splint\venv\Lib\site-packages\amqp\method_framing.py first seen with mtime 1747201986.2647872
+DEBUG 2025-05-23 09:58:11,064 autoreload File C:\Python312\Lib\importlib\_abc.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,064 autoreload File C:\Python312\Lib\_weakrefset.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,064 autoreload File C:\code\splint\venv\Lib\site-packages\rest_framework\compat.py first seen with mtime 1747987090.8130379
+DEBUG 2025-05-23 09:58:11,065 autoreload File C:\Python312\Lib\pprint.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,065 autoreload File C:\code\splint\venv\Lib\site-packages\kombu\transport\native_delayed_delivery.py first seen with mtime 1747201986.5836618
+DEBUG 2025-05-23 09:58:11,065 autoreload File C:\code\splint\venv\Lib\site-packages\django\contrib\postgres\validators.py first seen with mtime 1747201970.2113085
+DEBUG 2025-05-23 09:58:11,065 autoreload File C:\code\splint\venv\Lib\site-packages\django\core\files\__init__.py first seen with mtime 1747201971.3471067
+DEBUG 2025-05-23 09:58:11,066 autoreload File C:\code\splint\venv\Lib\site-packages\django\core\checks\messages.py first seen with mtime 1747201971.3361354
+DEBUG 2025-05-23 09:58:11,066 autoreload File C:\code\splint\venv\Lib\site-packages\celery\utils\nodenames.py first seen with mtime 1747201990.2885516
+DEBUG 2025-05-23 09:58:11,066 autoreload File C:\code\splint\venv\Lib\site-packages\chardet\langhebrewmodel.py first seen with mtime 1747811478.4010513
+DEBUG 2025-05-23 09:58:11,066 autoreload File C:\code\splint\venv\Lib\site-packages\celery\utils\time.py first seen with mtime 1747201990.2965317
+DEBUG 2025-05-23 09:58:11,067 autoreload File C:\code\splint\venv\Lib\site-packages\kombu\resource.py first seen with mtime 1747201986.5526533
+DEBUG 2025-05-23 09:58:11,067 autoreload File C:\Python312\Lib\_markupbase.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,067 autoreload File C:\Python312\Lib\asyncio\mixins.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,067 autoreload File C:\code\splint\venv\Lib\site-packages\celery\__init__.py first seen with mtime 1747201990.1738596
+DEBUG 2025-05-23 09:58:11,068 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\transaction.py first seen with mtime 1747201971.4189155
+DEBUG 2025-05-23 09:58:11,068 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\backends\postgresql\__init__.py first seen with mtime 1747201971.4558165
+DEBUG 2025-05-23 09:58:11,068 autoreload File C:\code\splint\venv\Lib\site-packages\django\utils\duration.py first seen with mtime 1747201971.703155
+DEBUG 2025-05-23 09:58:11,068 autoreload File C:\code\splint\venv\Lib\site-packages\rest_framework\utils\urls.py first seen with mtime 1747987091.0635045
+DEBUG 2025-05-23 09:58:11,069 autoreload File C:\Python312\Lib\email\_policybase.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,069 autoreload File C:\code\splint\venv\Lib\site-packages\urllib3\filepost.py first seen with mtime 1747201958.3438644
+DEBUG 2025-05-23 09:58:11,069 autoreload File C:\code\splint\venv\Lib\site-packages\sqlparse\cli.py first seen with mtime 1747201959.7253416
+DEBUG 2025-05-23 09:58:11,069 autoreload File C:\code\splint\venv\Lib\site-packages\django\utils\functional.py first seen with mtime 1747201971.7081409
+DEBUG 2025-05-23 09:58:11,070 autoreload File C:\code\splint\venv\Lib\site-packages\sqlparse\keywords.py first seen with mtime 1747201959.7273371
+DEBUG 2025-05-23 09:58:11,070 autoreload File C:\Python312\Lib\ssl.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,070 autoreload File C:\code\splint\venv\Lib\site-packages\django\contrib\contenttypes\management\__init__.py first seen with mtime 1747201969.1715758
+DEBUG 2025-05-23 09:58:11,070 autoreload File C:\Python312\DLLs\_socket.pyd first seen with mtime 1696249628.0
+DEBUG 2025-05-23 09:58:11,071 autoreload File C:\Python312\Lib\asyncio\__init__.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,071 autoreload File C:\code\splint\venv\Lib\site-packages\chardet\sbcsgroupprober.py first seen with mtime 1747811478.4140174
+DEBUG 2025-05-23 09:58:11,071 autoreload File C:\code\splint\venv\Lib\site-packages\django\forms\utils.py first seen with mtime 1747201971.5495646
+DEBUG 2025-05-23 09:58:11,071 autoreload File C:\code\splint\venv\Lib\site-packages\environ\environ.py first seen with mtime 1747987090.139639
+DEBUG 2025-05-23 09:58:11,072 autoreload File C:\code\splint\venv\Lib\site-packages\idna\__init__.py first seen with mtime 1747201964.9637153
+DEBUG 2025-05-23 09:58:11,074 autoreload File C:\code\splint\venv\Lib\site-packages\requests\api.py first seen with mtime 1747201966.5457897
+DEBUG 2025-05-23 09:58:11,075 autoreload File C:\code\splint\venv\Lib\site-packages\urllib3\util\proxy.py first seen with mtime 1747201958.359822
+DEBUG 2025-05-23 09:58:11,075 autoreload File C:\code\splint\venv\Lib\site-packages\rest_framework_simplejwt\token_blacklist\__init__.py first seen with mtime 1747987092.7170403
+DEBUG 2025-05-23 09:58:11,075 autoreload File C:\code\splint\venv\Lib\site-packages\chardet\big5freq.py first seen with mtime 1747811478.3811057
+DEBUG 2025-05-23 09:58:11,076 autoreload File C:\code\splint\venv\Lib\site-packages\corsheaders\defaults.py first seen with mtime 1747813592.7457876
+DEBUG 2025-05-23 09:58:11,076 autoreload File C:\code\splint\venv\Lib\site-packages\sqlparse\filters\others.py first seen with mtime 1747201959.7393055
+DEBUG 2025-05-23 09:58:11,076 autoreload File C:\code\splint\venv\Lib\site-packages\django\contrib\messages\apps.py first seen with mtime 1747201970.1764016
+DEBUG 2025-05-23 09:58:11,076 autoreload File C:\code\splint\venv\Lib\site-packages\colorama\winterm.py first seen with mtime 1747201965.251997
+DEBUG 2025-05-23 09:58:11,076 autoreload File C:\code\splint\venv\Lib\site-packages\click\parser.py first seen with mtime 1747811478.1295722
+DEBUG 2025-05-23 09:58:11,077 autoreload File C:\code\splint\venv\Lib\site-packages\amqp\__init__.py first seen with mtime 1747201986.2598016
+DEBUG 2025-05-23 09:58:11,077 autoreload File C:\code\splint\venv\Lib\site-packages\django\core\checks\compatibility\__init__.py first seen with mtime 1747201971.3421197
+DEBUG 2025-05-23 09:58:11,077 autoreload File C:\code\splint\venv\Lib\site-packages\requests\models.py first seen with mtime 1747201966.55377
+DEBUG 2025-05-23 09:58:11,078 autoreload File C:\code\splint\venv\Lib\site-packages\django\middleware\__init__.py first seen with mtime 1747201971.635336
+DEBUG 2025-05-23 09:58:11,078 autoreload File C:\code\splint\venv\Lib\site-packages\django\contrib\admin\apps.py first seen with mtime 1747201967.6800103
+DEBUG 2025-05-23 09:58:11,078 autoreload File C:\Python312\Lib\asyncio\streams.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,078 autoreload File C:\code\splint\venv\Lib\site-packages\django\core\checks\security\sessions.py first seen with mtime 1747201971.346109
+DEBUG 2025-05-23 09:58:11,078 autoreload File C:\Python312\Lib\gzip.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,079 autoreload File C:\code\splint\venv\Lib\site-packages\django\contrib\messages\__init__.py first seen with mtime 1747201970.1744068
+DEBUG 2025-05-23 09:58:11,079 autoreload File C:\Python312\Lib\sysconfig.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,080 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\models\fields\related.py first seen with mtime 1747201971.5176508
+DEBUG 2025-05-23 09:58:11,080 autoreload File C:\Python312\Lib\lzma.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,081 autoreload File C:\Python312\Lib\email\mime\__init__.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,081 autoreload File C:\code\splint\venv\Lib\site-packages\django\views\generic\list.py first seen with mtime 1747201971.757012
+DEBUG 2025-05-23 09:58:11,082 autoreload File C:\code\splint\venv\Lib\site-packages\vine\__init__.py first seen with mtime 1747201958.223755
+DEBUG 2025-05-23 09:58:11,082 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\models\sql\datastructures.py first seen with mtime 1747201971.5336082
+DEBUG 2025-05-23 09:58:11,082 autoreload File C:\code\splint\venv\Lib\site-packages\dateutil\tz\tz.py first seen with mtime 1747201966.8649426
+DEBUG 2025-05-23 09:58:11,082 autoreload File C:\code\splint\venv\Lib\site-packages\django\core\paginator.py first seen with mtime 1747201971.3171866
+DEBUG 2025-05-23 09:58:11,083 autoreload File C:\code\splint\venv\Lib\site-packages\chardet\sbcharsetprober.py first seen with mtime 1747811478.4130194
+DEBUG 2025-05-23 09:58:11,083 autoreload File C:\code\splint\venv\Lib\site-packages\rest_framework\fields.py first seen with mtime 1747987090.8180249
+DEBUG 2025-05-23 09:58:11,083 autoreload File C:\code\splint\venv\Lib\site-packages\django\forms\renderers.py first seen with mtime 1747201971.5485675
+DEBUG 2025-05-23 09:58:11,083 autoreload File C:\code\splint\venv\Lib\site-packages\kombu\utils\url.py first seen with mtime 1747201986.6075983
+DEBUG 2025-05-23 09:58:11,084 autoreload File C:\code\splint\venv\Lib\site-packages\idna\core.py first seen with mtime 1747201964.966688
+DEBUG 2025-05-23 09:58:11,084 autoreload File C:\code\splint\venv\Lib\site-packages\kombu\utils\div.py first seen with mtime 1747201986.5986216
+DEBUG 2025-05-23 09:58:11,084 autoreload File C:\code\splint\venv\Lib\site-packages\markdown\postprocessors.py first seen with mtime 1747811470.8239865
+DEBUG 2025-05-23 09:58:11,084 autoreload File C:\code\splint\venv\Lib\site-packages\click\termui.py first seen with mtime 1747811478.1315668
+DEBUG 2025-05-23 09:58:11,085 autoreload File C:\code\splint\venv\Lib\site-packages\requests\__version__.py first seen with mtime 1747201966.542797
+DEBUG 2025-05-23 09:58:11,085 autoreload File C:\Python312\Lib\tokenize.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,085 autoreload File C:\code\splint\venv\Lib\site-packages\yaml\composer.py first seen with mtime 1747811456.6312609
+DEBUG 2025-05-23 09:58:11,085 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\models\functions\comparison.py first seen with mtime 1747201971.5236347
+DEBUG 2025-05-23 09:58:11,086 autoreload File C:\code\splint\venv\Lib\site-packages\django_filters\rest_framework\filters.py first seen with mtime 1747987092.3182364
+DEBUG 2025-05-23 09:58:11,086 autoreload File C:\Python312\Lib\asyncio\base_subprocess.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,086 autoreload File C:\code\splint\venv\Lib\site-packages\click\formatting.py first seen with mtime 1747811478.1285744
+DEBUG 2025-05-23 09:58:11,087 autoreload File C:\code\splint\venv\Lib\site-packages\django\forms\models.py first seen with mtime 1747201971.5475707
+DEBUG 2025-05-23 09:58:11,087 autoreload File C:\code\splint\venv\Lib\site-packages\urllib3\util\ssl_match_hostname.py first seen with mtime 1747201958.3648078
+DEBUG 2025-05-23 09:58:11,087 autoreload File C:\code\splint\venv\Lib\site-packages\django\core\files\utils.py first seen with mtime 1747201971.354089
+DEBUG 2025-05-23 09:58:11,087 autoreload File C:\code\splint\venv\Lib\site-packages\django\contrib\auth\hashers.py first seen with mtime 1747201968.599554
+DEBUG 2025-05-23 09:58:11,090 autoreload File C:\code\splint\venv\Lib\site-packages\kombu\utils\compat.py first seen with mtime 1747201986.596626
+DEBUG 2025-05-23 09:58:11,090 autoreload File C:\code\splint\venv\Lib\site-packages\celery\app\registry.py first seen with mtime 1747201990.1948023
+DEBUG 2025-05-23 09:58:11,090 autoreload File C:\code\splint\venv\Lib\site-packages\vine\promises.py first seen with mtime 1747201958.2267165
+DEBUG 2025-05-23 09:58:11,091 autoreload File C:\code\splint\venv\Lib\site-packages\django\middleware\csrf.py first seen with mtime 1747201971.6403236
+DEBUG 2025-05-23 09:58:11,091 autoreload File C:\code\splint\venv\Lib\site-packages\dateutil\parser\_parser.py first seen with mtime 1747201966.8609557
+DEBUG 2025-05-23 09:58:11,091 autoreload File C:\code\splint\venv\Lib\site-packages\kombu\utils\json.py first seen with mtime 1747201986.602611
+DEBUG 2025-05-23 09:58:11,091 autoreload File C:\code\splint\venv\Lib\site-packages\django\utils\version.py first seen with mtime 1747201971.7270916
+DEBUG 2025-05-23 09:58:11,092 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\models\fields\generated.py first seen with mtime 1747201971.5136619
+DEBUG 2025-05-23 09:58:11,092 autoreload File C:\code\splint\venv\Lib\site-packages\django\urls\conf.py first seen with mtime 1747201971.6822107
+DEBUG 2025-05-23 09:58:11,092 autoreload File C:\code\splint\venv\Lib\site-packages\markdown\preprocessors.py first seen with mtime 1747811470.8249846
+DEBUG 2025-05-23 09:58:11,093 autoreload File C:\code\splint\venv\Lib\site-packages\click\utils.py first seen with mtime 1747811478.1345584
+DEBUG 2025-05-23 09:58:11,093 autoreload File C:\code\splint\venv\Lib\site-packages\celery\utils\imports.py first seen with mtime 1747201990.2865593
+DEBUG 2025-05-23 09:58:11,093 autoreload File C:\code\splint\venv\Lib\site-packages\django\utils\cache.py first seen with mtime 1747201971.6911867
+DEBUG 2025-05-23 09:58:11,093 autoreload File C:\code\splint\venv\Lib\site-packages\urllib3\http2\probe.py first seen with mtime 1747201958.3568294
+DEBUG 2025-05-23 09:58:11,094 autoreload File C:\code\splint\venv\Lib\site-packages\django\core\checks\translation.py first seen with mtime 1747201971.3401248
+DEBUG 2025-05-23 09:58:11,094 autoreload File C:\code\splint\venv\Lib\site-packages\django\core\mail\message.py first seen with mtime 1747201971.367053
+DEBUG 2025-05-23 09:58:11,094 autoreload File C:\Python312\Lib\logging\config.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,094 autoreload File C:\Python312\Lib\logging\handlers.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,094 autoreload File C:\code\splint\venv\Lib\site-packages\colorama\ansi.py first seen with mtime 1747201965.2480097
+DEBUG 2025-05-23 09:58:11,095 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\backends\sqlite3\features.py first seen with mtime 1747201971.4707756
+DEBUG 2025-05-23 09:58:11,095 autoreload File C:\code\splint\venv\Lib\site-packages\chardet\johabfreq.py first seen with mtime 1747811478.3970613
+DEBUG 2025-05-23 09:58:11,095 autoreload File C:\code\splint\venv\Lib\site-packages\corsheaders\__init__.py first seen with mtime 1747813592.7427976
+DEBUG 2025-05-23 09:58:11,096 autoreload File C:\code\splint\venv\Lib\site-packages\django_filters\__init__.py first seen with mtime 1747987092.2713623
+DEBUG 2025-05-23 09:58:11,096 autoreload File C:\code\splint\venv\Lib\site-packages\urllib3\util\wait.py first seen with mtime 1747201958.3687978
+DEBUG 2025-05-23 09:58:11,096 autoreload File C:\code\splint\venv\Lib\site-packages\chardet\gb2312prober.py first seen with mtime 1747811478.3950682
+DEBUG 2025-05-23 09:58:11,097 autoreload File C:\code\splint\venv\Lib\site-packages\django_filters\rest_framework\backends.py first seen with mtime 1747987092.317239
+DEBUG 2025-05-23 09:58:11,097 autoreload File C:\Python312\Lib\asyncio\exceptions.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,097 autoreload File C:\Python312\Lib\email\mime\nonmultipart.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,098 autoreload File C:\code\splint\venv\Lib\site-packages\celery\app\backends.py first seen with mtime 1747201990.1888208
+DEBUG 2025-05-23 09:58:11,098 autoreload File C:\Python312\Lib\importlib\resources\abc.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,098 autoreload File C:\code\splint\venv\Lib\site-packages\chardet\jpcntx.py first seen with mtime 1747811478.399078
+DEBUG 2025-05-23 09:58:11,098 autoreload File C:\code\splint\venv\Lib\site-packages\django\views\decorators\common.py first seen with mtime 1747201971.744045
+DEBUG 2025-05-23 09:58:11,099 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\models\manager.py first seen with mtime 1747201971.5036874
+DEBUG 2025-05-23 09:58:11,099 autoreload File C:\code\splint\venv\Lib\site-packages\django\template\smartif.py first seen with mtime 1747201971.6552823
+DEBUG 2025-05-23 09:58:11,099 autoreload File C:\Python312\Lib\http\cookiejar.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,099 autoreload File C:\code\splint\venv\Lib\site-packages\charset_normalizer\api.py first seen with mtime 1747201965.371678
+DEBUG 2025-05-23 09:58:11,100 autoreload File C:\code\splint\venv\Lib\site-packages\celery\utils\functional.py first seen with mtime 1747201990.2845633
+DEBUG 2025-05-23 09:58:11,100 autoreload File C:\code\splint\venv\Lib\site-packages\dateutil\tz\win.py first seen with mtime 1747201966.866937
+DEBUG 2025-05-23 09:58:11,100 autoreload File C:\code\splint\venv\Lib\site-packages\amqp\abstract_channel.py first seen with mtime 1747201986.2607982
+DEBUG 2025-05-23 09:58:11,100 autoreload File C:\code\splint\venv\Lib\site-packages\celery\exceptions.py first seen with mtime 1747201990.1788452
+DEBUG 2025-05-23 09:58:11,101 autoreload File C:\code\splint\venv\Lib\site-packages\django\core\validators.py first seen with mtime 1747201971.3191817
+DEBUG 2025-05-23 09:58:11,101 autoreload File C:\Python312\Lib\functools.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,101 autoreload File C:\Python312\Lib\contextvars.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,101 autoreload File C:\code\splint\venv\Lib\site-packages\django\template\loaders\filesystem.py first seen with mtime 1747201971.6642587
+DEBUG 2025-05-23 09:58:11,102 autoreload File C:\Python312\DLLs\unicodedata.pyd first seen with mtime 1696249630.0
+DEBUG 2025-05-23 09:58:11,102 autoreload File C:\code\splint\venv\Lib\site-packages\corsheaders\apps.py first seen with mtime 1747813592.7437944
+DEBUG 2025-05-23 09:58:11,102 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\backends\base\operations.py first seen with mtime 1747201971.429885
+DEBUG 2025-05-23 09:58:11,102 autoreload File C:\code\splint\venv\Lib\site-packages\markdown\treeprocessors.py first seen with mtime 1747811470.8279743
+DEBUG 2025-05-23 09:58:11,103 autoreload File C:\Python312\Lib\sqlite3\dbapi2.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,106 autoreload File C:\code\splint\venv\Lib\site-packages\django\core\files\uploadedfile.py first seen with mtime 1747201971.3520944
+DEBUG 2025-05-23 09:58:11,106 autoreload File C:\code\splint\venv\Lib\site-packages\django\contrib\contenttypes\apps.py first seen with mtime 1747201968.8434527
+DEBUG 2025-05-23 09:58:11,107 autoreload File C:\Python312\Lib\argparse.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,107 autoreload File C:\Python312\Lib\re\__init__.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,107 autoreload File C:\code\splint\venv\Lib\site-packages\django\conf\global_settings.py first seen with mtime 1747201967.2920496
+DEBUG 2025-05-23 09:58:11,107 autoreload File C:\Python312\Lib\token.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,107 autoreload File C:\code\splint\venv\Lib\site-packages\kombu\pools.py first seen with mtime 1747201986.5516553
+DEBUG 2025-05-23 09:58:11,108 autoreload File C:\code\splint\venv\Lib\site-packages\kombu\exceptions.py first seen with mtime 1747201986.5466988
+DEBUG 2025-05-23 09:58:11,108 autoreload File C:\Python312\Lib\html\entities.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,108 autoreload File C:\code\splint\venv\Lib\site-packages\django\contrib\admin\checks.py first seen with mtime 1747201967.6810071
+DEBUG 2025-05-23 09:58:11,108 autoreload File C:\Python312\Lib\asyncio\format_helpers.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,109 autoreload File C:\code\splint\venv\Lib\site-packages\django\contrib\staticfiles\finders.py first seen with mtime 1747201971.2992349
+DEBUG 2025-05-23 09:58:11,109 autoreload File C:\code\splint\venv\Lib\site-packages\kombu\transport\__init__.py first seen with mtime 1747201986.5726907
+DEBUG 2025-05-23 09:58:11,109 autoreload File C:\Python312\Lib\multiprocessing\reduction.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,109 autoreload File C:\code\splint\venv\Lib\site-packages\django\template\__init__.py first seen with mtime 1747201971.644312
+DEBUG 2025-05-23 09:58:11,110 autoreload File C:\code\splint\venv\Lib\site-packages\requests\exceptions.py first seen with mtime 1747201966.5507772
+DEBUG 2025-05-23 09:58:11,110 autoreload File C:\Python312\Lib\http\client.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,110 autoreload File C:\code\splint\venv\Lib\site-packages\chardet\charsetprober.py first seen with mtime 1747811478.3850942
+DEBUG 2025-05-23 09:58:11,110 autoreload File C:\Python312\Lib\importlib\resources\_common.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,111 autoreload File C:\code\splint\venv\Lib\site-packages\celery\utils\abstract.py first seen with mtime 1747201990.2785802
+DEBUG 2025-05-23 09:58:11,111 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\backends\sqlite3\creation.py first seen with mtime 1747201971.469779
+DEBUG 2025-05-23 09:58:11,111 autoreload File C:\code\splint\venv\Lib\site-packages\_distutils_hack\__init__.py first seen with mtime 1747987085.6730797
+DEBUG 2025-05-23 09:58:11,111 autoreload File C:\code\splint\venv\Lib\site-packages\django\core\wsgi.py first seen with mtime 1747201971.320179
+DEBUG 2025-05-23 09:58:11,112 autoreload File C:\code\splint\venv\Lib\site-packages\django\http\response.py first seen with mtime 1747201971.635336
+DEBUG 2025-05-23 09:58:11,112 autoreload File C:\Python312\Lib\email\charset.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,112 autoreload File C:\Python312\Lib\email\mime\text.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,112 autoreload File C:\code\splint\venv\Lib\site-packages\sqlparse\engine\grouping.py first seen with mtime 1747201959.7343192
+DEBUG 2025-05-23 09:58:11,113 autoreload File C:\Python312\Lib\collections\abc.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,113 autoreload File C:\code\splint\venv\Lib\site-packages\chardet\enums.py first seen with mtime 1747811478.3880875
+DEBUG 2025-05-23 09:58:11,113 autoreload File C:\code\splint\venv\Lib\site-packages\django\contrib\staticfiles\utils.py first seen with mtime 1747201971.304301
+DEBUG 2025-05-23 09:58:11,113 autoreload File C:\code\splint\venv\Lib\site-packages\django\utils\deconstruct.py first seen with mtime 1747201971.6991653
+DEBUG 2025-05-23 09:58:11,114 autoreload File C:\code\splint\venv\Lib\site-packages\celery\utils\objects.py first seen with mtime 1747201990.2895503
+DEBUG 2025-05-23 09:58:11,114 autoreload File C:\code\splint\venv\Lib\site-packages\greenlet\__init__.py first seen with mtime 1747811472.6404214
+DEBUG 2025-05-23 09:58:11,114 autoreload File C:\code\splint\venv\Lib\site-packages\django\views\generic\__init__.py first seen with mtime 1747201971.7500298
+DEBUG 2025-05-23 09:58:11,114 autoreload File C:\code\splint\venv\Lib\site-packages\colorama\__init__.py first seen with mtime 1747201965.2470117
+DEBUG 2025-05-23 09:58:11,115 autoreload File C:\Python312\Lib\http\cookies.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,115 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\backends\base\validation.py first seen with mtime 1747201971.4318795
+DEBUG 2025-05-23 09:58:11,115 autoreload File C:\Python312\Lib\html\__init__.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,115 autoreload File C:\code\splint\venv\Lib\site-packages\rest_framework\utils\humanize_datetime.py first seen with mtime 1747987091.0555246
+DEBUG 2025-05-23 09:58:11,116 autoreload File C:\code\splint\venv\Lib\site-packages\django_filters\widgets.py first seen with mtime 1747987092.2793405
+DEBUG 2025-05-23 09:58:11,116 autoreload File C:\code\splint\venv\Lib\site-packages\markdown\blockparser.py first seen with mtime 1747811470.8180017
+DEBUG 2025-05-23 09:58:11,116 autoreload File C:\Python312\Lib\email\_header_value_parser.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,116 autoreload File C:\Python312\Lib\email\_parseaddr.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,117 autoreload File C:\code\splint\venv\Lib\site-packages\django\contrib\messages\storage\__init__.py first seen with mtime 1747201970.1833832
+DEBUG 2025-05-23 09:58:11,117 autoreload File C:\Python312\Lib\importlib\metadata\_collections.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,117 autoreload File C:\Python312\Lib\statistics.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,118 autoreload File C:\code\splint\venv\Lib\site-packages\celery\_state.py first seen with mtime 1747201990.1758525
+DEBUG 2025-05-23 09:58:11,118 autoreload File C:\code\splint\venv\Lib\site-packages\django\urls\__init__.py first seen with mtime 1747201971.680216
+DEBUG 2025-05-23 09:58:11,118 autoreload File C:\code\splint\venv\Lib\site-packages\rest_framework\schemas\inspectors.py first seen with mtime 1747987090.9391139
+DEBUG 2025-05-23 09:58:11,118 autoreload File C:\Python312\Lib\email\generator.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,119 autoreload File C:\code\splint\venv\Lib\site-packages\django\template\backends\base.py first seen with mtime 1747201971.6572769
+DEBUG 2025-05-23 09:58:11,121 autoreload File C:\code\splint\venv\Lib\site-packages\django\apps\config.py first seen with mtime 1747201967.289055
+DEBUG 2025-05-23 09:58:11,122 autoreload File C:\code\splint\venv\Lib\site-packages\django\middleware\cache.py first seen with mtime 1747201971.6363342
+DEBUG 2025-05-23 09:58:11,122 autoreload File C:\code\splint\venv\Lib\site-packages\celery\schedules.py first seen with mtime 1747201990.1828341
+DEBUG 2025-05-23 09:58:11,122 autoreload File C:\code\splint\venv\Lib\site-packages\yaml\dumper.py first seen with mtime 1747811456.6342494
+DEBUG 2025-05-23 09:58:11,122 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\backends\sqlite3\introspection.py first seen with mtime 1747201971.4717734
+DEBUG 2025-05-23 09:58:11,123 autoreload File C:\Python312\Lib\inspect.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,123 autoreload File C:\Python312\Lib\difflib.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,123 autoreload File C:\code\splint\venv\Lib\site-packages\django\core\checks\files.py first seen with mtime 1747201971.335139
+DEBUG 2025-05-23 09:58:11,123 autoreload File C:\code\splint\venv\Lib\site-packages\rest_framework\schemas\coreapi.py first seen with mtime 1747987090.9371195
+DEBUG 2025-05-23 09:58:11,124 autoreload File C:\code\splint\venv\Lib\site-packages\yaml\__init__.py first seen with mtime 1747811456.6282673
+DEBUG 2025-05-23 09:58:11,124 autoreload File C:\code\splint\venv\Lib\site-packages\vine\synchronization.py first seen with mtime 1747201958.2277105
+DEBUG 2025-05-23 09:58:11,124 autoreload File C:\code\splint\venv\Lib\site-packages\django\utils\translation\__init__.py first seen with mtime 1747201971.7290854
+DEBUG 2025-05-23 09:58:11,124 autoreload File C:\Python312\Lib\importlib\resources\_adapters.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,125 autoreload File C:\code\splint\venv\Lib\site-packages\django\core\files\images.py first seen with mtime 1747201971.3491008
+DEBUG 2025-05-23 09:58:11,125 autoreload File C:\code\splint\venv\Lib\site-packages\requests\certs.py first seen with mtime 1747201966.547784
+DEBUG 2025-05-23 09:58:11,125 autoreload File C:\Python312\Lib\re\_casefix.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,125 autoreload File C:\code\splint\venv\Lib\site-packages\django\forms\formsets.py first seen with mtime 1747201971.5465739
+DEBUG 2025-05-23 09:58:11,125 autoreload File C:\code\splint\venv\Lib\site-packages\django\core\handlers\exception.py first seen with mtime 1747201971.3640616
+DEBUG 2025-05-23 09:58:11,126 autoreload File C:\code\splint\venv\Lib\site-packages\asgiref\__init__.py first seen with mtime 1747201966.3617883
+DEBUG 2025-05-23 09:58:11,126 autoreload File C:\Python312\Lib\decimal.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,126 autoreload File C:\Python312\Lib\threading.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,126 autoreload File C:\code\splint\venv\Lib\site-packages\django\core\checks\security\csrf.py first seen with mtime 1747201971.345112
+DEBUG 2025-05-23 09:58:11,127 autoreload File C:\Python312\Lib\numbers.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,127 autoreload File C:\code\splint\venv\Lib\site-packages\yaml\resolver.py first seen with mtime 1747811456.6442244
+DEBUG 2025-05-23 09:58:11,127 autoreload File C:\Python312\Lib\http\server.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,127 autoreload File C:\code\splint\venv\Lib\site-packages\chardet\utf1632prober.py first seen with mtime 1747811478.418007
+DEBUG 2025-05-23 09:58:11,127 autoreload File C:\Python312\Lib\ctypes\wintypes.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,127 autoreload File C:\code\splint\venv\Lib\site-packages\dateutil\parser\isoparser.py first seen with mtime 1747201966.8619504
+DEBUG 2025-05-23 09:58:11,127 autoreload File C:\code\splint\venv\Lib\site-packages\django\core\checks\registry.py first seen with mtime 1747201971.3381307
+DEBUG 2025-05-23 09:58:11,127 autoreload File C:\Python312\Lib\email\quoprimime.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,129 autoreload File C:\code\splint\venv\Lib\site-packages\django\core\handlers\base.py first seen with mtime 1747201971.3630648
+DEBUG 2025-05-23 09:58:11,129 autoreload File C:\code\splint\venv\Lib\site-packages\django\utils\crypto.py first seen with mtime 1747201971.6941793
+DEBUG 2025-05-23 09:58:11,129 autoreload File C:\code\splint\venv\Lib\site-packages\dateutil\_version.py first seen with mtime 1747201966.8539739
+DEBUG 2025-05-23 09:58:11,129 autoreload File C:\Python312\Lib\email\utils.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,129 autoreload File C:\Python312\Lib\pickle.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,129 autoreload File C:\code\splint\venv\Lib\site-packages\urllib3\util\request.py first seen with mtime 1747201958.3608222
+DEBUG 2025-05-23 09:58:11,129 autoreload File C:\code\splint\venv\Lib\site-packages\celery\app\builtins.py first seen with mtime 1747201990.1908133
+DEBUG 2025-05-23 09:58:11,130 autoreload File C:\Python312\Lib\asyncio\futures.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,130 autoreload File C:\code\splint\venv\Lib\site-packages\certifi\core.py first seen with mtime 1747201965.7164953
+DEBUG 2025-05-23 09:58:11,130 autoreload File C:\code\splint\venv\Lib\site-packages\django\utils\lorem_ipsum.py first seen with mtime 1747201971.71612
+DEBUG 2025-05-23 09:58:11,130 autoreload File C:\Python312\Lib\selectors.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,131 autoreload File C:\code\splint\venv\Lib\site-packages\greenlet\_greenlet.cp312-win_amd64.pyd first seen with mtime 1747811472.6434107
+DEBUG 2025-05-23 09:58:11,131 autoreload File C:\Python312\Lib\json\encoder.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,131 autoreload File C:\code\splint\venv\Lib\site-packages\django\contrib\admin\options.py first seen with mtime 1747201967.6879885
+DEBUG 2025-05-23 09:58:11,131 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\backends\sqlite3\base.py first seen with mtime 1747201971.4677844
+DEBUG 2025-05-23 09:58:11,131 autoreload File C:\Python312\Lib\email\errors.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,133 autoreload File C:\Python312\DLLs\_ssl.pyd first seen with mtime 1696249630.0
+DEBUG 2025-05-23 09:58:11,133 autoreload File C:\code\splint\venv\Lib\site-packages\billiard\exceptions.py first seen with mtime 1747201965.7922912
+DEBUG 2025-05-23 09:58:11,133 autoreload File C:\code\splint\venv\Lib\site-packages\chardet\codingstatemachinedict.py first seen with mtime 1747811478.3860912
+DEBUG 2025-05-23 09:58:11,133 autoreload File C:\code\splint\venv\Lib\site-packages\django\core\files\move.py first seen with mtime 1747201971.3500981
+DEBUG 2025-05-23 09:58:11,135 autoreload File C:\Python312\Lib\contextlib.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,135 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\models\indexes.py first seen with mtime 1747201971.501798
+DEBUG 2025-05-23 09:58:11,137 autoreload File C:\code\splint\venv\Lib\site-packages\chardet\euctwprober.py first seen with mtime 1747811478.393072
+DEBUG 2025-05-23 09:58:11,137 autoreload File C:\code\splint\venv\Lib\site-packages\django\contrib\admin\widgets.py first seen with mtime 1747201967.6929753
+DEBUG 2025-05-23 09:58:11,137 autoreload File C:\code\splint\venv\Lib\site-packages\django\core\checks\caches.py first seen with mtime 1747201971.3321471
+DEBUG 2025-05-23 09:58:11,137 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\backends\base\schema.py first seen with mtime 1747201971.4308825
+DEBUG 2025-05-23 09:58:11,137 autoreload File C:\Python312\Lib\platform.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,137 autoreload File C:\code\splint\venv\Lib\site-packages\chardet\euckrprober.py first seen with mtime 1747811478.3920765
+DEBUG 2025-05-23 09:58:11,137 autoreload File C:\Python312\Lib\asyncio\base_futures.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,138 autoreload File C:\Python312\Lib\urllib\error.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,138 autoreload File C:\code\splint\venv\Lib\site-packages\django\core\management\commands\runserver.py first seen with mtime 1747201971.3989687
+DEBUG 2025-05-23 09:58:11,138 autoreload File C:\code\splint\venv\Lib\site-packages\django\templatetags\i18n.py first seen with mtime 1747201971.6682482
+DEBUG 2025-05-23 09:58:11,138 autoreload File C:\Python312\Lib\asyncio\subprocess.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,138 autoreload File C:\code\splint\venv\Lib\site-packages\celery\app\base.py first seen with mtime 1747201990.189816
+DEBUG 2025-05-23 09:58:11,139 autoreload File C:\code\splint\venv\Lib\site-packages\charset_normalizer\md.cp312-win_amd64.pyd first seen with mtime 1747201965.374669
+DEBUG 2025-05-23 09:58:11,139 autoreload File C:\code\splint\venv\Lib\site-packages\django\apps\registry.py first seen with mtime 1747201967.2900534
+DEBUG 2025-05-23 09:58:11,139 autoreload File C:\code\splint\venv\Lib\site-packages\django\utils\dateparse.py first seen with mtime 1747201971.69717
+DEBUG 2025-05-23 09:58:11,139 autoreload File C:\code\splint\venv\Lib\site-packages\pytz\tzfile.py first seen with mtime 1747811453.457865
+DEBUG 2025-05-23 09:58:11,140 autoreload File C:\code\splint\venv\Lib\site-packages\django\contrib\admindocs\utils.py first seen with mtime 1747201968.3681724
+DEBUG 2025-05-23 09:58:11,140 autoreload File C:\Python312\Lib\wsgiref\simple_server.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,140 autoreload File C:\Python312\Lib\queue.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,140 autoreload File C:\code\splint\venv\Lib\site-packages\django\http\cookie.py first seen with mtime 1747201971.6323435
+DEBUG 2025-05-23 09:58:11,141 autoreload File C:\code\splint\venv\Lib\site-packages\django\contrib\admin\exceptions.py first seen with mtime 1747201967.6820047
+DEBUG 2025-05-23 09:58:11,141 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\models\functions\text.py first seen with mtime 1747201971.5286212
+DEBUG 2025-05-23 09:58:11,141 autoreload File C:\code\splint\venv\Lib\site-packages\django_filters\constants.py first seen with mtime 1747987092.2733576
+DEBUG 2025-05-23 09:58:11,141 autoreload File C:\code\splint\venv\Lib\site-packages\django\template\response.py first seen with mtime 1747201971.6542866
+DEBUG 2025-05-23 09:58:11,141 autoreload File C:\code\splint\venv\Lib\site-packages\django\core\checks\async_checks.py first seen with mtime 1747201971.3321471
+DEBUG 2025-05-23 09:58:11,142 autoreload File C:\code\splint\venv\Lib\site-packages\chardet\langrussianmodel.py first seen with mtime 1747811478.403046
+DEBUG 2025-05-23 09:58:11,142 autoreload File C:\code\splint\venv\Lib\site-packages\django\core\files\base.py first seen with mtime 1747201971.3481047
+DEBUG 2025-05-23 09:58:11,142 autoreload File C:\code\splint\venv\Lib\site-packages\celery\utils\threads.py first seen with mtime 1747201990.2955348
+DEBUG 2025-05-23 09:58:11,143 autoreload File C:\code\splint\venv\Lib\site-packages\django\core\management\__init__.py first seen with mtime 1747201971.3780253
+DEBUG 2025-05-23 09:58:11,143 autoreload File C:\code\splint\venv\Lib\site-packages\django_filters\filterset.py first seen with mtime 1747987092.2773454
+DEBUG 2025-05-23 09:58:11,143 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\models\fields\reverse_related.py first seen with mtime 1747201971.5206425
+DEBUG 2025-05-23 09:58:11,143 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\models\options.py first seen with mtime 1747201971.5046852
+DEBUG 2025-05-23 09:58:11,143 autoreload File C:\Python312\Lib\importlib\metadata\__init__.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,144 autoreload File C:\code\splint\venv\Lib\site-packages\amqp\utils.py first seen with mtime 1747201986.27083
+DEBUG 2025-05-23 09:58:11,144 autoreload File C:\Python312\Lib\importlib\resources\readers.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,144 autoreload File C:\code\splint\venv\Lib\site-packages\urllib3\__init__.py first seen with mtime 1747201958.3338904
+DEBUG 2025-05-23 09:58:11,144 autoreload File C:\code\splint\venv\Lib\site-packages\django\core\files\storage\base.py first seen with mtime 1747201971.356083
+DEBUG 2025-05-23 09:58:11,145 autoreload File C:\Python312\Lib\ipaddress.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,145 autoreload File C:\code\splint\venv\Lib\site-packages\yaml\scanner.py first seen with mtime 1747811456.6462185
+DEBUG 2025-05-23 09:58:11,145 autoreload File C:\code\splint\venv\Lib\site-packages\django\contrib\messages\utils.py first seen with mtime 1747201970.1813889
+DEBUG 2025-05-23 09:58:11,145 autoreload File C:\code\splint\venv\Lib\site-packages\django\contrib\messages\api.py first seen with mtime 1747201970.1754043
+DEBUG 2025-05-23 09:58:11,146 autoreload File C:\Python312\Lib\datetime.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,146 autoreload File C:\code\splint\venv\Lib\site-packages\yaml\serializer.py first seen with mtime 1747811456.6472158
+DEBUG 2025-05-23 09:58:11,146 autoreload File C:\code\splint\venv\Lib\site-packages\rest_framework\utils\serializer_helpers.py first seen with mtime 1747987091.0595138
+DEBUG 2025-05-23 09:58:11,146 autoreload File C:\Python312\Lib\email\contentmanager.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,147 autoreload File C:\code\splint\venv\Lib\site-packages\chardet\mbcharsetprober.py first seen with mtime 1747811478.409031
+DEBUG 2025-05-23 09:58:11,147 autoreload File C:\code\splint\venv\Lib\site-packages\django\core\mail\__init__.py first seen with mtime 1747201971.366056
+DEBUG 2025-05-23 09:58:11,147 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\models\sql\where.py first seen with mtime 1747201971.5375977
+DEBUG 2025-05-23 09:58:11,148 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\models\fields\proxy.py first seen with mtime 1747201971.5166535
+DEBUG 2025-05-23 09:58:11,148 autoreload File C:\code\splint\venv\Lib\site-packages\django\http\__init__.py first seen with mtime 1747201971.6313465
+DEBUG 2025-05-23 09:58:11,148 autoreload File C:\code\splint\venv\Lib\site-packages\rest_framework\renderers.py first seen with mtime 1747987090.8284228
+DEBUG 2025-05-23 09:58:11,148 autoreload File C:\code\splint\venv\Lib\site-packages\django\template\loaders\cached.py first seen with mtime 1747201971.6632607
+DEBUG 2025-05-23 09:58:11,149 autoreload File C:\code\splint\venv\Lib\site-packages\markdown\core.py first seen with mtime 1747811470.8209941
+DEBUG 2025-05-23 09:58:11,151 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\models\functions\datetime.py first seen with mtime 1747201971.524633
+DEBUG 2025-05-23 09:58:11,152 autoreload File C:\code\splint\venv\Lib\site-packages\sqlparse\filters\output.py first seen with mtime 1747201959.7403018
+DEBUG 2025-05-23 09:58:11,152 autoreload File C:\code\splint\venv\Lib\site-packages\django\utils\dateformat.py first seen with mtime 1747201971.6961741
+DEBUG 2025-05-23 09:58:11,152 autoreload File C:\Python312\Lib\ast.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,153 autoreload File C:\Python312\Lib\urllib\request.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,153 autoreload File C:\code\splint\venv\Lib\site-packages\django\core\checks\security\base.py first seen with mtime 1747201971.345112
+DEBUG 2025-05-23 09:58:11,154 autoreload File C:\Python312\Lib\glob.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,154 autoreload File C:\code\splint\venv\Lib\site-packages\vine\abstract.py first seen with mtime 1747201958.2247224
+DEBUG 2025-05-23 09:58:11,155 autoreload File C:\code\splint\venv\Lib\site-packages\sqlparse\filters\reindent.py first seen with mtime 1747201959.7412987
+DEBUG 2025-05-23 09:58:11,155 autoreload File C:\code\splint\venv\Lib\site-packages\requests\cookies.py first seen with mtime 1747201966.5497787
+DEBUG 2025-05-23 09:58:11,155 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\models\functions\__init__.py first seen with mtime 1747201971.5226378
+DEBUG 2025-05-23 09:58:11,156 autoreload File C:\code\splint\venv\Lib\site-packages\sqlparse\filters\right_margin.py first seen with mtime 1747201959.742296
+DEBUG 2025-05-23 09:58:11,156 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\backends\__init__.py first seen with mtime 1747201971.420909
+DEBUG 2025-05-23 09:58:11,156 autoreload File C:\code\splint\venv\Lib\site-packages\django\utils\regex_helper.py first seen with mtime 1747201971.7191257
+DEBUG 2025-05-23 09:58:11,157 autoreload File C:\code\splint\venv\Lib\site-packages\rest_framework\utils\field_mapping.py first seen with mtime 1747987091.0535295
+DEBUG 2025-05-23 09:58:11,157 autoreload File C:\Python312\DLLs\_asyncio.pyd first seen with mtime 1696249628.0
+DEBUG 2025-05-23 09:58:11,157 autoreload File C:\code\splint\venv\Lib\site-packages\rest_framework\utils\formatting.py first seen with mtime 1747987091.0545273
+DEBUG 2025-05-23 09:58:11,158 autoreload File C:\code\splint\venv\Lib\site-packages\django\contrib\admindocs\views.py first seen with mtime 1747201968.36917
+DEBUG 2025-05-23 09:58:11,158 autoreload File C:\code\splint\venv\Lib\site-packages\django\template\backends\__init__.py first seen with mtime 1747201971.6572769
+DEBUG 2025-05-23 09:58:11,158 autoreload File C:\Python312\Lib\encodings\aliases.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,158 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\models\sql\constants.py first seen with mtime 1747201971.5326107
+DEBUG 2025-05-23 09:58:11,159 autoreload File C:\Python312\Lib\http\__init__.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,159 autoreload File C:\Python312\Lib\typing.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,159 autoreload File C:\code\splint\venv\Lib\site-packages\django\template\loaders\__init__.py first seen with mtime 1747201971.6612663
+DEBUG 2025-05-23 09:58:11,159 autoreload File C:\code\splint\venv\Lib\site-packages\urllib3\contrib\__init__.py first seen with mtime 1747201958.3468895
+DEBUG 2025-05-23 09:58:11,160 autoreload File C:\code\splint\venv\Lib\site-packages\click\_compat.py first seen with mtime 1747811478.121823
+DEBUG 2025-05-23 09:58:11,160 autoreload File C:\code\splint\venv\Lib\site-packages\amqp\exceptions.py first seen with mtime 1747201986.2647872
+DEBUG 2025-05-23 09:58:11,160 autoreload File C:\Python312\Lib\wsgiref\__init__.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,160 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\models\fields\tuple_lookups.py first seen with mtime 1747201971.521641
+DEBUG 2025-05-23 09:58:11,161 autoreload File C:\code\splint\venv\Lib\site-packages\yaml\tokens.py first seen with mtime 1747811456.6482136
+DEBUG 2025-05-23 09:58:11,161 autoreload File C:\Python312\Lib\quopri.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,161 autoreload File C:\code\splint\venv\Lib\site-packages\django\core\serializers\json.py first seen with mtime 1747201971.4129312
+DEBUG 2025-05-23 09:58:11,161 autoreload File C:\code\splint\venv\Lib\site-packages\django\core\signals.py first seen with mtime 1747201971.3171866
+DEBUG 2025-05-23 09:58:11,162 autoreload File C:\code\splint\venv\Lib\site-packages\celery\app\defaults.py first seen with mtime 1747201990.1928084
+DEBUG 2025-05-23 09:58:11,162 autoreload File C:\Python312\Lib\email\parser.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,162 autoreload File C:\code\splint\venv\Lib\site-packages\celery\loaders\__init__.py first seen with mtime 1747201990.2696028
+DEBUG 2025-05-23 09:58:11,162 autoreload File C:\Python312\Lib\sqlite3\__init__.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,163 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\migrations\utils.py first seen with mtime 1747201971.4867325
+DEBUG 2025-05-23 09:58:11,163 autoreload File C:\code\splint\venv\Lib\site-packages\django\utils\ipv6.py first seen with mtime 1747201971.7131293
+DEBUG 2025-05-23 09:58:11,163 autoreload File C:\code\splint\venv\Lib\site-packages\kombu\utils\__init__.py first seen with mtime 1747201986.5946343
+DEBUG 2025-05-23 09:58:11,163 autoreload File C:\Python312\Lib\urllib\response.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,164 autoreload File C:\Python312\Lib\xml\__init__.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,166 autoreload File C:\Python312\Lib\__future__.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,166 autoreload File C:\Python312\Lib\traceback.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,167 autoreload File C:\code\splint\venv\Lib\site-packages\django\dispatch\__init__.py first seen with mtime 1747201971.5385952
+DEBUG 2025-05-23 09:58:11,167 autoreload File C:\Python312\Lib\asyncio\locks.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,167 autoreload File C:\code\splint\venv\Lib\site-packages\rest_framework\schemas\generators.py first seen with mtime 1747987090.938116
+DEBUG 2025-05-23 09:58:11,167 autoreload File C:\code\splint\venv\Lib\site-packages\django\contrib\postgres\utils.py first seen with mtime 1747201970.2093136
+DEBUG 2025-05-23 09:58:11,168 autoreload File C:\code\splint\venv\Lib\site-packages\yaml\error.py first seen with mtime 1747811456.6352594
+DEBUG 2025-05-23 09:58:11,168 autoreload File C:\Python312\Lib\reprlib.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,168 autoreload File C:\code\splint\venv\Lib\site-packages\django\contrib\postgres\search.py first seen with mtime 1747201970.206322
+DEBUG 2025-05-23 09:58:11,169 autoreload File C:\code\splint\venv\Lib\site-packages\django\core\cache\backends\__init__.py first seen with mtime 1747201971.3231707
+DEBUG 2025-05-23 09:58:11,169 autoreload File C:\code\splint\venv\Lib\site-packages\django\contrib\auth\decorators.py first seen with mtime 1747201968.597559
+DEBUG 2025-05-23 09:58:11,169 autoreload File C:\code\splint\venv\Lib\site-packages\django\views\__init__.py first seen with mtime 1747201971.7360668
+DEBUG 2025-05-23 09:58:11,170 autoreload File C:\code\splint\venv\Lib\site-packages\django\contrib\staticfiles\apps.py first seen with mtime 1747201971.29724
+DEBUG 2025-05-23 09:58:11,170 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\backends\signals.py first seen with mtime 1747201971.4229045
+DEBUG 2025-05-23 09:58:11,170 autoreload File C:\Python312\Lib\importlib\metadata\_functools.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,170 autoreload File C:\Python312\Lib\_compat_pickle.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,171 autoreload File C:\code\splint\venv\Lib\site-packages\yaml\_yaml.cp312-win_amd64.pyd first seen with mtime 1747811456.6302614
+DEBUG 2025-05-23 09:58:11,171 autoreload File C:\Python312\Lib\ctypes\_endian.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,172 autoreload File C:\code\splint\venv\Lib\site-packages\django\templatetags\l10n.py first seen with mtime 1747201971.669246
+DEBUG 2025-05-23 09:58:11,172 autoreload File C:\code\splint\venv\Lib\site-packages\chardet\macromanprober.py first seen with mtime 1747811478.408034
+DEBUG 2025-05-23 09:58:11,172 autoreload File C:\code\splint\venv\Lib\site-packages\sqlparse\tokens.py first seen with mtime 1747201959.730328
+DEBUG 2025-05-23 09:58:11,172 autoreload File C:\code\splint\venv\Lib\site-packages\celery\platforms.py first seen with mtime 1747201990.1808412
+DEBUG 2025-05-23 09:58:11,173 autoreload File C:\code\splint\venv\Lib\site-packages\billiard\context.py first seen with mtime 1747201965.7902968
+DEBUG 2025-05-23 09:58:11,173 autoreload File C:\Python312\Lib\importlib\metadata\_text.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,173 autoreload File C:\Python312\Lib\asyncio\threads.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,174 autoreload File C:\Python312\Lib\email\mime\base.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,174 autoreload File C:\code\splint\venv\Lib\site-packages\click\core.py first seen with mtime 1747811478.1258123
+DEBUG 2025-05-23 09:58:11,174 autoreload File C:\code\splint\venv\Lib\site-packages\kombu\utils\collections.py first seen with mtime 1747201986.596626
+DEBUG 2025-05-23 09:58:11,175 autoreload File C:\code\splint\venv\Lib\site-packages\rest_framework\utils\representation.py first seen with mtime 1747987091.0585167
+DEBUG 2025-05-23 09:58:11,175 autoreload File C:\code\splint\venv\Lib\site-packages\pytz\lazy.py first seen with mtime 1747811453.4558704
+DEBUG 2025-05-23 09:58:11,175 autoreload File C:\Python312\Lib\asyncio\tasks.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,176 autoreload File C:\code\splint\venv\Lib\site-packages\django\templatetags\cache.py first seen with mtime 1747201971.66725
+DEBUG 2025-05-23 09:58:11,176 autoreload File C:\Python312\DLLs\_sqlite3.pyd first seen with mtime 1696249630.0
+DEBUG 2025-05-23 09:58:11,176 autoreload File C:\Python312\Lib\operator.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,176 autoreload File C:\Python312\Lib\asyncio\staggered.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,177 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\migrations\operations\fields.py first seen with mtime 1747201971.4907227
+DEBUG 2025-05-23 09:58:11,177 autoreload File C:\code\splint\venv\Lib\site-packages\django\utils\deprecation.py first seen with mtime 1747201971.7021573
+DEBUG 2025-05-23 09:58:11,177 autoreload File C:\code\splint\venv\Lib\site-packages\yaml\reader.py first seen with mtime 1747811456.6412332
+DEBUG 2025-05-23 09:58:11,178 autoreload File C:\Python312\Lib\asyncio\transports.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,178 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\models\query.py first seen with mtime 1747201971.5066807
+DEBUG 2025-05-23 09:58:11,178 autoreload File C:\Python312\Lib\zipfile\_path\__init__.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,179 autoreload File C:\Python312\Lib\gettext.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,179 autoreload File C:\code\splint\venv\Lib\site-packages\rest_framework\schemas\utils.py first seen with mtime 1747987090.9411082
+DEBUG 2025-05-23 09:58:11,180 autoreload File C:\code\splint\venv\Lib\site-packages\chardet\eucjpprober.py first seen with mtime 1747811478.3900802
+DEBUG 2025-05-23 09:58:11,183 autoreload File C:\Python312\DLLs\_ctypes.pyd first seen with mtime 1696249628.0
+DEBUG 2025-05-23 09:58:11,183 autoreload File C:\code\splint\venv\Lib\site-packages\rest_framework\mixins.py first seen with mtime 1747987090.8230119
+DEBUG 2025-05-23 09:58:11,183 autoreload File C:\code\splint\venv\Lib\site-packages\celery\signals.py first seen with mtime 1747201990.1828341
+DEBUG 2025-05-23 09:58:11,183 autoreload File C:\Python312\Lib\encodings\idna.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,184 autoreload File C:\code\splint\venv\Lib\site-packages\rest_framework_simplejwt\token_blacklist\apps.py first seen with mtime 1747987092.7200322
+DEBUG 2025-05-23 09:58:11,184 autoreload File C:\code\splint\venv\Lib\site-packages\chardet\resultdict.py first seen with mtime 1747811478.4120252
+DEBUG 2025-05-23 09:58:11,184 autoreload File C:\code\splint\venv\Lib\site-packages\sqlparse\engine\statement_splitter.py first seen with mtime 1747201959.735316
+DEBUG 2025-05-23 09:58:11,185 autoreload File C:\code\splint\venv\Lib\site-packages\chardet\sjisprober.py first seen with mtime 1747811478.4160123
+DEBUG 2025-05-23 09:58:11,185 autoreload File C:\Python312\Lib\secrets.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,185 autoreload File C:\Python312\DLLs\_queue.pyd first seen with mtime 1696249628.0
+DEBUG 2025-05-23 09:58:11,185 autoreload File C:\code\splint\venv\Lib\site-packages\requests\adapters.py first seen with mtime 1747201966.5447917
+DEBUG 2025-05-23 09:58:11,186 autoreload File C:\code\splint\venv\Lib\site-packages\colorama\initialise.py first seen with mtime 1747201965.2500029
+DEBUG 2025-05-23 09:58:11,186 autoreload File C:\Python312\DLLs\_bz2.pyd first seen with mtime 1696249630.0
+DEBUG 2025-05-23 09:58:11,186 autoreload File C:\code\splint\venv\Lib\site-packages\urllib3\response.py first seen with mtime 1747201958.3468895
+DEBUG 2025-05-23 09:58:11,187 autoreload File C:\code\splint\venv\Lib\site-packages\six.py first seen with mtime 1747201960.414263
+DEBUG 2025-05-23 09:58:11,187 autoreload File C:\Python312\Lib\zoneinfo\_tzpath.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,187 autoreload File C:\code\splint\venv\Lib\site-packages\click\globals.py first seen with mtime 1747811478.1285744
+DEBUG 2025-05-23 09:58:11,187 autoreload File C:\Python312\Lib\getpass.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,188 autoreload File C:\code\splint\venv\Lib\site-packages\click\types.py first seen with mtime 1747811478.1335616
+DEBUG 2025-05-23 09:58:11,188 autoreload File C:\Python312\DLLs\_uuid.pyd first seen with mtime 1696249628.0
+DEBUG 2025-05-23 09:58:11,188 autoreload File C:\code\splint\venv\Lib\site-packages\django\core\checks\compatibility\django_4_0.py first seen with mtime 1747201971.343117
+DEBUG 2025-05-23 09:58:11,188 autoreload File C:\code\splint\venv\Lib\site-packages\requests\hooks.py first seen with mtime 1747201966.551775
+DEBUG 2025-05-23 09:58:11,189 autoreload File C:\code\splint\venv\Lib\site-packages\celery\fixups\__init__.py first seen with mtime 1747201990.2676091
+DEBUG 2025-05-23 09:58:11,189 autoreload File C:\Python312\Lib\asyncio\windows_events.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,189 autoreload File C:\Python312\Lib\bz2.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,189 autoreload File C:\code\splint\venv\Lib\site-packages\_brotli.cp312-win_amd64.pyd first seen with mtime 1747811454.390641
+DEBUG 2025-05-23 09:58:11,190 autoreload File C:\Python312\Lib\zipfile\_path\glob.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,190 autoreload File C:\code\splint\venv\Lib\site-packages\django\core\files\storage\__init__.py first seen with mtime 1747201971.355085
+DEBUG 2025-05-23 09:58:11,190 autoreload File C:\code\splint\venv\Lib\site-packages\django_celery_beat\apps.py first seen with mtime 1747245852.4639695
+DEBUG 2025-05-23 09:58:11,190 autoreload File C:\Python312\Lib\asyncio\queues.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,191 autoreload File C:\code\splint\venv\Lib\site-packages\click\__init__.py first seen with mtime 1747811478.1208253
+DEBUG 2025-05-23 09:58:11,191 autoreload File C:\code\splint\venv\Lib\site-packages\django\views\generic\edit.py first seen with mtime 1747201971.756014
+DEBUG 2025-05-23 09:58:11,191 autoreload File C:\code\splint\venv\Lib\site-packages\kombu\abstract.py first seen with mtime 1747201986.540685
+DEBUG 2025-05-23 09:58:11,191 autoreload File C:\code\splint\venv\Lib\site-packages\django\core\serializers\base.py first seen with mtime 1747201971.4119332
+DEBUG 2025-05-23 09:58:11,192 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\models\fields\__init__.py first seen with mtime 1747201971.5106702
+DEBUG 2025-05-23 09:58:11,192 autoreload File C:\Python312\DLLs\select.pyd first seen with mtime 1696249628.0
+DEBUG 2025-05-23 09:58:11,192 autoreload File C:\code\splint\venv\Lib\site-packages\cffi\lock.py first seen with mtime 1747811664.905268
+DEBUG 2025-05-23 09:58:11,192 autoreload File C:\Python312\Lib\csv.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,193 autoreload File C:\code\splint\venv\Lib\site-packages\dateutil\__init__.py first seen with mtime 1747201966.852977
+DEBUG 2025-05-23 09:58:11,193 autoreload File C:\Python312\DLLs\_wmi.pyd first seen with mtime 1696249628.0
+DEBUG 2025-05-23 09:58:11,193 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\models\fields\mixins.py first seen with mtime 1747201971.515656
+DEBUG 2025-05-23 09:58:11,193 autoreload File C:\code\splint\venv\Lib\site-packages\rest_framework\settings.py first seen with mtime 1747987090.8343942
+DEBUG 2025-05-23 09:58:11,194 autoreload File C:\Python312\Lib\signal.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,194 autoreload File C:\Python312\Lib\copy.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,194 autoreload File C:\code\splint\venv\Lib\site-packages\django\contrib\admin\sites.py first seen with mtime 1747201967.6889863
+DEBUG 2025-05-23 09:58:11,194 autoreload File C:\code\splint\venv\Lib\site-packages\django\core\files\locks.py first seen with mtime 1747201971.3491008
+DEBUG 2025-05-23 09:58:11,195 autoreload File C:\code\splint\venv\Lib\site-packages\django\core\files\storage\handler.py first seen with mtime 1747201971.3570797
+DEBUG 2025-05-23 09:58:11,195 autoreload File C:\code\splint\venv\Lib\site-packages\django\utils\connection.py first seen with mtime 1747201971.6931815
+DEBUG 2025-05-23 09:58:11,195 autoreload File C:\code\splint\venv\Lib\site-packages\django\utils\module_loading.py first seen with mtime 1747201971.717119
+DEBUG 2025-05-23 09:58:11,196 autoreload File C:\code\splint\venv\Lib\site-packages\urllib3\util\response.py first seen with mtime 1747201958.3618164
+DEBUG 2025-05-23 09:58:11,199 autoreload File C:\code\splint\venv\Lib\site-packages\yaml\constructor.py first seen with mtime 1747811456.632256
+DEBUG 2025-05-23 09:58:11,199 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\models\fields\files.py first seen with mtime 1747201971.5126636
+DEBUG 2025-05-23 09:58:11,199 autoreload File C:\Python312\Lib\struct.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,200 autoreload File C:\Python312\Lib\pathlib.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,200 autoreload File C:\code\splint\venv\Lib\site-packages\kombu\utils\functional.py first seen with mtime 1747201986.6006148
+DEBUG 2025-05-23 09:58:11,200 autoreload File C:\code\splint\venv\Lib\site-packages\markdown\__init__.py first seen with mtime 1747811470.8150103
+DEBUG 2025-05-23 09:58:11,201 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\models\signals.py first seen with mtime 1747201971.5086863
+DEBUG 2025-05-23 09:58:11,201 autoreload File C:\Python312\Lib\importlib\resources\__init__.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,201 autoreload File C:\code\splint\venv\Lib\site-packages\kombu\common.py first seen with mtime 1747201986.5416844
+DEBUG 2025-05-23 09:58:11,202 autoreload File C:\code\splint\venv\Lib\site-packages\django\template\library.py first seen with mtime 1747201971.65229
+DEBUG 2025-05-23 09:58:11,202 autoreload File C:\code\splint\venv\Lib\site-packages\amqp\transport.py first seen with mtime 1747201986.2698362
+DEBUG 2025-05-23 09:58:11,202 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\models\functions\json.py first seen with mtime 1747201971.5256305
+DEBUG 2025-05-23 09:58:11,202 autoreload File C:\Python312\DLLs\_elementtree.pyd first seen with mtime 1696249630.0
+DEBUG 2025-05-23 09:58:11,203 autoreload File C:\code\splint\venv\Lib\site-packages\amqp\channel.py first seen with mtime 1747201986.2627954
+DEBUG 2025-05-23 09:58:11,203 autoreload File C:\Python312\Lib\re\_constants.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,203 autoreload File C:\Python312\Lib\ctypes\__init__.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,203 autoreload File C:\Python312\Lib\urllib\parse.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,204 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\backends\sqlite3\schema.py first seen with mtime 1747201971.4737685
+DEBUG 2025-05-23 09:58:11,204 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\backends\base\introspection.py first seen with mtime 1747201971.4288874
+DEBUG 2025-05-23 09:58:11,204 autoreload File C:\code\splint\venv\Lib\site-packages\django_filters\rest_framework\filterset.py first seen with mtime 1747987092.3182364
+DEBUG 2025-05-23 09:58:11,204 autoreload File C:\code\splint\venv\Lib\site-packages\sqlparse\exceptions.py first seen with mtime 1747201959.7253416
+DEBUG 2025-05-23 09:58:11,205 autoreload File C:\code\splint\venv\Lib\site-packages\charset_normalizer\__init__.py first seen with mtime 1747201965.3696823
+DEBUG 2025-05-23 09:58:11,205 autoreload File C:\Python312\Lib\opcode.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,205 autoreload File C:\code\splint\venv\Lib\site-packages\django\utils\__init__.py first seen with mtime 1747201971.6862006
+DEBUG 2025-05-23 09:58:11,206 autoreload File C:\Python312\Lib\asyncio\sslproto.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,206 autoreload File C:\Python312\Lib\socket.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,206 autoreload File C:\code\splint\venv\Lib\site-packages\django\core\management\commands\__init__.py first seen with mtime 1747201971.3840084
+DEBUG 2025-05-23 09:58:11,206 autoreload File C:\code\splint\venv\Lib\site-packages\environ\compat.py first seen with mtime 1747987090.1386418
+DEBUG 2025-05-23 09:58:11,206 autoreload File C:\code\splint\venv\Lib\site-packages\cffi\model.py first seen with mtime 1747811664.906266
+DEBUG 2025-05-23 09:58:11,207 autoreload File C:\code\splint\venv\Lib\site-packages\django\core\cache\backends\base.py first seen with mtime 1747201971.3241675
+DEBUG 2025-05-23 09:58:11,207 autoreload File C:\code\splint\venv\Lib\site-packages\environ\fileaware_mapping.py first seen with mtime 1747987090.1406353
+DEBUG 2025-05-23 09:58:11,207 autoreload File C:\Python312\Lib\json\scanner.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,208 autoreload File C:\code\splint\venv\Lib\site-packages\urllib3\util\retry.py first seen with mtime 1747201958.3628144
+DEBUG 2025-05-23 09:58:11,208 autoreload File C:\code\splint\venv\Lib\site-packages\django\utils\hashable.py first seen with mtime 1747201971.709139
+DEBUG 2025-05-23 09:58:11,208 autoreload File C:\code\splint\venv\Lib\site-packages\corsheaders\conf.py first seen with mtime 1747813592.744792
+DEBUG 2025-05-23 09:58:11,208 autoreload File C:\code\splint\venv\Lib\site-packages\asgiref\local.py first seen with mtime 1747201966.3647587
+DEBUG 2025-05-23 09:58:11,209 autoreload File C:\code\splint\venv\Lib\site-packages\cffi\error.py first seen with mtime 1747811664.903273
+DEBUG 2025-05-23 09:58:11,209 autoreload File C:\Python312\Lib\xml\etree\ElementPath.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,209 autoreload File C:\code\splint\venv\Lib\site-packages\django\contrib\admin\templatetags\admin_urls.py first seen with mtime 1747201968.3581996
+DEBUG 2025-05-23 09:58:11,210 autoreload File C:\code\splint\venv\Lib\site-packages\django\contrib\admin\__init__.py first seen with mtime 1747201967.678016
+DEBUG 2025-05-23 09:58:11,210 autoreload File C:\code\splint\venv\Lib\site-packages\click\exceptions.py first seen with mtime 1747811478.127573
+DEBUG 2025-05-23 09:58:11,210 autoreload File C:\code\splint\venv\Lib\site-packages\amqp\basic_message.py first seen with mtime 1747201986.261795
+DEBUG 2025-05-23 09:58:11,210 autoreload File C:\code\splint\venv\Lib\site-packages\django\db\models\deletion.py first seen with mtime 1747201971.498701
+DEBUG 2025-05-23 09:58:11,210 autoreload File C:\Python312\Lib\calendar.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,213 autoreload File C:\code\splint\venv\Lib\site-packages\django\core\checks\commands.py first seen with mtime 1747201971.333144
+DEBUG 2025-05-23 09:58:11,213 autoreload File C:\code\splint\venv\Lib\site-packages\idna\intranges.py first seen with mtime 1747201964.9686825
+DEBUG 2025-05-23 09:58:11,214 autoreload File C:\code\splint\venv\Lib\site-packages\django\contrib\admin\decorators.py first seen with mtime 1747201967.6820047
+DEBUG 2025-05-23 09:58:11,214 autoreload File C:\Python312\Lib\_compression.py first seen with mtime 1696249558.0
+DEBUG 2025-05-23 09:58:11,214 autoreload File C:\code\splint\templates\404.html first seen with mtime 1747986911.3024838
+DEBUG 2025-05-23 09:58:11,215 autoreload File C:\code\splint\templates\stocks_api first seen with mtime 1747804378.0
+DEBUG 2025-05-23 09:58:11,215 autoreload File C:\code\splint\templates\stocks_api\query_test_page.html first seen with mtime 1747804378.0
+DEBUG 2025-05-23 09:59:46,584 autoreload File C:\code\splint\financial_analyzer\settings.py previous mtime: 1747990650.410094, current mtime: 1747990786.0593421
+DEBUG 2025-05-23 09:59:46,584 autoreload C:\code\splint\financial_analyzer\settings.py notified as changed. Signal results: [(<function template_changed at 0x000001F0E0F2AF20>, None)].
+INFO 2025-05-23 09:59:46,586 autoreload C:\code\splint\financial_analyzer\settings.py changed, reloading.

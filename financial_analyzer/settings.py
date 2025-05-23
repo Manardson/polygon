@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'django_filters',
     'corsheaders',
     'django_celery_beat',
+    'django_celery_results',
 
     # Local apps
     'stocks_api',
@@ -160,6 +161,13 @@ CELERY_TASK_SERIALIZER = 'json'
 CELERY_RESULT_SERIALIZER = 'json'
 CELERY_TIMEZONE = TIME_ZONE
 
+CACHES = {
+    'default': {
+        'BACKEND': 'django.core.cache.backends.locmem.LocMemCache', # Simple in-memory cache for dev
+        'LOCATION': 'unique-snowflake', # Can be any unique name for LocMemCache
+    }
+}
+
 # Polygon API settings
 POLYGON_API_KEY = env('POLYGON_API_KEY')
 
@@ -172,30 +180,43 @@ LOGGING = {
             'format': '{levelname} {asctime} {module} {message}',
             'style': '{',
         },
+        'simple': {
+            'format': '{levelname} {asctime} {module} {message}',
+            'style': '{',
+        },
     },
     'handlers': {
         'file': {
-            'level': 'INFO',
+            'level': 'DEBUG',
             'class': 'logging.FileHandler',
             'filename': os.path.join(BASE_DIR, 'django.log'),
             'formatter': 'verbose',
         },
         'console': {
-            'level': 'INFO',
+            'level': 'DEBUG',
             'class': 'logging.StreamHandler',
             'formatter': 'verbose',
         },
     },
     'loggers': {
         'django': {
-            'handlers': ['file', 'console'],
+            'handlers': ['console'],
             'level': 'INFO',
-            'propagate': True,
+            'propagate': False,
         },
         'stocks_api': {
-            'handlers': ['file', 'console'],
-            'level': 'INFO',
-            'propagate': True,
+            'handlers': ['console'],
+            'level': 'DEBUG', # Most verbose logger
+            'propagate': False,
+        },
+        'stocks_api.services.polygon_service': {
+            'handlers': ['console'],
+            'level': 'DEBUG',
+            'propagate': False, # Prevent duplication of the log if it's already being logged
         },
     },
+    'root': {
+        'handlers': ['console'],
+        'level': 'INFO',
+    }
 }

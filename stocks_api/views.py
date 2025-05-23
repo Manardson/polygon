@@ -1,24 +1,25 @@
-from django.shortcuts import render
+from datetime import date, timedelta, datetime
 
 from django.contrib.auth.decorators import login_required
-from django.views.generic import TemplateView
-from rest_framework.permissions import AllowAny
-
+from django.shortcuts import render
 from django.utils.decorators import method_decorator
-from rest_framework.views import APIView
+from django.views.generic import TemplateView
+
+from django_filters.rest_framework import DjangoFilterBackend
+from rest_framework.exceptions import ParseError, NotFound
+from rest_framework.permissions import IsAdminUser, AllowAny,  IsAuthenticated
 from rest_framework.response import Response
+from rest_framework.views import APIView
 
-from rest_framework import status
-from rest_framework.permissions import IsAdminUser
+from rest_framework import status, viewsets, permissions, filters
 
-from .tasks import fetch_and_process_stock_data_task
 import uuid
 
-from rest_framework import viewsets, permissions, filters
-from django_filters.rest_framework import DjangoFilterBackend
 from .models import SignificantEvent, StockSymbol, PriceUpdate
 from .serializers import SignificantEventSerializer, StockSymbolSerializer, PriceUpdateSerializer
+from .services.polygon_service import PolygonService
 from .services.analysis_service import StockAnalysisService
+from .tasks import fetch_and_process_stock_data_task
 
 class SignificantEventViewSet(viewsets.ReadOnlyModelViewSet): # ReadOnly, events created by background task
     """
@@ -131,3 +132,59 @@ class FetchLatestStockDataView(APIView):
                 {"error": "Failed to initiate stock data fetch task.", "details": str(e)},
                 status=status.HTTP_500_INTERNAL_SERVER_ERROR
             )
+
+class DailyAggregatesView(APIView):
+    """
+    Retrieves daily Open, High, Low, Close (OHLC) data for a given stock symbol
+    from Polygon.io for a specified date range.
+    Query parameters:
+    - symbol (required): The stock ticker (e.g., GOOGL).
+    - date_from (optional): Start date (YYYY-MM-DD). Defaults to 30 days ago.
+    - date_to (optional): End date (YYYY-MM-DD). Defaults to yesterday.
+    """
+    permission_classes = [IsAuthenticated]
+
+    def get(self, request, *args, **kwargs):
+        symbol = request.query_params.get('symbol')
+        if not symbol:
+            return Response({"error": "Symbol query parameter is required."}, status=status.HTTP_400_BAD_REQUEST)
+
+        date_to_str = request.query_params.get('date_to')
+        date_from_str = request.query_params.get('date_from')
+
+        try:
+            if date_to_str:
+                date_to_obj = datetime.strptime(date_to_str, '%Y-%m-%d').date()
+            else:
+                date_to_obj = date.today() - timedelta(days=1) # Defaults to yesterday
+
+            if date_from_str:
+                date_from_obj = datetime.strptime(date_from_str, '%Y-%m-%d').date()
+            else:
+                date_from_obj = date_to_obj - timedelta(days=29) # Defaults to 30 days of data (ending yesterday)
+
+            if date_from_obj > date_to_obj:
+                return Response({"error": "date_from cannot be after date_to."}, status=status.HTTP_400_BAD_REQUEST)
+
+        except ValueError:
+            raise ParseError("Invalid date format. Please use YYYY-MM-DD.")
+
+        polygon_service = PolygonService()
+        aggregates = polygon_service.get_daily_aggregates(
+            symbol.upper(),
+            date_from_obj.strftime('%Y-%m-%d'),
+            date_to_obj.strftime('%Y-%m-%d')
+        )
+
+        if aggregates is None: # Service indicated an error fetching data
+            return Response(
+                {"error": f"Could not retrieve aggregate data for {symbol} from external service."},
+                status=status.HTTP_503_SERVICE_UNAVAILABLE # Or 500
+            )
+        if not aggregates and aggregates is not None: # Empty list, valid response but no data
+             return Response(
+                {"message": f"No aggregate data found for {symbol} in the specified range.", "results": []},
+                status=status.HTTP_200_OK
+            )
+
+        return Response(aggregates, status=status.HTTP_200_OK)
