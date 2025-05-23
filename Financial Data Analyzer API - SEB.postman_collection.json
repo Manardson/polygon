@@ -28,7 +28,8 @@
 									"    console.error(\"Token obtain failed: \" + pm.response.text());",
 									"}"
 								],
-								"type": "text/javascript"
+								"type": "text/javascript",
+								"packages": {}
 							}
 						}
 					],
