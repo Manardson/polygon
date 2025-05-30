@@ -104,7 +104,7 @@ class EventSummaryView(APIView):
         summary = analysis_service.get_significant_events_summary(days=days)
         return Response(summary)
 
-@method_decorator(login_required, name='dispatch')
+# @method_decorator(login_required, name='dispatch')
 class QueryTestPageView(TemplateView):
    template_name = "stocks_api/query_test_page.html"
 
